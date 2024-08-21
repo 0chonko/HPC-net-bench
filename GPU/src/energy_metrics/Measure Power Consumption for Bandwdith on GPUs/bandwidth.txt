@@ -1,8 +1,0 @@
-
-	 BANDWIDTH information
-	Bandwidth HTOD pageable 		 : 10561.902344
-	Bandwidth DTOD pageable 		 : 1171783.375000
-	Bandwidth DTOH pageable 		 : 6357.052734
-	Bandwidth HTOD pinned 			 : 11887.298828
-	Bandwidth DTOD pinned 			 : 1175433.375000
-	Bandwidth DTOH pinned 			 : 12564.297852

@@ -1,9 +1,0 @@
-cat: tmp_2_7289174.txt: No such file or directory
-rm: cannot remove 'tmp_2_7289174.txt': No such file or directory
-Unable to collect GPU entities. EntityIds associated with GPUs may not be possible to specify. Result: -21 Host engine connection invalid/disconnected
-Got error while creating a GPU group: -21 Host engine connection invalid/disconnected
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** JOB 7289174 ON gcn65 CANCELLED AT 2024-08-02T16:07:00 ***
-slurmstepd: error: *** STEP 7289174.2 ON gcn65 CANCELLED AT 2024-08-02T16:07:00 ***
-slurmstepd: error: container_p_join: setns failed for /slurm/7289174/.ns: Invalid argument
-slurmstepd: error: container_g_join(7289174): Invalid argument

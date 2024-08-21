@@ -1,7 +1,0 @@
-cat: tmp_2_7566281.txt: No such file or directory
-rm: cannot remove 'tmp_2_7566281.txt': No such file or directory
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** JOB 7566281 ON gcn37 CANCELLED AT 2024-08-19T21:01:40 ***
-slurmstepd: error: *** STEP 7566281.1 ON gcn37 CANCELLED AT 2024-08-19T21:01:40 ***
-slurmstepd: error: container_p_join: setns failed for /slurm/7566281/.ns: Invalid argument
-slurmstepd: error: container_g_join(7566281): Invalid argument

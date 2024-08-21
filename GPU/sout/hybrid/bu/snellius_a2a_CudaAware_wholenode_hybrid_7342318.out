@@ -1,0 +1,80 @@
+-------- Topology Info --------
+Nnodes = 2
+0: Node: 0 ---> root.ibsw23.gcn38
+4: Node: 1 ---> root.ibsw23.gcn40
+-------------------------------
+switchesPaths:
+root.ibsw23.gcn38
+root.ibsw23.gcn40
+-------------------------------
+gcn38 ---> distance with node 0 (gcn38) = 0
+gcn40 ---> distance with node 0 (gcn38) = 1
+Max distance: 1
+-------------------------------
+
+-------------------------------
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 0, host_name = gcn38.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 4, host_name = gcn40.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 2, host_name = gcn38.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 6, host_name = gcn40.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 1, host_name = gcn38.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 5, host_name = gcn40.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 3, host_name = gcn38.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 7, host_name = gcn40.local.snellius.surf.nl
+Assigning device 0 to process on node gcn38.local.snellius.surf.nl rank 0
+Flag profiler was set with argument: 1
+buff_cycle: 30 loop_count: 80 max_j: 30
+Assigning device 3 to process on node gcn40.local.snellius.surf.nl rank 7
+Assigning device 3 to process on node gcn38.local.snellius.surf.nl rank 3
+Assigning device 1 to process on node gcn38.local.snellius.surf.nl rank 1
+Assigning device 1 to process on node gcn40.local.snellius.surf.nl rank 5
+Assigning device 0 to process on node gcn40.local.snellius.surf.nl rank 4
+Assigning device 2 to process on node gcn40.local.snellius.surf.nl rank 6
+Assigning device 2 to process on node gcn38.local.snellius.surf.nl rank 2
+NVML class created
+NVML class created
+NVML class created
+NVML class created
+NVML class created
+0#NVML class created
+NVML class created
+NVML class created
+
+JOB STATISTICS
+==============
+Job ID: 7342318
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: RUNNING
+Nodes: 2
+Cores per node: 72
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.04% of 00:45:36 core-walltime
+Job Wall-clock time: 00:00:19
+Memory Utilized: 10.67 MB (estimated maximum)
+Memory Efficiency: 0.00% of 960.00 GB (480.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

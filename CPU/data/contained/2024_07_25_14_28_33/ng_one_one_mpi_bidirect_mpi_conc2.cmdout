@@ -1,0 +1,35 @@
+[1721915139.020133] [tcn895:868827:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721915139.050537] [tcn895:868827:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=4, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -8388608 -f ../data/snellius_spack/2024_07_25_14_28_33/ng_one_one_mpi_bidirect.out.tmp -m mpi -x one_one_mpi_bidirect )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out.0
+[1721915139.011403] [tcn895:868826:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721915139.050549] [tcn895:868826:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721915138.970765] [tcn910:1143773:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721915139.049823] [tcn910:1143773:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 1.36 us 	 == 4.97 Mbit/s
+[1721915138.977899] [tcn910:1143778:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721915139.049819] [tcn910:1143778:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+2 bytes 	 -> 1.37 us 	 == 10.13 Mbit/s
+4 bytes 	 -> 1.39 us 	 == 20.45 Mbit/s
+8 bytes 	 -> 1.37 us 	 == 40.76 Mbit/s
+16 bytes 	 -> 1.41 us 	 == 65.98 Mbit/s
+32 bytes 	 -> 1.42 us 	 == 131.96 Mbit/s
+64 bytes 	 -> 1.47 us 	 == 261.89 Mbit/s
+128 bytes 	 -> 1.55 us 	 == 525.13 Mbit/s
+256 bytes 	 -> 1.58 us 	 == 1031.74 Mbit/s
+512 bytes 	 -> 2.86 us 	 == 1264.20 Mbit/s
+1024 bytes 	 -> 2.98 us 	 == 2441.74 Mbit/s
+2048 bytes 	 -> 3.60 us 	 == 3900.97 Mbit/s
+4096 bytes 	 -> 6.75 us 	 == 3649.01 Mbit/s
+8192 bytes 	 -> 8.94 us 	 == 6203.15 Mbit/s
+16384 bytes 	 -> 12.48 us 	 == 9159.50 Mbit/s
+32768 bytes 	 -> 18.86 us 	 == 12489.04 Mbit/s
+65536 bytes 	 -> 33.71 us 	 == 14395.66 Mbit/s
+131072 bytes 	 -> 62.10 us 	 == 16084.98 Mbit/s
+262144 bytes 	 -> 120.38 us 	 == 16715.76 Mbit/s
+524288 bytes 	 -> 231.45 us 	 == 16706.11 Mbit/s
+1048576 bytes 	 -> 458.70 us 	 == 16084.67 Mbit/s
+2097152 bytes 	 -> 917.77 us 	 == 14968.02 Mbit/s
+4194304 bytes 	 -> 1865.17 us 	 == 14158.28 Mbit/s
+8388608 bytes 	 -> 3998.31 us 	 == 13581.97 Mbit/s

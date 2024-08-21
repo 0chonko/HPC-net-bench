@@ -1,0 +1,1752 @@
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.19 us 	 == 98153.27 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.99 us 	 == 98161.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98157.29 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.11 us 	 == 98159.05 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98162.24 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98157.22 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98158.69 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.98 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98165.91 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.16 us 	 == 98151.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98160.13 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98159.73 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98159.09 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.98 us 	 == 98164.47 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98159.77 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98160.88 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98157.65 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98160.84 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.17 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98158.37 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.17 us 	 == 98144.66 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.15 us 	 == 98151.48 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.15 us 	 == 98151.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.35 us 	 == 98138.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98160.84 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.75 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.10 us 	 == 98160.45 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.18 us 	 == 98152.98 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.10 us 	 == 98158.01 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98160.13 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98161.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.47 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98160.09 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.24 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.47 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.98 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.79 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.20 us 	 == 98151.48 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.47 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98160.49 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.31 us 	 == 98143.94 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.18 us 	 == 98145.05 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.20 us 	 == 98150.04 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.21 us 	 == 98151.51 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98158.66 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.76 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.25 us 	 == 98146.45 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.97 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98158.37 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.19 us 	 == 98152.91 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.12 us 	 == 98157.26 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.25 us 	 == 98147.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.12 us 	 == 98157.22 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.17 us 	 == 98155.50 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98159.77 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.20 us 	 == 98151.84 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98164.47 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98160.13 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.23 us 	 == 98150.80 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98158.69 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98158.69 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98160.88 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.12 us 	 == 98159.37 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.12 us 	 == 98155.82 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.18 us 	 == 98152.19 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.10 us 	 == 98157.26 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.18 us 	 == 98151.84 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.99 us 	 == 98166.23 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98159.77 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.23 us 	 == 98148.25 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.35 us 	 == 98140.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98156.14 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.20 us 	 == 98151.87 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.14 us 	 == 98157.26 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.19 us 	 == 98153.31 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.39 us 	 == 98138.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.24 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.19 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.10 us 	 == 98160.13 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98160.52 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.25 us 	 == 98147.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.89 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98160.09 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98159.41 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98160.52 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.32 us 	 == 98140.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.23 us 	 == 98145.74 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98150.40 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.16 us 	 == 98149.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98157.26 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98154.38 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.10 us 	 == 98156.54 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.19 us 	 == 98151.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.45 us 	 == 98135.37 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98159.77 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.99 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.30 us 	 == 98141.82 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.99 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98158.37 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98160.49 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.97 us 	 == 98165.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.16 us 	 == 98155.46 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98158.37 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.15 us 	 == 98157.22 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98159.41 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98157.26 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.14 us 	 == 98152.59 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98158.69 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.99 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98166.27 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98167.34 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98157.94 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.24 us 	 == 98147.53 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.19 us 	 == 98150.80 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98166.95 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.28 us 	 == 98146.45 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.17 us 	 == 98153.63 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.13 us 	 == 98154.38 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.19 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.98 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98158.66 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98157.26 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.20 us 	 == 98151.51 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.14 us 	 == 98151.51 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.68 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.20 us 	 == 98147.17 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98160.84 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.20 us 	 == 98147.17 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98160.88 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.17 us 	 == 98148.25 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.15 us 	 == 98154.35 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.94 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.28 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98161.53 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.97 us 	 == 98164.76 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98160.81 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98156.18 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.75 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.47 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98165.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98159.01 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98164.04 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.68 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.43 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98161.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98161.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.99 us 	 == 98166.23 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.28 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.75 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98164.40 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.13 us 	 == 98152.23 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98150.80 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98159.80 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.15 us 	 == 98149.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98155.82 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98150.44 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98159.80 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.91 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98162.24 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98161.89 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.34 us 	 == 98136.44 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98157.97 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98160.49 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98161.17 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.24 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.04 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98160.45 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98162.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.97 us 	 == 98166.59 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98160.84 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98160.81 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98159.37 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98164.79 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98160.45 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.96 us 	 == 98165.55 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98161.89 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98165.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98165.91 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.83 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98159.44 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98159.05 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.10 us 	 == 98158.30 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.28 us 	 == 98143.98 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98160.49 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98156.86 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.10 us 	 == 98158.30 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.99 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.24 us 	 == 98149.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98165.51 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98160.84 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.23 us 	 == 98150.04 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98160.88 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.19 us 	 == 98150.76 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98161.24 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.24 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98165.19 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.96 us 	 == 98165.15 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.99 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.37 us 	 == 98138.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98160.49 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98163.39 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.75 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98160.52 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98157.97 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98162.24 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98158.69 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98152.23 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98157.22 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.20 us 	 == 98147.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98150.04 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98155.78 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.09 us 	 == 98158.73 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.60 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.21 us 	 == 98150.40 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98160.45 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.97 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.20 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98160.13 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98162.32 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98163.72 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.08 us 	 == 98160.13 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98163.03 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.56 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98161.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98161.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.02 us 	 == 98165.51 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98155.86 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.79 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.00 us 	 == 98162.68 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.07 us 	 == 98157.22 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98160.49 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98161.92 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98159.77 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98162.68 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98163.00 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.08 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.06 us 	 == 98161.96 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.97 us 	 == 98164.47 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.01 us 	 == 98163.36 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.12 us 	 == 98158.37 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.04 us 	 == 98162.64 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.05 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1366.98 us 	 == 98164.11 Mbit/s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s 16777216-16777216 -f ../data/oracle-hpc/2024_02_29_11_16_43/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+16777216 bytes 	 -> 1367.03 us 	 == 98165.91 Mbit/s

@@ -1,0 +1,6 @@
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/surf/2024_06_19_17_40_11/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+1 bytes 	 -> 41.45 us 	 == 0.18 Mbit/s
+2 bytes 	 -> 41.21 us 	 == 0.37 Mbit/s
+4 bytes 	 -> 41.10 us 	 == 0.75 Mbit/s

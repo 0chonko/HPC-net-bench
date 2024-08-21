@@ -1,0 +1,5 @@
+cat: tmp_2_7342294.txt: No such file or directory
+rm: cannot remove 'tmp_2_7342294.txt': No such file or directory
+slurmstepd: error: *** JOB 7342294 ON gcn22 CANCELLED AT 2024-08-05T20:01:22 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/7342294/.ns: Invalid argument
+slurmstepd: error: container_g_join(7342294): Invalid argument

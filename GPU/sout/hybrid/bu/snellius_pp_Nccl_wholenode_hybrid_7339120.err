@@ -1,0 +1,11 @@
+/var/spool/slurm/slurmd/job7339120/slurm_script: line 19: hybrid-config.sh: No such file or directory
+cat: tmp_2_7339120.txt: No such file or directory
+rm: cannot remove 'tmp_2_7339120.txt': No such file or directory
+[gcn58.local.snellius.surf.nl:182098] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn58.local.snellius.surf.nl:182097] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn58.local.snellius.surf.nl:182143] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn58.local.snellius.surf.nl:182144] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn57.local.snellius.surf.nl:3569517] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn57.local.snellius.surf.nl:3569553] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn57.local.snellius.surf.nl:3569513] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn57.local.snellius.surf.nl:3569571] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168

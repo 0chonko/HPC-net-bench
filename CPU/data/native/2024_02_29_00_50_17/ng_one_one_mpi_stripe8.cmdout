@@ -1,0 +1,28 @@
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/oracle-hpc/2024_02_29_00_50_17/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+1 bytes 	 -> 1.29 us 	 == 5.94 Mbit/s
+2 bytes 	 -> 1.30 us 	 == 11.83 Mbit/s
+4 bytes 	 -> 1.31 us 	 == 23.57 Mbit/s
+8 bytes 	 -> 3.03 us 	 == 20.71 Mbit/s
+16 bytes 	 -> 3.03 us 	 == 41.42 Mbit/s
+32 bytes 	 -> 3.03 us 	 == 82.70 Mbit/s
+64 bytes 	 -> 3.02 us 	 == 165.64 Mbit/s
+128 bytes 	 -> 3.04 us 	 == 330.27 Mbit/s
+256 bytes 	 -> 3.05 us 	 == 633.96 Mbit/s
+512 bytes 	 -> 3.33 us 	 == 1138.73 Mbit/s
+1024 bytes 	 -> 3.48 us 	 == 2204.22 Mbit/s
+2048 bytes 	 -> 4.57 us 	 == 3421.17 Mbit/s
+4096 bytes 	 -> 4.81 us 	 == 6508.69 Mbit/s
+8192 bytes 	 -> 5.41 us 	 == 11417.42 Mbit/s
+16384 bytes 	 -> 6.25 us 	 == 19658.34 Mbit/s
+32768 bytes 	 -> 7.96 us 	 == 30710.40 Mbit/s
+65536 bytes 	 -> 10.40 us 	 == 46765.50 Mbit/s
+131072 bytes 	 -> 17.71 us 	 == 55686.46 Mbit/s
+262144 bytes 	 -> 27.42 us 	 == 75842.25 Mbit/s
+524288 bytes 	 -> 48.79 us 	 == 85604.16 Mbit/s
+1048576 bytes 	 -> 90.96 us 	 == 91894.20 Mbit/s
+2097152 bytes 	 -> 176.02 us 	 == 95184.48 Mbit/s
+4194304 bytes 	 -> 345.90 us 	 == 96938.06 Mbit/s
+8388608 bytes 	 -> 685.64 us 	 == 97843.66 Mbit/s
+16777216 bytes 	 -> 1365.18 us 	 == 98297.69 Mbit/s

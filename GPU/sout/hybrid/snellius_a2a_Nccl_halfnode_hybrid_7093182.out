@@ -1,0 +1,1455 @@
+-------- Topology Info --------
+Nnodes = 1
+0: Node: 0 ---> root.ibsw26.gcn65
+-------------------------------
+switchesPaths:
+root.ibsw26.gcn65
+-------------------------------
+gcn65 ---> distance with node 0 (gcn65) = 0
+Max distance: 0
+-------------------------------
+
+-------------------------------
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 4, myrank = 0, host_name = gcn65.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 4, myrank = 1, host_name = gcn65.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 4, myrank = 3, host_name = gcn65.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 4, myrank = 2, host_name = gcn65.local.snellius.surf.nl
+Assigning device 0 to process on node gcn65.local.snellius.surf.nl rank 0
+Flag b was set with argument: 31
+Flag l was set with argument: 31
+Flag profiler was set with argument: 1
+buff_cycle: 31 loop_count: 31 max_j: 31
+Assigning device 1 to process on node gcn65.local.snellius.surf.nl rank 1
+Assigning device 3 to process on node gcn65.local.snellius.surf.nl rank 3
+Assigning device 2 to process on node gcn65.local.snellius.surf.nl rank 2
+NCCL init time: 0.672563 (s)
+0#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_1.csv
+
+1#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_2.csv
+
+2#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_4.csv
+
+3#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_8.csv
+
+4#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_16.csv
+
+5#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_32.csv
+
+6#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_64.csv
+
+7#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_128.csv
+
+8#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_256.csv
+
+9#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_512.csv
+
+10#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_1024.csv
+
+11#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_2048.csv
+
+12#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_4096.csv
+
+13#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_8192.csv
+
+14#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_16384.csv
+
+15#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_32768.csv
+
+16#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_65536.csv
+
+17#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_131072.csv
+
+18#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_262144.csv
+
+19#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_524288.csv
+
+20#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_1048576.csv
+
+21#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_2097152.csv
+
+22#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_4194304.csv
+
+23#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_8388608.csv
+
+24#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_16777216.csv
+
+25#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_33554432.csv
+
+26#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_67108864.csv
+
+27#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_134217728.csv
+
+28#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_268435456.csv
+
+29#NVML class created
+#
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_536870912.csv
+
+30#NVML class created
+#
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_1.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_2.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_4.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_8.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_16.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_32.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_64.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_128.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_256.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_512.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_1024.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_2048.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_4096.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_8192.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_16384.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_32768.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_65536.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_131072.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_262144.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_524288.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_1048576.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_2097152.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_4194304.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_8388608.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_16777216.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_33554432.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_67108864.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_134217728.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_268435456.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_536870912.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_2_1073741824.csv
+
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_0_1073741824.csv
+
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 0
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 1
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 2
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 3
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 4
+	Transfer size (B):          3, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.000160499, Iteration 5
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 6
+	Transfer size (B):          3, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.000151582, Iteration 7
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 8
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 9
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 10
+	Transfer size (B):          3, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000181899, Iteration 11
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 12
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 13
+	Transfer size (B):          3, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000181899, Iteration 14
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 15
+	Transfer size (B):          3, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000181899, Iteration 16
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 17
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 18
+	Transfer size (B):          3, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000181899, Iteration 19
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 20
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 21
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 22
+	Transfer size (B):          3, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000181899, Iteration 23
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 24
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 25
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 26
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 27
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 28
+	Transfer size (B):          3, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.000160499, Iteration 29
+	Transfer size (B):          3, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000170530, Iteration 30
+[Average] Transfer size (B):          3, Transfer Time (s):     0.000016351, Bandwidth (GB/s):     0.000170875, Error: 0
+	Transfer size (B):          6, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.000303165, Iteration 0
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 1
+[2] recv_cpu_check = 10         10         20         40         80        160        320        640       1280       2560       5120      10240      20480      40960      81920     163840     327680     655360    1310720    2621440    5242880   10485760   20971520   41943040   83886080  167772160  335544320  671088640 1342177280 -1610612736 1073741824 -2147483648 (for Error)
+[2] gpu_checks = 10         10         20         40         80        160        320        640       1280       2560       5120      10240      20480      40960      81920     163840     327680     655360    1310720    2621440    5242880   10485760   20971520   41943040   83886080  167772160  335544320  671088640 1342177280 -1610612736 1073741824 -2147483648 (for Error)
+	Transfer size (B):          6, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     0.000272848, Iteration 2
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 3
+	Transfer size (B):          6, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.000303165, Iteration 4
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 5
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 6
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 7
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 8
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 9
+	Transfer size (B):          6, Transfer Time (s):     0.000022528, Bandwidth (GB/s):     0.000248044, Iteration 10
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 11
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 12
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 13
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 14
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 15
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 16
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 17
+	Transfer size (B):          6, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     0.000287209, Iteration 18
+	Transfer size (B):          6, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     0.000259856, Iteration 19
+	Transfer size (B):          6, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000363798, Iteration 20
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 21
+	Transfer size (B):          6, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.000320998, Iteration 22
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 23
+	Transfer size (B):          6, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.000320998, Iteration 24
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 25
+	Transfer size (B):          6, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.000303165, Iteration 26
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 27
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 28
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 29
+	Transfer size (B):          6, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000341061, Iteration 30
+[Average] Transfer size (B):          6, Transfer Time (s):     0.000017210, Bandwidth (GB/s):     0.000324695, Error: 0
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 0
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 1
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 2
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 3
+	Transfer size (B):         12, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     0.000519711, Iteration 4
+	Transfer size (B):         12, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.000641996, Iteration 5
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 6
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 7
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 8
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 9
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 10
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 11
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 12
+	Transfer size (B):         12, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.000641996, Iteration 13
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 14
+	Transfer size (B):         12, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     0.000519711, Iteration 15
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 16
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 17
+	Transfer size (B):         12, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000727596, Iteration 18
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 19
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 20
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 21
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 22
+	Transfer size (B):         12, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000727596, Iteration 23
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 24
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 25
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 26
+	Transfer size (B):         12, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.000727596, Iteration 27
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 28
+	Transfer size (B):         12, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.000641996, Iteration 29
+	Transfer size (B):         12, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.000682121, Iteration 30
+[Average] Transfer size (B):         12, Transfer Time (s):     0.000016714, Bandwidth (GB/s):     0.000668640, Error: 0
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 0
+	Transfer size (B):         24, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.001283993, Iteration 1
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 2
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 3
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 4
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 5
+	Transfer size (B):         24, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.001455192, Iteration 6
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 7
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 8
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 9
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 10
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 11
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 12
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 13
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 14
+	Transfer size (B):         24, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     0.001148835, Iteration 15
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 16
+	Transfer size (B):         24, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.001455192, Iteration 17
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 18
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 19
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 20
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 21
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 22
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 23
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 24
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 25
+	Transfer size (B):         24, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.001283993, Iteration 26
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 27
+	Transfer size (B):         24, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.001455192, Iteration 28
+	Transfer size (B):         24, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.001364242, Iteration 29
+	Transfer size (B):         24, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     0.001039423, Iteration 30
+[Average] Transfer size (B):         24, Transfer Time (s):     0.000016615, Bandwidth (GB/s):     0.001345257, Error: 0
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 0
+	Transfer size (B):         48, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     0.002078845, Iteration 1
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 2
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 3
+	Transfer size (B):         48, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.002567985, Iteration 4
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 5
+	Transfer size (B):         48, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.002910383, Iteration 6
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 7
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 8
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 9
+	Transfer size (B):         48, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     0.002182787, Iteration 10
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 11
+	Transfer size (B):         48, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     0.002182787, Iteration 12
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 13
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 14
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 15
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 16
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 17
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 18
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 19
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 20
+	Transfer size (B):         48, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.002567985, Iteration 21
+	Transfer size (B):         48, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.002425319, Iteration 22
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 23
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 24
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 25
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 26
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 27
+	Transfer size (B):         48, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.002910383, Iteration 28
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 29
+	Transfer size (B):         48, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.002728484, Iteration 30
+[Average] Transfer size (B):         48, Transfer Time (s):     0.000016879, Bandwidth (GB/s):     0.002648392, Error: 0
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 0
+	Transfer size (B):         96, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     0.004365575, Iteration 1
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 2
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 3
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 4
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 5
+	Transfer size (B):         96, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.005135970, Iteration 6
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 7
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 8
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 9
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 10
+	Transfer size (B):         96, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.005135970, Iteration 11
+	Transfer size (B):         96, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.004850638, Iteration 12
+	Transfer size (B):         96, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.005820766, Iteration 13
+	Transfer size (B):         96, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.005820766, Iteration 14
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 15
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 16
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 17
+	Transfer size (B):         96, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.005820766, Iteration 18
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 19
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 20
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 21
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 22
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 23
+	Transfer size (B):         96, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.005135970, Iteration 24
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 25
+	Transfer size (B):         96, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.005135970, Iteration 26
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 27
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 28
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 29
+	Transfer size (B):         96, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.005456968, Iteration 30
+[Average] Transfer size (B):         96, Transfer Time (s):     0.000016615, Bandwidth (GB/s):     0.005381026, Error: 0
+	Transfer size (B):        192, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.010271940, Iteration 0
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 1
+	Transfer size (B):        192, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.010271940, Iteration 2
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 3
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 4
+	Transfer size (B):        192, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.010271940, Iteration 5
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 6
+	Transfer size (B):        192, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     0.008315380, Iteration 7
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 8
+	Transfer size (B):        192, Transfer Time (s):     0.000026624, Bandwidth (GB/s):     0.006716268, Iteration 9
+	Transfer size (B):        192, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.010271940, Iteration 10
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 11
+	Transfer size (B):        192, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.010271940, Iteration 12
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 13
+	Transfer size (B):        192, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.010271940, Iteration 14
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 15
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 16
+	Transfer size (B):        192, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.011641533, Iteration 17
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 18
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 19
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 20
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 21
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 22
+	Transfer size (B):        192, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     0.009190683, Iteration 23
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 24
+	Transfer size (B):        192, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.010271940, Iteration 25
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 26
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 27
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 28
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 29
+	Transfer size (B):        192, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.010913937, Iteration 30
+[Average] Transfer size (B):        192, Transfer Time (s):     0.000017177, Bandwidth (GB/s):     0.010410217, Error: 0
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 0
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 1
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 2
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 3
+	Transfer size (B):        384, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.023283065, Iteration 4
+	Transfer size (B):        384, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.020543881, Iteration 5
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 6
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 7
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 8
+	Transfer size (B):        384, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.020543881, Iteration 9
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 10
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 11
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 12
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 13
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 14
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 15
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 16
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 17
+	Transfer size (B):        384, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.019402552, Iteration 18
+	Transfer size (B):        384, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.020543881, Iteration 19
+	Transfer size (B):        384, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.020543881, Iteration 20
+	Transfer size (B):        384, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.020543881, Iteration 21
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 22
+	Transfer size (B):        384, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.020543881, Iteration 23
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 24
+	Transfer size (B):        384, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.020543881, Iteration 25
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 26
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 27
+	Transfer size (B):        384, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.019402552, Iteration 28
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 29
+	Transfer size (B):        384, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.021827873, Iteration 30
+[Average] Transfer size (B):        384, Transfer Time (s):     0.000016714, Bandwidth (GB/s):     0.021396492, Error: 0
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 0
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 1
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 2
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 3
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 4
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 5
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 6
+	Transfer size (B):        768, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.041087762, Iteration 7
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 8
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 9
+	Transfer size (B):        768, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.041087762, Iteration 10
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 11
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 12
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 13
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 14
+	Transfer size (B):        768, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.046566130, Iteration 15
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 16
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 17
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 18
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 19
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 20
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 21
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 22
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_1.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_2.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_4.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_8.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_16.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_32.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_64.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_128.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_256.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_512.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_1024.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_2048.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_4096.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_8192.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_16384.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_32768.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_65536.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_131072.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_262144.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_524288.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_1048576.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_2097152.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_4194304.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_8388608.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_16777216.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_33554432.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_67108864.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_134217728.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_268435456.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_536870912.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_1_1073741824.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_1.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_2.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_4.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_8.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_16.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_32.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_64.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_128.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_256.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_512.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_1024.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_2048.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_4096.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_8192.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_16384.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_32768.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_65536.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_131072.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_262144.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_524288.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_1048576.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_2097152.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_4194304.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_8388608.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_16777216.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_33554432.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_67108864.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_134217728.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_268435456.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_536870912.csv
+
+NVML class created
+Writing NVIDIA-SMI data -> /home/gsavchenko/interconnect-benchmark/sout/a2a_nccl/gpuStats_3_1073741824.csv
+
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 23
+	Transfer size (B):        768, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.041087762, Iteration 24
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 25
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 26
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 27
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 28
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 29
+	Transfer size (B):        768, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.043655747, Iteration 30
+[Average] Transfer size (B):        768, Transfer Time (s):     0.000016450, Bandwidth (GB/s):     0.043480423, Error: 0
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 0
+	Transfer size (B):       1536, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     0.073525467, Iteration 1
+	Transfer size (B):       1536, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.077610208, Iteration 2
+	Transfer size (B):       1536, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.082175523, Iteration 3
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 4
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 5
+	Transfer size (B):       1536, Transfer Time (s):     0.000024576, Bandwidth (GB/s):     0.058207660, Iteration 6
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 7
+	Transfer size (B):       1536, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     0.069849194, Iteration 8
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 9
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 10
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 11
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 12
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 13
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 14
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 15
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 16
+	Transfer size (B):       1536, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.082175523, Iteration 17
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 18
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 19
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 20
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 21
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 22
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 23
+	Transfer size (B):       1536, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.093132261, Iteration 24
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 25
+[1] recv_cpu_check = 10         10         20         40         80        160        320        640       1280       2560       5120      10240      20480      40960      81920     163840     327680     655360    1310720    2621440    5242880   10485760   20971520   41943040   83886080  167772160  335544320  671088640 1342177280 -1610612736 1073741824 -2147483648 (for Error)
+[1] gpu_checks = 10         10         20         40         80        160        320        640       1280       2560       5120      10240      20480      40960      81920     163840     327680     655360    1310720    2621440    5242880   10485760   20971520   41943040   83886080  167772160  335544320  671088640 1342177280 -1610612736 1073741824 -2147483648 (for Error)
+[3] recv_cpu_check = 10         10         20         40         80        160        320        640       1280       2560       5120      10240      20480      40960      81920     163840     327680     655360    1310720    2621440    5242880   10485760   20971520   41943040   83886080  167772160  335544320  671088640 1342177280 -1610612736 1073741824 -2147483648 (for Error)
+[3] gpu_checks = 10         10         20         40         80        160        320        640       1280       2560       5120      10240      20480      40960      81920     163840     327680     655360    1310720    2621440    5242880   10485760   20971520   41943040   83886080  167772160  335544320  671088640 1342177280 -1610612736 1073741824 -2147483648 (for Error)
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 26
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 27
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 28
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 29
+	Transfer size (B):       1536, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.087311494, Iteration 30
+[Average] Transfer size (B):       1536, Transfer Time (s):     0.000016979, Bandwidth (GB/s):     0.084253892, Error: 0
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 0
+	Transfer size (B):       3072, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     0.147050934, Iteration 1
+	Transfer size (B):       3072, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     0.147050934, Iteration 2
+	Transfer size (B):       3072, Transfer Time (s):     0.000023552, Bandwidth (GB/s):     0.121476857, Iteration 3
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 4
+	Transfer size (B):       3072, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     0.139698387, Iteration 5
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 6
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 7
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 8
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 9
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 10
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 11
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 12
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 13
+	Transfer size (B):       3072, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.155220416, Iteration 14
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 15
+	Transfer size (B):       3072, Transfer Time (s):     0.000015360, Bandwidth (GB/s):     0.186264522, Iteration 16
+	Transfer size (B):       3072, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     0.139698387, Iteration 17
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 18
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 19
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 20
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 21
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 22
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 23
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 24
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 25
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 26
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 27
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 28
+	Transfer size (B):       3072, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.174622988, Iteration 29
+	Transfer size (B):       3072, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.164351046, Iteration 30
+[Average] Transfer size (B):       3072, Transfer Time (s):     0.000017441, Bandwidth (GB/s):     0.164039775, Error: 0
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 0
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 1
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 2
+	Transfer size (B):       6144, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.310440833, Iteration 3
+	Transfer size (B):       6144, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.328702092, Iteration 4
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 5
+	Transfer size (B):       6144, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.328702092, Iteration 6
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 7
+	Transfer size (B):       6144, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.328702092, Iteration 8
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 9
+	Transfer size (B):       6144, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.328702092, Iteration 10
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 11
+	Transfer size (B):       6144, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.310440833, Iteration 12
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 13
+	Transfer size (B):       6144, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.328702092, Iteration 14
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 15
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 16
+	Transfer size (B):       6144, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.328702092, Iteration 17
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 18
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 19
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 20
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 21
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 22
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 23
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 24
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 25
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 26
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 27
+	Transfer size (B):       6144, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.328702092, Iteration 28
+	Transfer size (B):       6144, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.349245975, Iteration 29
+	Transfer size (B):       6144, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.328702092, Iteration 30
+[Average] Transfer size (B):       6144, Transfer Time (s):     0.000016780, Bandwidth (GB/s):     0.340996067, Error: 0
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 0
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 1
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 2
+	Transfer size (B):      12288, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.620881665, Iteration 3
+	Transfer size (B):      12288, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.620881665, Iteration 4
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 5
+	Transfer size (B):      12288, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.698491951, Iteration 6
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 7
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 8
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 9
+	Transfer size (B):      12288, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.698491951, Iteration 10
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 11
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 12
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 13
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 14
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 15
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 16
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 17
+	Transfer size (B):      12288, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.698491951, Iteration 18
+	Transfer size (B):      12288, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.620881665, Iteration 19
+	Transfer size (B):      12288, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     0.620881665, Iteration 20
+	Transfer size (B):      12288, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.698491951, Iteration 21
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 22
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 23
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 24
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 25
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 26
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 27
+	Transfer size (B):      12288, Transfer Time (s):     0.000016384, Bandwidth (GB/s):     0.698491951, Iteration 28
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 29
+	Transfer size (B):      12288, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     0.657404185, Iteration 30
+[Average] Transfer size (B):      12288, Transfer Time (s):     0.000017375, Bandwidth (GB/s):     0.658653994, Error: 0
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 0
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 1
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 2
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 3
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 4
+	Transfer size (B):      24576, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     1.176407475, Iteration 5
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 6
+	Transfer size (B):      24576, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     1.176407475, Iteration 7
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 8
+	Transfer size (B):      24576, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     1.314808369, Iteration 9
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 10
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 11
+	Transfer size (B):      24576, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     1.176407475, Iteration 12
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 13
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 14
+	Transfer size (B):      24576, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     1.314808369, Iteration 15
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 16
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 17
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 18
+	Transfer size (B):      24576, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     1.176407475, Iteration 19
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 20
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 21
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 22
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 23
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 24
+	Transfer size (B):      24576, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     1.176407475, Iteration 25
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 26
+	Transfer size (B):      24576, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     1.176407475, Iteration 27
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 28
+	Transfer size (B):      24576, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     1.117587096, Iteration 29
+	Transfer size (B):      24576, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     1.241763330, Iteration 30
+[Average] Transfer size (B):      24576, Transfer Time (s):     0.000018630, Bandwidth (GB/s):     1.228553117, Error: 0
+	Transfer size (B):      49152, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     2.352814951, Iteration 0
+	Transfer size (B):      49152, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     2.352814951, Iteration 1
+	Transfer size (B):      49152, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     2.352814951, Iteration 2
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 3
+	Transfer size (B):      49152, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     2.352814951, Iteration 4
+	Transfer size (B):      49152, Transfer Time (s):     0.000022528, Bandwidth (GB/s):     2.031976522, Iteration 5
+	Transfer size (B):      49152, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     2.235174193, Iteration 6
+	Transfer size (B):      49152, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     2.352814951, Iteration 7
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 8
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 9
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 10
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 11
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 12
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 13
+	Transfer size (B):      49152, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     2.128737317, Iteration 14
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 15
+	Transfer size (B):      49152, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     2.128737317, Iteration 16
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 17
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 18
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 19
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 20
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 21
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 22
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 23
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 24
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 25
+	Transfer size (B):      49152, Transfer Time (s):     0.000017408, Bandwidth (GB/s):     2.629616738, Iteration 26
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 27
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 28
+	Transfer size (B):      49152, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     2.483526660, Iteration 29
+	Transfer size (B):      49152, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     2.235174193, Iteration 30
+[Average] Transfer size (B):      49152, Transfer Time (s):     0.000019027, Bandwidth (GB/s):     2.405916534, Error: 0
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 0
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 1
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 2
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 3
+	Transfer size (B):      98304, Transfer Time (s):     0.000025600, Bandwidth (GB/s):     3.576278899, Iteration 4
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 5
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 6
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 7
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 8
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 9
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 10
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 11
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 12
+	Transfer size (B):      98304, Transfer Time (s):     0.000025600, Bandwidth (GB/s):     3.576278899, Iteration 13
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 14
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 15
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 16
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 17
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 18
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 19
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 20
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 21
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 22
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 23
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 24
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 25
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 26
+	Transfer size (B):      98304, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     4.470348385, Iteration 27
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 28
+	Transfer size (B):      98304, Transfer Time (s):     0.000019456, Bandwidth (GB/s):     4.705629901, Iteration 29
+	Transfer size (B):      98304, Transfer Time (s):     0.000018432, Bandwidth (GB/s):     4.967053320, Iteration 30
+[Average] Transfer size (B):      98304, Transfer Time (s):     0.000020117, Bandwidth (GB/s):     4.551093615, Error: 0
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 0
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 1
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 2
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 3
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 4
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 5
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 6
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 7
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 8
+	Transfer size (B):     196608, Transfer Time (s):     0.000038912, Bandwidth (GB/s):     4.705629901, Iteration 9
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 10
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 11
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 12
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 13
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 14
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 15
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 16
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 17
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 18
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 19
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 20
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 21
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 22
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 23
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 24
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 25
+	Transfer size (B):     196608, Transfer Time (s):     0.000021504, Bandwidth (GB/s):     8.514949269, Iteration 26
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 27
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 28
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 29
+	Transfer size (B):     196608, Transfer Time (s):     0.000020480, Bandwidth (GB/s):     8.940696771, Iteration 30
+[Average] Transfer size (B):     196608, Transfer Time (s):     0.000021570, Bandwidth (GB/s):     8.488869813, Error: 0
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 0
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 1
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 2
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 3
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 4
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 5
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 6
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 7
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 8
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 9
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 10
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 11
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 12
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 13
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 14
+	Transfer size (B):     393216, Transfer Time (s):     0.000025600, Bandwidth (GB/s):    14.305115595, Iteration 15
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 16
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 17
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 18
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 19
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 20
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 21
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 22
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 23
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 24
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 25
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 26
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 27
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 28
+	Transfer size (B):     393216, Transfer Time (s):     0.000024576, Bandwidth (GB/s):    14.901161064, Iteration 29
+	Transfer size (B):     393216, Transfer Time (s):     0.000023552, Bandwidth (GB/s):    15.549037682, Iteration 30
+[Average] Transfer size (B):     393216, Transfer Time (s):     0.000024180, Bandwidth (GB/s):    15.145442448, Error: 0
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 0
+	Transfer size (B):     786432, Transfer Time (s):     0.000030720, Bandwidth (GB/s):    23.841858761, Iteration 1
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 2
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 3
+	Transfer size (B):     786432, Transfer Time (s):     0.000038912, Bandwidth (GB/s):    18.822519605, Iteration 4
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 5
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 6
+	Transfer size (B):     786432, Transfer Time (s):     0.000030720, Bandwidth (GB/s):    23.841858761, Iteration 7
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 8
+	Transfer size (B):     786432, Transfer Time (s):     0.000030720, Bandwidth (GB/s):    23.841858761, Iteration 9
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 10
+	Transfer size (B):     786432, Transfer Time (s):     0.000030720, Bandwidth (GB/s):    23.841858761, Iteration 11
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 12
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 13
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 14
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 15
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 16
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 17
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 18
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 19
+	Transfer size (B):     786432, Transfer Time (s):     0.000032768, Bandwidth (GB/s):    22.351742423, Iteration 20
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 21
+	Transfer size (B):     786432, Transfer Time (s):     0.000030720, Bandwidth (GB/s):    23.841858761, Iteration 22
+	Transfer size (B):     786432, Transfer Time (s):     0.000030720, Bandwidth (GB/s):    23.841858761, Iteration 23
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 24
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 25
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 26
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 27
+	Transfer size (B):     786432, Transfer Time (s):     0.000029696, Bandwidth (GB/s):    24.663990412, Iteration 28
+	Transfer size (B):     786432, Transfer Time (s):     0.000028672, Bandwidth (GB/s):    25.544847268, Iteration 29
+	Transfer size (B):     786432, Transfer Time (s):     0.000030720, Bandwidth (GB/s):    23.841858761, Iteration 30
+[Average] Transfer size (B):     786432, Transfer Time (s):     0.000030291, Bandwidth (GB/s):    24.179855769, Error: 0
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 0
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 1
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 2
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 3
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 4
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 5
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 6
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 7
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 8
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 9
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 10
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 11
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 12
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 13
+	Transfer size (B):    1572864, Transfer Time (s):     0.000035840, Bandwidth (GB/s):    40.871757184, Iteration 14
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 15
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 16
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 17
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 18
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 19
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 20
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 21
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 22
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 23
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 24
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 25
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 26
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 27
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 28
+	Transfer size (B):    1572864, Transfer Time (s):     0.000033792, Bandwidth (GB/s):    43.348833644, Iteration 29
+	Transfer size (B):    1572864, Transfer Time (s):     0.000034816, Bandwidth (GB/s):    42.073867815, Iteration 30
+[Average] Transfer size (B):    1572864, Transfer Time (s):     0.000034387, Bandwidth (GB/s):    42.599286009, Error: 0
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 0
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 1
+	Transfer size (B):    3145728, Transfer Time (s):     0.000050176, Bandwidth (GB/s):    58.388227089, Iteration 2
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 3
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 4
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 5
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 6
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 7
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 8
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 9
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 10
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 11
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 12
+	Transfer size (B):    3145728, Transfer Time (s):     0.000045056, Bandwidth (GB/s):    65.023248716, Iteration 13
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 14
+	Transfer size (B):    3145728, Transfer Time (s):     0.000053248, Bandwidth (GB/s):    55.019671307, Iteration 15
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 16
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 17
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 18
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 19
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 20
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 21
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 22
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 23
+	Transfer size (B):    3145728, Transfer Time (s):     0.000045056, Bandwidth (GB/s):    65.023248716, Iteration 24
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 25
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 26
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 27
+	Transfer size (B):    3145728, Transfer Time (s):     0.000045056, Bandwidth (GB/s):    65.023248716, Iteration 28
+	Transfer size (B):    3145728, Transfer Time (s):     0.000043008, Bandwidth (GB/s):    68.119594155, Iteration 29
+	Transfer size (B):    3145728, Transfer Time (s):     0.000044032, Bandwidth (GB/s):    66.535417416, Iteration 30
+[Average] Transfer size (B):    3145728, Transfer Time (s):     0.000044164, Bandwidth (GB/s):    66.336358735, Error: 0
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 0
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 1
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 2
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 3
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 4
+	Transfer size (B):    6291456, Transfer Time (s):     0.000065536, Bandwidth (GB/s):    89.406969692, Iteration 5
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 6
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 7
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 8
+	Transfer size (B):    6291456, Transfer Time (s):     0.000066560, Bandwidth (GB/s):    88.031472888, Iteration 9
+	Transfer size (B):    6291456, Transfer Time (s):     0.000065536, Bandwidth (GB/s):    89.406969692, Iteration 10
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 11
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 12
+	Transfer size (B):    6291456, Transfer Time (s):     0.000065536, Bandwidth (GB/s):    89.406969692, Iteration 13
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 14
+	Transfer size (B):    6291456, Transfer Time (s):     0.000065536, Bandwidth (GB/s):    89.406969692, Iteration 15
+	Transfer size (B):    6291456, Transfer Time (s):     0.000065536, Bandwidth (GB/s):    89.406969692, Iteration 16
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 17
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 18
+	Transfer size (B):    6291456, Transfer Time (s):     0.000065536, Bandwidth (GB/s):    89.406969692, Iteration 19
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 20
+	Transfer size (B):    6291456, Transfer Time (s):     0.000065536, Bandwidth (GB/s):    89.406969692, Iteration 21
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 22
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 23
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 24
+	Transfer size (B):    6291456, Transfer Time (s):     0.000065536, Bandwidth (GB/s):    89.406969692, Iteration 25
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 26
+	Transfer size (B):    6291456, Transfer Time (s):     0.000063488, Bandwidth (GB/s):    92.291065819, Iteration 27
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 28
+	Transfer size (B):    6291456, Transfer Time (s):     0.000064512, Bandwidth (GB/s):    90.826122979, Iteration 29
+	Transfer size (B):    6291456, Transfer Time (s):     0.000063488, Bandwidth (GB/s):    92.291065819, Iteration 30
+[Average] Transfer size (B):    6291456, Transfer Time (s):     0.000064776, Bandwidth (GB/s):    90.455594773, Error: 0
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 0
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 1
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 2
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 3
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 4
+	Transfer size (B):   12582912, Transfer Time (s):     0.000110592, Bandwidth (GB/s):   105.963811138, Iteration 5
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 6
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 7
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 8
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 9
+	Transfer size (B):   12582912, Transfer Time (s):     0.000114688, Bandwidth (GB/s):   102.179389072, Iteration 10
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 11
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 12
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 13
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 14
+	Transfer size (B):   12582912, Transfer Time (s):     0.000110592, Bandwidth (GB/s):   105.963811138, Iteration 15
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 16
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 17
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 18
+	Transfer size (B):   12582912, Transfer Time (s):     0.000114688, Bandwidth (GB/s):   102.179389072, Iteration 19
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 20
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 21
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 22
+	Transfer size (B):   12582912, Transfer Time (s):     0.000110592, Bandwidth (GB/s):   105.963811138, Iteration 23
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 24
+	Transfer size (B):   12582912, Transfer Time (s):     0.000112640, Bandwidth (GB/s):   104.037196266, Iteration 25
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 26
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 27
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 28
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 29
+	Transfer size (B):   12582912, Transfer Time (s):     0.000111616, Bandwidth (GB/s):   104.991669440, Iteration 30
+[Average] Transfer size (B):   12582912, Transfer Time (s):     0.000112012, Bandwidth (GB/s):   104.620125542, Error: 0
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 0
+	Transfer size (B):   25165824, Transfer Time (s):     0.000182272, Bandwidth (GB/s):   128.585295582, Iteration 1
+	Transfer size (B):   25165824, Transfer Time (s):     0.000181248, Bandwidth (GB/s):   129.311779185, Iteration 2
+	Transfer size (B):   25165824, Transfer Time (s):     0.000181248, Bandwidth (GB/s):   129.311779185, Iteration 3
+	Transfer size (B):   25165824, Transfer Time (s):     0.000186368, Bandwidth (GB/s):   125.759245019, Iteration 4
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 5
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 6
+	Transfer size (B):   25165824, Transfer Time (s):     0.000182272, Bandwidth (GB/s):   128.585295582, Iteration 7
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 8
+	Transfer size (B):   25165824, Transfer Time (s):     0.000181248, Bandwidth (GB/s):   129.311779185, Iteration 9
+	Transfer size (B):   25165824, Transfer Time (s):     0.000184320, Bandwidth (GB/s):   127.156575039, Iteration 10
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 11
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 12
+	Transfer size (B):   25165824, Transfer Time (s):     0.000184320, Bandwidth (GB/s):   127.156575039, Iteration 13
+	Transfer size (B):   25165824, Transfer Time (s):     0.000184320, Bandwidth (GB/s):   127.156575039, Iteration 14
+	Transfer size (B):   25165824, Transfer Time (s):     0.000184320, Bandwidth (GB/s):   127.156575039, Iteration 15
+	Transfer size (B):   25165824, Transfer Time (s):     0.000186368, Bandwidth (GB/s):   125.759245019, Iteration 16
+	Transfer size (B):   25165824, Transfer Time (s):     0.000184320, Bandwidth (GB/s):   127.156575039, Iteration 17
+	Transfer size (B):   25165824, Transfer Time (s):     0.000182272, Bandwidth (GB/s):   128.585295582, Iteration 18
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 19
+	Transfer size (B):   25165824, Transfer Time (s):     0.000184320, Bandwidth (GB/s):   127.156575039, Iteration 20
+	Transfer size (B):   25165824, Transfer Time (s):     0.000184320, Bandwidth (GB/s):   127.156575039, Iteration 21
+	Transfer size (B):   25165824, Transfer Time (s):     0.000182272, Bandwidth (GB/s):   128.585295582, Iteration 22
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 23
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 24
+	Transfer size (B):   25165824, Transfer Time (s):     0.000182272, Bandwidth (GB/s):   128.585295582, Iteration 25
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 26
+	Transfer size (B):   25165824, Transfer Time (s):     0.000183296, Bandwidth (GB/s):   127.866949561, Iteration 27
+	Transfer size (B):   25165824, Transfer Time (s):     0.000184320, Bandwidth (GB/s):   127.156575039, Iteration 28
+	Transfer size (B):   25165824, Transfer Time (s):     0.000185344, Bandwidth (GB/s):   126.454059916, Iteration 29
+	Transfer size (B):   25165824, Transfer Time (s):     0.000185344, Bandwidth (GB/s):   126.454059916, Iteration 30
+[Average] Transfer size (B):   25165824, Transfer Time (s):     0.000183527, Bandwidth (GB/s):   127.705848525, Error: 0
+	Transfer size (B):   50331648, Transfer Time (s):     0.000318464, Bandwidth (GB/s):   147.190887507, Iteration 0
+	Transfer size (B):   50331648, Transfer Time (s):     0.000325632, Bandwidth (GB/s):   143.950831518, Iteration 1
+	Transfer size (B):   50331648, Transfer Time (s):     0.000325632, Bandwidth (GB/s):   143.950831518, Iteration 2
+	Transfer size (B):   50331648, Transfer Time (s):     0.000320512, Bandwidth (GB/s):   146.250380560, Iteration 3
+	Transfer size (B):   50331648, Transfer Time (s):     0.000324608, Bandwidth (GB/s):   144.404943190, Iteration 4
+	Transfer size (B):   50331648, Transfer Time (s):     0.000318464, Bandwidth (GB/s):   147.190887507, Iteration 5
+	Transfer size (B):   50331648, Transfer Time (s):     0.000323584, Bandwidth (GB/s):   144.861929037, Iteration 6
+	Transfer size (B):   50331648, Transfer Time (s):     0.000322560, Bandwidth (GB/s):   145.321790210, Iteration 7
+	Transfer size (B):   50331648, Transfer Time (s):     0.000323584, Bandwidth (GB/s):   144.861929037, Iteration 8
+	Transfer size (B):   50331648, Transfer Time (s):     0.000324608, Bandwidth (GB/s):   144.404943190, Iteration 9
+	Transfer size (B):   50331648, Transfer Time (s):     0.000323584, Bandwidth (GB/s):   144.861929037, Iteration 10
+	Transfer size (B):   50331648, Transfer Time (s):     0.000318464, Bandwidth (GB/s):   147.190887507, Iteration 11
+	Transfer size (B):   50331648, Transfer Time (s):     0.000326656, Bandwidth (GB/s):   143.499579777, Iteration 12
+	Transfer size (B):   50331648, Transfer Time (s):     0.000326656, Bandwidth (GB/s):   143.499579777, Iteration 13
+	Transfer size (B):   50331648, Transfer Time (s):     0.000333824, Bandwidth (GB/s):   140.418295698, Iteration 14
+	Transfer size (B):   50331648, Transfer Time (s):     0.000320512, Bandwidth (GB/s):   146.250380560, Iteration 15
+	Transfer size (B):   50331648, Transfer Time (s):     0.000320512, Bandwidth (GB/s):   146.250380560, Iteration 16
+	Transfer size (B):   50331648, Transfer Time (s):     0.000331776, Bandwidth (GB/s):   141.285090813, Iteration 17
+	Transfer size (B):   50331648, Transfer Time (s):     0.000331776, Bandwidth (GB/s):   141.285090813, Iteration 18
+	Transfer size (B):   50331648, Transfer Time (s):     0.000323584, Bandwidth (GB/s):   144.861929037, Iteration 19
+	Transfer size (B):   50331648, Transfer Time (s):     0.000334848, Bandwidth (GB/s):   139.988898671, Iteration 20
+	Transfer size (B):   50331648, Transfer Time (s):     0.000320512, Bandwidth (GB/s):   146.250380560, Iteration 21
+	Transfer size (B):   50331648, Transfer Time (s):     0.000321536, Bandwidth (GB/s):   145.784606712, Iteration 22
+	Transfer size (B):   50331648, Transfer Time (s):     0.000328704, Bandwidth (GB/s):   142.605510819, Iteration 23
+	Transfer size (B):   50331648, Transfer Time (s):     0.000324608, Bandwidth (GB/s):   144.404943190, Iteration 24
+	Transfer size (B):   50331648, Transfer Time (s):     0.000322560, Bandwidth (GB/s):   145.321790210, Iteration 25
+	Transfer size (B):   50331648, Transfer Time (s):     0.000324608, Bandwidth (GB/s):   144.404943190, Iteration 26
+	Transfer size (B):   50331648, Transfer Time (s):     0.000322560, Bandwidth (GB/s):   145.321790210, Iteration 27
+	Transfer size (B):   50331648, Transfer Time (s):     0.000328704, Bandwidth (GB/s):   142.605510819, Iteration 28
+	Transfer size (B):   50331648, Transfer Time (s):     0.000322560, Bandwidth (GB/s):   145.321790210, Iteration 29
+	Transfer size (B):   50331648, Transfer Time (s):     0.000323584, Bandwidth (GB/s):   144.861929037, Iteration 30
+[Average] Transfer size (B):   50331648, Transfer Time (s):     0.000324509, Bandwidth (GB/s):   144.449041578, Error: 0
+	Transfer size (B):  100663296, Transfer Time (s):     0.000588800, Bandwidth (GB/s):   159.222146354, Iteration 0
+	Transfer size (B):  100663296, Transfer Time (s):     0.000599040, Bandwidth (GB/s):   156.500413354, Iteration 1
+	Transfer size (B):  100663296, Transfer Time (s):     0.000576512, Bandwidth (GB/s):   162.615881426, Iteration 2
+	Transfer size (B):  100663296, Transfer Time (s):     0.000591872, Bandwidth (GB/s):   158.395742526, Iteration 3
+	Transfer size (B):  100663296, Transfer Time (s):     0.000605184, Bandwidth (GB/s):   154.911563375, Iteration 4
+	Transfer size (B):  100663296, Transfer Time (s):     0.000599040, Bandwidth (GB/s):   156.500413354, Iteration 5
+	Transfer size (B):  100663296, Transfer Time (s):     0.000607232, Bandwidth (GB/s):   154.389101554, Iteration 6
+	Transfer size (B):  100663296, Transfer Time (s):     0.000590848, Bandwidth (GB/s):   158.670240019, Iteration 7
+	Transfer size (B):  100663296, Transfer Time (s):     0.000587776, Bandwidth (GB/s):   159.499533914, Iteration 8
+	Transfer size (B):  100663296, Transfer Time (s):     0.000591872, Bandwidth (GB/s):   158.395742526, Iteration 9
+	Transfer size (B):  100663296, Transfer Time (s):     0.000575488, Bandwidth (GB/s):   162.905230485, Iteration 10
+	Transfer size (B):  100663296, Transfer Time (s):     0.000589824, Bandwidth (GB/s):   158.945706250, Iteration 11
+	Transfer size (B):  100663296, Transfer Time (s):     0.000579584, Bandwidth (GB/s):   161.753952551, Iteration 12
+	Transfer size (B):  100663296, Transfer Time (s):     0.000598016, Bandwidth (GB/s):   156.768375438, Iteration 13
+	Transfer size (B):  100663296, Transfer Time (s):     0.000581632, Bandwidth (GB/s):   161.184386234, Iteration 14
+	Transfer size (B):  100663296, Transfer Time (s):     0.000598016, Bandwidth (GB/s):   156.768375438, Iteration 15
+	Transfer size (B):  100663296, Transfer Time (s):     0.000588800, Bandwidth (GB/s):   159.222146354, Iteration 16
+	Transfer size (B):  100663296, Transfer Time (s):     0.000603136, Bandwidth (GB/s):   155.437573286, Iteration 17
+	Transfer size (B):  100663296, Transfer Time (s):     0.000589824, Bandwidth (GB/s):   158.945706250, Iteration 18
+	Transfer size (B):  100663296, Transfer Time (s):     0.000595968, Bandwidth (GB/s):   157.307108006, Iteration 19
+	Transfer size (B):  100663296, Transfer Time (s):     0.000588800, Bandwidth (GB/s):   159.222146354, Iteration 20
+	Transfer size (B):  100663296, Transfer Time (s):     0.000603136, Bandwidth (GB/s):   155.437573286, Iteration 21
+	Transfer size (B):  100663296, Transfer Time (s):     0.000614400, Bandwidth (GB/s):   152.587885228, Iteration 22
+	Transfer size (B):  100663296, Transfer Time (s):     0.000582656, Bandwidth (GB/s):   160.901112632, Iteration 23
+	Transfer size (B):  100663296, Transfer Time (s):     0.000590848, Bandwidth (GB/s):   158.670240019, Iteration 24
+	Transfer size (B):  100663296, Transfer Time (s):     0.000612352, Bandwidth (GB/s):   153.098221723, Iteration 25
+	Transfer size (B):  100663296, Transfer Time (s):     0.000607232, Bandwidth (GB/s):   154.389101554, Iteration 26
+	Transfer size (B):  100663296, Transfer Time (s):     0.000591872, Bandwidth (GB/s):   158.395742526, Iteration 27
+	Transfer size (B):  100663296, Transfer Time (s):     0.000577536, Bandwidth (GB/s):   162.327542057, Iteration 28
+	Transfer size (B):  100663296, Transfer Time (s):     0.000582656, Bandwidth (GB/s):   160.901112632, Iteration 29
+	Transfer size (B):  100663296, Transfer Time (s):     0.000600064, Bandwidth (GB/s):   156.233335445, Iteration 30
+[Average] Transfer size (B):  100663296, Transfer Time (s):     0.000593226, Bandwidth (GB/s):   158.034120339, Error: 0
+	Transfer size (B):  201326592, Transfer Time (s):     0.001123328, Bandwidth (GB/s):   166.914739846, Iteration 0
+	Transfer size (B):  201326592, Transfer Time (s):     0.001117184, Bandwidth (GB/s):   167.832684662, Iteration 1
+	Transfer size (B):  201326592, Transfer Time (s):     0.001089536, Bandwidth (GB/s):   172.091605520, Iteration 2
+	Transfer size (B):  201326592, Transfer Time (s):     0.001079296, Bandwidth (GB/s):   173.724354504, Iteration 3
+	Transfer size (B):  201326592, Transfer Time (s):     0.001101824, Bandwidth (GB/s):   170.172370379, Iteration 4
+	Transfer size (B):  201326592, Transfer Time (s):     0.001084416, Bandwidth (GB/s):   172.904116268, Iteration 5
+	Transfer size (B):  201326592, Transfer Time (s):     0.001085440, Bandwidth (GB/s):   172.741000910, Iteration 6
+	Transfer size (B):  201326592, Transfer Time (s):     0.001084416, Bandwidth (GB/s):   172.904116268, Iteration 7
+	Transfer size (B):  201326592, Transfer Time (s):     0.001098752, Bandwidth (GB/s):   170.648150157, Iteration 8
+	Transfer size (B):  201326592, Transfer Time (s):     0.001077248, Bandwidth (GB/s):   174.054625444, Iteration 9
+	Transfer size (B):  201326592, Transfer Time (s):     0.001128448, Bandwidth (GB/s):   166.157404268, Iteration 10
+	Transfer size (B):  201326592, Transfer Time (s):     0.001099776, Bandwidth (GB/s):   170.489261569, Iteration 11
+	Transfer size (B):  201326592, Transfer Time (s):     0.001091584, Bandwidth (GB/s):   171.768735373, Iteration 12
+	Transfer size (B):  201326592, Transfer Time (s):     0.001104896, Bandwidth (GB/s):   169.699236244, Iteration 13
+	Transfer size (B):  201326592, Transfer Time (s):     0.001108992, Bandwidth (GB/s):   169.072450426, Iteration 14
+	Transfer size (B):  201326592, Transfer Time (s):     0.001102848, Bandwidth (GB/s):   170.014348185, Iteration 15
+	Transfer size (B):  201326592, Transfer Time (s):     0.001085440, Bandwidth (GB/s):   172.741000910, Iteration 16
+	Transfer size (B):  201326592, Transfer Time (s):     0.001072128, Bandwidth (GB/s):   174.885823024, Iteration 17
+	Transfer size (B):  201326592, Transfer Time (s):     0.001093632, Bandwidth (GB/s):   171.447074464, Iteration 18
+	Transfer size (B):  201326592, Transfer Time (s):     0.001113088, Bandwidth (GB/s):   168.450295267, Iteration 19
+	Transfer size (B):  201326592, Transfer Time (s):     0.001106944, Bandwidth (GB/s):   169.385272411, Iteration 20
+	Transfer size (B):  201326592, Transfer Time (s):     0.001127424, Bandwidth (GB/s):   166.308334825, Iteration 21
+	Transfer size (B):  201326592, Transfer Time (s):     0.001089536, Bandwidth (GB/s):   172.091605520, Iteration 22
+	Transfer size (B):  201326592, Transfer Time (s):     0.001125376, Bandwidth (GB/s):   166.610985562, Iteration 23
+	Transfer size (B):  201326592, Transfer Time (s):     0.001105920, Bandwidth (GB/s):   169.542108975, Iteration 24
+	Transfer size (B):  201326592, Transfer Time (s):     0.001112064, Bandwidth (GB/s):   168.605404396, Iteration 25
+	Transfer size (B):  201326592, Transfer Time (s):     0.001112064, Bandwidth (GB/s):   168.605404396, Iteration 26
+	Transfer size (B):  201326592, Transfer Time (s):     0.001113088, Bandwidth (GB/s):   168.450295267, Iteration 27
+	Transfer size (B):  201326592, Transfer Time (s):     0.001107968, Bandwidth (GB/s):   169.228725745, Iteration 28
+	Transfer size (B):  201326592, Transfer Time (s):     0.001147904, Bandwidth (GB/s):   163.341173364, Iteration 29
+	Transfer size (B):  201326592, Transfer Time (s):     0.001091584, Bandwidth (GB/s):   171.768735373, Iteration 30
+[Average] Transfer size (B):  201326592, Transfer Time (s):     0.001102650, Bandwidth (GB/s):   170.044920642, Error: 0
+	Transfer size (B):  402653184, Transfer Time (s):     0.002110464, Bandwidth (GB/s):   177.686041639, Iteration 0
+	Transfer size (B):  402653184, Transfer Time (s):     0.002139136, Bandwidth (GB/s):   175.304425058, Iteration 1
+	Transfer size (B):  402653184, Transfer Time (s):     0.002116608, Bandwidth (GB/s):   177.170267575, Iteration 2
+	Transfer size (B):  402653184, Transfer Time (s):     0.002153472, Bandwidth (GB/s):   174.137389486, Iteration 3
+	Transfer size (B):  402653184, Transfer Time (s):     0.002111488, Bandwidth (GB/s):   177.599870854, Iteration 4
+	Transfer size (B):  402653184, Transfer Time (s):     0.002100224, Bandwidth (GB/s):   178.552390788, Iteration 5
+	Transfer size (B):  402653184, Transfer Time (s):     0.002110464, Bandwidth (GB/s):   177.686041639, Iteration 6
+	Transfer size (B):  402653184, Transfer Time (s):     0.002151424, Bandwidth (GB/s):   174.303172788, Iteration 7
+	Transfer size (B):  402653184, Transfer Time (s):     0.002146304, Bandwidth (GB/s):   174.718967966, Iteration 8
+	Transfer size (B):  402653184, Transfer Time (s):     0.002032640, Bandwidth (GB/s):   184.489144138, Iteration 9
+	Transfer size (B):  402653184, Transfer Time (s):     0.002139136, Bandwidth (GB/s):   175.304425058, Iteration 10
+	Transfer size (B):  402653184, Transfer Time (s):     0.002155520, Bandwidth (GB/s):   173.971940036, Iteration 11
+	Transfer size (B):  402653184, Transfer Time (s):     0.002162688, Bandwidth (GB/s):   173.395334576, Iteration 12
+	Transfer size (B):  402653184, Transfer Time (s):     0.002117632, Bandwidth (GB/s):   177.084596203, Iteration 13
+	Transfer size (B):  402653184, Transfer Time (s):     0.002059264, Bandwidth (GB/s):   182.103908306, Iteration 14
+	Transfer size (B):  402653184, Transfer Time (s):     0.002059264, Bandwidth (GB/s):   182.103908306, Iteration 15
+	Transfer size (B):  402653184, Transfer Time (s):     0.002066432, Bandwidth (GB/s):   181.472215906, Iteration 16
+	Transfer size (B):  402653184, Transfer Time (s):     0.002153472, Bandwidth (GB/s):   174.137389486, Iteration 17
+	Transfer size (B):  402653184, Transfer Time (s):     0.002059264, Bandwidth (GB/s):   182.103908306, Iteration 18
+	Transfer size (B):  402653184, Transfer Time (s):     0.002198528, Bandwidth (GB/s):   170.568668861, Iteration 19
+	Transfer size (B):  402653184, Transfer Time (s):     0.002112512, Bandwidth (GB/s):   177.513783606, Iteration 20
+	Transfer size (B):  402653184, Transfer Time (s):     0.002159616, Bandwidth (GB/s):   173.641982517, Iteration 21
+	Transfer size (B):  402653184, Transfer Time (s):     0.002097152, Bandwidth (GB/s):   178.813939383, Iteration 22
+	Transfer size (B):  402653184, Transfer Time (s):     0.002054144, Bandwidth (GB/s):   182.557801598, Iteration 23
+	Transfer size (B):  402653184, Transfer Time (s):     0.002082816, Bandwidth (GB/s):   180.044720850, Iteration 24
+	Transfer size (B):  402653184, Transfer Time (s):     0.002159616, Bandwidth (GB/s):   173.641982517, Iteration 25
+	Transfer size (B):  402653184, Transfer Time (s):     0.002151424, Bandwidth (GB/s):   174.303172788, Iteration 26
+	Transfer size (B):  402653184, Transfer Time (s):     0.002072576, Bandwidth (GB/s):   180.934260473, Iteration 27
+	Transfer size (B):  402653184, Transfer Time (s):     0.002116608, Bandwidth (GB/s):   177.170267575, Iteration 28
+	Transfer size (B):  402653184, Transfer Time (s):     0.002064384, Bandwidth (GB/s):   181.652245958, Iteration 29
+	Transfer size (B):  402653184, Transfer Time (s):     0.002063360, Bandwidth (GB/s):   181.742395000, Iteration 30
+[Average] Transfer size (B):  402653184, Transfer Time (s):     0.002112182, Bandwidth (GB/s):   177.541548985, Error: 0
+	Transfer size (B):  805306368, Transfer Time (s):     0.004126720, Bandwidth (GB/s):   181.742395000, Iteration 0
+	Transfer size (B):  805306368, Transfer Time (s):     0.004282368, Bandwidth (GB/s):   175.136732579, Iteration 1
+	Transfer size (B):  805306368, Transfer Time (s):     0.004144128, Bandwidth (GB/s):   180.978968244, Iteration 2
+	Transfer size (B):  805306368, Transfer Time (s):     0.004286464, Bandwidth (GB/s):   174.969379623, Iteration 3
+	Transfer size (B):  805306368, Transfer Time (s):     0.004222976, Bandwidth (GB/s):   177.599870854, Iteration 4
+	Transfer size (B):  805306368, Transfer Time (s):     0.004040704, Bandwidth (GB/s):   185.611236617, Iteration 5
+	Transfer size (B):  805306368, Transfer Time (s):     0.004105216, Bandwidth (GB/s):   182.694411133, Iteration 6
+	Transfer size (B):  805306368, Transfer Time (s):     0.004141056, Bandwidth (GB/s):   181.113224219, Iteration 7
+	Transfer size (B):  805306368, Transfer Time (s):     0.004172800, Bandwidth (GB/s):   179.735424762, Iteration 8
+	Transfer size (B):  805306368, Transfer Time (s):     0.004105216, Bandwidth (GB/s):   182.694411133, Iteration 9
+	Transfer size (B):  805306368, Transfer Time (s):     0.004005888, Bandwidth (GB/s):   187.224405146, Iteration 10
+	Transfer size (B):  805306368, Transfer Time (s):     0.004048896, Bandwidth (GB/s):   185.235678046, Iteration 11
+	Transfer size (B):  805306368, Transfer Time (s):     0.004057088, Bandwidth (GB/s):   184.861657406, Iteration 12
+	Transfer size (B):  805306368, Transfer Time (s):     0.004100096, Bandwidth (GB/s):   182.922527823, Iteration 13
+	Transfer size (B):  805306368, Transfer Time (s):     0.004054016, Bandwidth (GB/s):   185.001738010, Iteration 14
+	Transfer size (B):  805306368, Transfer Time (s):     0.004125696, Bandwidth (GB/s):   181.787503083, Iteration 15
+	Transfer size (B):  805306368, Transfer Time (s):     0.004184064, Bandwidth (GB/s):   179.251560648, Iteration 16
+	Transfer size (B):  805306368, Transfer Time (s):     0.004068352, Bandwidth (GB/s):   184.349817323, Iteration 17
+	Transfer size (B):  805306368, Transfer Time (s):     0.004218880, Bandwidth (GB/s):   177.772296086, Iteration 18
+	Transfer size (B):  805306368, Transfer Time (s):     0.004254720, Bandwidth (GB/s):   176.274812295, Iteration 19
+	Transfer size (B):  805306368, Transfer Time (s):     0.004085760, Bandwidth (GB/s):   183.564375299, Iteration 20
+	Transfer size (B):  805306368, Transfer Time (s):     0.004048896, Bandwidth (GB/s):   185.235678046, Iteration 21
+	Transfer size (B):  805306368, Transfer Time (s):     0.004139008, Bandwidth (GB/s):   181.202838920, Iteration 22
+	Transfer size (B):  805306368, Transfer Time (s):     0.004158464, Bandwidth (GB/s):   180.355063076, Iteration 23
+	Transfer size (B):  805306368, Transfer Time (s):     0.004136960, Bandwidth (GB/s):   181.292542346, Iteration 24
+	Transfer size (B):  805306368, Transfer Time (s):     0.004087808, Bandwidth (GB/s):   183.472410153, Iteration 25
+	Transfer size (B):  805306368, Transfer Time (s):     0.004130816, Bandwidth (GB/s):   181.562186304, Iteration 26
+	Transfer size (B):  805306368, Transfer Time (s):     0.004176896, Bandwidth (GB/s):   179.559172228, Iteration 27
+	Transfer size (B):  805306368, Transfer Time (s):     0.004062208, Bandwidth (GB/s):   184.628639383, Iteration 28
+	Transfer size (B):  805306368, Transfer Time (s):     0.004046848, Bandwidth (GB/s):   185.329419806, Iteration 29
+	Transfer size (B):  805306368, Transfer Time (s):     0.004098048, Bandwidth (GB/s):   183.013942402, Iteration 30
+[Average] Transfer size (B):  805306368, Transfer Time (s):     0.004126357, Bandwidth (GB/s):   181.758401178, Error: 0
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008354817, Bandwidth (GB/s):   179.537154957, Iteration 0
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008383487, Bandwidth (GB/s):   178.923154191, Iteration 1
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008318976, Bandwidth (GB/s):   180.310642800, Iteration 2
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008208384, Bandwidth (GB/s):   182.739993090, Iteration 3
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008246272, Bandwidth (GB/s):   181.900381586, Iteration 4
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008485887, Bandwidth (GB/s):   176.764074835, Iteration 5
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008254464, Bandwidth (GB/s):   181.719859603, Iteration 6
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008328192, Bandwidth (GB/s):   180.111122741, Iteration 7
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008196097, Bandwidth (GB/s):   183.013942402, Iteration 8
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008333312, Bandwidth (GB/s):   180.000453294, Iteration 9
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008369152, Bandwidth (GB/s):   179.229618746, Iteration 10
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008355840, Bandwidth (GB/s):   179.515163093, Iteration 11
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008518656, Bandwidth (GB/s):   176.084119133, Iteration 12
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008321024, Bandwidth (GB/s):   180.266284752, Iteration 13
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008267775, Bandwidth (GB/s):   181.427284573, Iteration 14
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008350721, Bandwidth (GB/s):   179.625216388, Iteration 15
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008247296, Bandwidth (GB/s):   181.877786457, Iteration 16
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008322048, Bandwidth (GB/s):   180.244093740, Iteration 17
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008382465, Bandwidth (GB/s):   178.944981353, Iteration 18
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008185856, Bandwidth (GB/s):   183.242899934, Iteration 19
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008329216, Bandwidth (GB/s):   180.088969912, Iteration 20
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008279040, Bandwidth (GB/s):   181.180416741, Iteration 21
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008321024, Bandwidth (GB/s):   180.266284752, Iteration 22
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008427519, Bandwidth (GB/s):   177.988318683, Iteration 23
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008372224, Bandwidth (GB/s):   179.163865117, Iteration 24
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008124417, Bandwidth (GB/s):   184.628639383, Iteration 25
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008219648, Bandwidth (GB/s):   182.489563075, Iteration 26
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008201215, Bandwidth (GB/s):   182.899719600, Iteration 27
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008220672, Bandwidth (GB/s):   182.466842017, Iteration 28
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008211456, Bandwidth (GB/s):   182.671618322, Iteration 29
+	Transfer size (B): 1610612736, Transfer Time (s):     0.008211456, Bandwidth (GB/s):   182.671618322, Iteration 30
+[Average] Transfer size (B): 1610612736, Transfer Time (s):     0.008301568, Bandwidth (GB/s):   180.688755818, Error: 0
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016501760, Bandwidth (GB/s):   181.798788733, Iteration 0
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016671743, Bandwidth (GB/s):   179.945189660, Iteration 1
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016393214, Bandwidth (GB/s):   183.002546972, Iteration 2
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016370688, Bandwidth (GB/s):   183.254367020, Iteration 3
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016575487, Bandwidth (GB/s):   180.990153724, Iteration 4
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016524289, Bandwidth (GB/s):   181.550930010, Iteration 5
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016697343, Bandwidth (GB/s):   179.669299550, Iteration 6
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016446464, Bandwidth (GB/s):   182.410033129, Iteration 7
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016349183, Bandwidth (GB/s):   183.495403252, Iteration 8
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016576512, Bandwidth (GB/s):   180.978968244, Iteration 9
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016366592, Bandwidth (GB/s):   183.300228856, Iteration 10
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016407553, Bandwidth (GB/s):   182.842620135, Iteration 11
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016370688, Bandwidth (GB/s):   183.254367020, Iteration 12
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016572416, Bandwidth (GB/s):   181.023698114, Iteration 13
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016708609, Bandwidth (GB/s):   179.548162918, Iteration 14
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016272385, Bandwidth (GB/s):   184.361423370, Iteration 15
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016516097, Bandwidth (GB/s):   181.640978494, Iteration 16
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016468992, Bandwidth (GB/s):   182.160506046, Iteration 17
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016364545, Bandwidth (GB/s):   183.323157950, Iteration 18
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016362496, Bandwidth (GB/s):   183.346113653, Iteration 19
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016284673, Bandwidth (GB/s):   184.222310397, Iteration 20
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016399361, Bandwidth (GB/s):   182.933954845, Iteration 21
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016441343, Bandwidth (GB/s):   182.466842017, Iteration 22
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016617471, Bandwidth (GB/s):   180.532882315, Iteration 23
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016687103, Bandwidth (GB/s):   179.779562041, Iteration 24
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016787456, Bandwidth (GB/s):   178.704857824, Iteration 25
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016460801, Bandwidth (GB/s):   182.251160391, Iteration 26
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016690176, Bandwidth (GB/s):   179.746457050, Iteration 27
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016442368, Bandwidth (GB/s):   182.455473275, Iteration 28
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016667649, Bandwidth (GB/s):   179.989389807, Iteration 29
+	Transfer size (B): 3221225472, Transfer Time (s):     0.016714752, Bandwidth (GB/s):   179.482175397, Iteration 30
+[Average] Transfer size (B): 3221225472, Transfer Time (s):     0.016506781, Bandwidth (GB/s):   181.743491849, Error: 0
+[0] recv_cpu_check = 10         10         20         40         80        160        320        640       1280       2560       5120      10240      20480      40960      81920     163840     327680     655360    1310720    2621440    5242880   10485760   20971520   41943040   83886080  167772160  335544320  671088640 1342177280 -1610612736 1073741824 -2147483648 (for Error)
+[0] gpu_checks = 10         10         20         40         80        160        320        640       1280       2560       5120      10240      20480      40960      81920     163840     327680     655360    1310720    2621440    5242880   10485760   20971520   41943040   83886080  167772160  335544320  671088640 1342177280 -1610612736 1073741824 -2147483648 (for Error)
+
+JOB STATISTICS
+==============
+Job ID: 7093182
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: RUNNING
+Nodes: 1
+Cores per node: 72
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 03:10:48 core-walltime
+Job Wall-clock time: 00:02:39
+Memory Utilized: 5.21 MB (estimated maximum)
+Memory Efficiency: 0.00% of 480.00 GB (480.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

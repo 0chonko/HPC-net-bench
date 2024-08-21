@@ -1,0 +1,32 @@
+[1721914629.158527] [tcn830:800325:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914629.182491] [tcn830:800325:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721914629.149578] [tcn958:221168:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914629.182938] [tcn958:221168:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 14.81 us 	 == 0.50 Mbit/s
+2 bytes 	 -> 14.62 us 	 == 1.01 Mbit/s
+4 bytes 	 -> 14.66 us 	 == 2.01 Mbit/s
+8 bytes 	 -> 14.84 us 	 == 4.00 Mbit/s
+16 bytes 	 -> 14.84 us 	 == 8.03 Mbit/s
+32 bytes 	 -> 14.97 us 	 == 15.88 Mbit/s
+64 bytes 	 -> 15.26 us 	 == 30.89 Mbit/s
+128 bytes 	 -> 15.06 us 	 == 62.46 Mbit/s
+256 bytes 	 -> 15.24 us 	 == 123.90 Mbit/s
+512 bytes 	 -> 15.73 us 	 == 239.19 Mbit/s
+1024 bytes 	 -> 17.69 us 	 == 435.30 Mbit/s
+2048 bytes 	 -> 19.44 us 	 == 492.47 Mbit/s
+4096 bytes 	 -> 20.25 us 	 == 1452.54 Mbit/s
+8192 bytes 	 -> 24.24 us 	 == 2436.83 Mbit/s
+16384 bytes 	 -> 37.54 us 	 == 2325.30 Mbit/s
+32768 bytes 	 -> 57.25 us 	 == 3697.78 Mbit/s
+65536 bytes 	 -> 117.76 us 	 == 4215.71 Mbit/s
+131072 bytes 	 -> 164.89 us 	 == 5641.36 Mbit/s
+262144 bytes 	 -> 244.95 us 	 == 8208.99 Mbit/s
+524288 bytes 	 -> 395.79 us 	 == 8426.51 Mbit/s
+1048576 bytes 	 -> 739.72 us 	 == 9672.91 Mbit/s
+2097152 bytes 	 -> 1334.51 us 	 == 10943.36 Mbit/s
+4194304 bytes 	 -> 2530.68 us 	 == 11758.82 Mbit/s
+8388608 bytes 	 -> 4896.44 us 	 == 12111.40 Mbit/s
+16777216 bytes 	 -> 9598.87 us 	 == 12351.06 Mbit/s

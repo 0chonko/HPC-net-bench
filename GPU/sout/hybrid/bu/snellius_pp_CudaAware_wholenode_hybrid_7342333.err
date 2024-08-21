@@ -1,0 +1,45 @@
+/var/spool/slurm/slurmd/job7342333/slurm_script: line 19: hybrid-config.sh: No such file or directory
+cat: tmp_2_7342333.txt: No such file or directory
+rm: cannot remove 'tmp_2_7342333.txt': No such file or directory
+[gcn40.local.snellius.surf.nl:303769] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn38.local.snellius.surf.nl:2980646] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn40.local.snellius.surf.nl:303766] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn40.local.snellius.surf.nl:303801] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn40.local.snellius.surf.nl:303800] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn38.local.snellius.surf.nl:2980648] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn38.local.snellius.surf.nl:2980616] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn38.local.snellius.surf.nl:2980645] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn38:2980645:0:2980645] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x154ff3200200)
+==== backtrace (tid:2980645) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x15503a01e224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x15503a01e3dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x15503a01e688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x15504a1c9ae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/ucx/libuct_ib.so.0(uct_rc_mlx5_ep_am_short+0x27a) [0x155039d9823a]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x15503a742104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_send+0xf9) [0x15503ab97b49]
+ 7  /opt/ompi/lib/libmpi.so.40(PMPI_Send+0x11b) [0x15504d3fc38b]
+ 8  ./pp_CudaAware() [0x405d65]
+ 9  /lib64/libc.so.6(__libc_start_main+0xe5) [0x15504a14b7e5]
+10  ./pp_CudaAware() [0x40452e]
+=================================
+[gcn38:2980645] *** Process received signal ***
+[gcn38:2980645] Signal: Segmentation fault (11)
+[gcn38:2980645] Signal code:  (-6)
+[gcn38:2980645] Failing at address: 0x10b5d002d7b25
+[gcn38:2980645] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x15504ac97d20]
+[gcn38:2980645] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x15504a1c9ae4]
+[gcn38:2980645] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/ucx/libuct_ib.so.0(uct_rc_mlx5_ep_am_short+0x27a)[0x155039d9823a]
+[gcn38:2980645] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x15503a742104]
+[gcn38:2980645] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_send+0xf9)[0x15503ab97b49]
+[gcn38:2980645] [ 5] /opt/ompi/lib/libmpi.so.40(PMPI_Send+0x11b)[0x15504d3fc38b]
+[gcn38:2980645] [ 6] ./pp_CudaAware[0x405d65]
+[gcn38:2980645] [ 7] /lib64/libc.so.6(__libc_start_main+0xe5)[0x15504a14b7e5]
+[gcn38:2980645] [ 8] ./pp_CudaAware[0x40452e]
+[gcn38:2980645] *** End of error message ***
+srun: error: gcn38: task 0: Segmentation fault
+srun: Terminating StepId=7342333.1
+slurmstepd: error: *** STEP 7342333.1 ON gcn38 CANCELLED AT 2024-08-05T20:04:57 ***
+srun: error: gcn40: tasks 4,6-7: Terminated
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: gcn40: task 5: Terminated

@@ -1,0 +1,28 @@
+spack:
+  specs:
+    - openmpi@4.1.5 fabrics=ucx,ofi +pmi +legacylaunchers +orterunprefix +cuda
+    - libfabric fabrics=sockets,tcp,udp,psm2,verbs
+    - ucx
+    - slurm
+    - cuda@12.1.0
+    - nccl +cuda
+    - pmix
+    - libc
+    - gcc@12.1.0
+
+  container:
+    format: singularity 
+
+    images:
+      os: rockylinux:8
+      spack: v0.20.0
+
+    strip: true
+
+    os_packages:
+      final:
+        - libgfortran
+
+    labels:
+      app: "spack_with_ucx"
+      mpi: "openmpi"

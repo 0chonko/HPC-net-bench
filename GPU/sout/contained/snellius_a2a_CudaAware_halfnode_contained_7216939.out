@@ -1,0 +1,27 @@
+-------- Topology Info --------
+Nnodes = 1
+0: Node: 0 ---> root.ibsw25.gcn63
+-------------------------------
+switchesPaths:
+root.ibsw25.gcn63
+-------------------------------
+gcn63 ---> distance with node 0 (gcn63) = 0
+Max distance: 0
+-------------------------------
+
+-------------------------------
+
+JOB STATISTICS
+==============
+Job ID: 7216939
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: RUNNING
+Nodes: 1
+Cores per node: 72
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:16:48 core-walltime
+Job Wall-clock time: 00:00:14
+Memory Utilized: 5.17 MB (estimated maximum)
+Memory Efficiency: 0.00% of 480.00 GB (480.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

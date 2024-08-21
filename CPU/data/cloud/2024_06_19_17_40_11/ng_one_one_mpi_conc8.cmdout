@@ -1,0 +1,25 @@
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=16, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s -2097152 -f ../data/surf/2024_06_19_17_40_11/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out.0
+1 bytes 	 -> 49.66 us 	 == 0.10 Mbit/s
+2 bytes 	 -> 48.47 us 	 == 0.20 Mbit/s
+4 bytes 	 -> 49.87 us 	 == 0.43 Mbit/s
+8 bytes 	 -> 47.83 us 	 == 0.87 Mbit/s
+16 bytes 	 -> 53.03 us 	 == 1.73 Mbit/s
+32 bytes 	 -> 43.00 us 	 == 3.40 Mbit/s
+64 bytes 	 -> 52.61 us 	 == 5.78 Mbit/s
+128 bytes 	 -> 61.06 us 	 == 11.34 Mbit/s
+256 bytes 	 -> 54.37 us 	 == 23.88 Mbit/s
+512 bytes 	 -> 49.39 us 	 == 47.77 Mbit/s
+1024 bytes 	 -> 52.31 us 	 == 101.95 Mbit/s
+2048 bytes 	 -> 56.02 us 	 == 180.67 Mbit/s
+4096 bytes 	 -> 52.47 us 	 == 534.97 Mbit/s
+8192 bytes 	 -> 58.77 us 	 == 972.94 Mbit/s
+16384 bytes 	 -> 76.27 us 	 == 1125.19 Mbit/s
+32768 bytes 	 -> 129.78 us 	 == 1021.78 Mbit/s
+65536 bytes 	 -> 401.31 us 	 == 870.92 Mbit/s
+131072 bytes 	 -> 585.99 us 	 == 1203.74 Mbit/s
+262144 bytes 	 -> 905.45 us 	 == 1461.44 Mbit/s
+524288 bytes 	 -> 1364.49 us 	 == 1655.04 Mbit/s
+1048576 bytes 	 -> 2249.74 us 	 == 1872.82 Mbit/s
+2097152 bytes 	 -> 4714.25 us 	 == 1975.32 Mbit/s

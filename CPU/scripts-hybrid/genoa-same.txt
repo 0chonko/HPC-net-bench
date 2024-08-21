@@ -1,0 +1,397 @@
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+Writing to ../data/snellius_spack/2024_07_28_14_38_10
+Running netgauge OS noise test for 120 seconds ...srun: warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+srun: warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+ [Done][123 seconds]
+Running netgauge network noise MPI test for 60 seconds ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][78 seconds]
+Checking MPI_Wtime resolution ...srun: warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+slurmstepd: error: execve(): /gpfs/home1/gsavchenko/bench_singularity_results/./misc/check_mpi_wtime_res: No such file or directory
+srun: error: tcn1141: task 0: Exited with exit code 2
+srun: Terminating StepId=7209592.10
+ [Done][1 seconds]
+Running netgauge LogGP test ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][15 seconds]
+Running netgauge one_one MPI test with striping=1 ... [Done][10 seconds]
+Running netgauge one_one MPI test with 2 concurrent connections ... [Done][13 seconds]
+Running netgauge one_one MPI test with striping=2 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][16 seconds]
+Running netgauge one_one MPI test with 4 concurrent connections ... [Done][16 seconds]
+Running netgauge one_one MPI test with striping=4 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][15 seconds]
+Running netgauge one_one MPI test with 8 concurrent connections ... [Done][15 seconds]
+Running netgauge one_one MPI test with striping=8 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][17 seconds]
+Running netgauge one_one MPI test with 16 concurrent connections ... [Done][15 seconds]
+Running netgauge one_one MPI test with striping=16 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][14 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=1 ... [Done][15 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 2 concurrent connections ... [Done][13 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=2 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][18 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 4 concurrent connections ... [Done][17 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=4 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][11 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 8 concurrent connections ... [Done][22 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=8 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][12 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 16 concurrent connections ... [Done][16 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=16 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][13 seconds]
+Running hoverboard test ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170777.020475] [tcn1150:2153506:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170777.177875] [tcn1150:2153506:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170777.036241] [tcn1141:3717501:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170777.189080] [tcn1141:3717501:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170808.735580] [tcn1150:2153693:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170808.900572] [tcn1150:2153693:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170808.758897] [tcn1141:3717744:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170808.900790] [tcn1141:3717744:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170825.355139] [tcn1150:2153878:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170825.496491] [tcn1150:2153878:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170825.349554] [tcn1141:3717984:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170825.508877] [tcn1141:3717984:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170842.118560] [tcn1150:2153988:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170842.277103] [tcn1150:2153988:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170842.122913] [tcn1141:3718115:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170842.265557] [tcn1141:3718115:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170853.794996] [tcn1150:2154088:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170853.976105] [tcn1150:2154088:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170853.822030] [tcn1141:3718256:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170853.965433] [tcn1141:3718256:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170861.510106] [tcn1150:2154257:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170861.674187] [tcn1150:2154257:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170861.507022] [tcn1141:3718391:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170861.661786] [tcn1141:3718391:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170863.073544] [tcn1150:2154350:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170863.266125] [tcn1150:2154350:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170863.127400] [tcn1141:3718516:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170863.267086] [tcn1141:3718516:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170870.749701] [tcn1150:2154559:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170870.936165] [tcn1150:2154559:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170870.769123] [tcn1141:3718656:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170870.910858] [tcn1141:3718656:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170882.302142] [tcn1150:2154673:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170882.469223] [tcn1150:2154673:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170882.317297] [tcn1141:3718833:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170882.482725] [tcn1141:3718833:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170899.019410] [tcn1150:2154790:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170899.172882] [tcn1150:2154790:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170899.019297] [tcn1141:3718971:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170899.172839] [tcn1141:3718971:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170916.321154] [tcn1150:2154890:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170916.478192] [tcn1150:2154890:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170916.315443] [tcn1141:3719201:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722170916.465870] [tcn1141:3719201:0]     ucp_context.c:1182 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][181 seconds]
+[Tests completed][666 seconds]
+Compressing ../data/snellius_spack/2024_07_28_14_38_10 ...
+/gpfs/home1/gsavchenko/data/snellius_spack /gpfs/home1/gsavchenko/bench_singularity_results
+2024_07_28_14_38_10/
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe16.cmdout
+2024_07_28_14_38_10/ng_netnoise_mpi_lat.out
+2024_07_28_14_38_10/ng_osnoise.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_stripe4.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_stripe2.out
+2024_07_28_14_38_10/ng_one_one_mpi_conc4.out
+2024_07_28_14_38_10/ng_one_one_mpi_conc16.out
+2024_07_28_14_38_10/ng_one_one_mpi_conc8.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_conc2.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe4.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_conc2.cmdout
+2024_07_28_14_38_10/ng_osnoise.out
+2024_07_28_14_38_10/ng_netnoise_mpi_bw.out
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_conc16.out
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe1.out
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_conc16.cmdout
+2024_07_28_14_38_10/ng_netnoise_mpi_lat.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_stripe16.out
+2024_07_28_14_38_10/ng_loggp.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_stripe1.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_conc8.out
+2024_07_28_14_38_10/ng_one_one_mpi_stripe8.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_conc4.out
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe16.out
+2024_07_28_14_38_10/ng_one_one_mpi_stripe16.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_stripe8.out
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe4.out
+2024_07_28_14_38_10/ng_one_one_mpi_conc16.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_stripe2.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe2.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_conc2.out
+2024_07_28_14_38_10/ng_one_one_mpi_conc2.out
+2024_07_28_14_38_10/wtime_res.out
+2024_07_28_14_38_10/ng_one_one_mpi_conc4.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_conc8.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_stripe1.out
+2024_07_28_14_38_10/ng_one_one_mpi_stripe4.out
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe1.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe8.cmdout
+2024_07_28_14_38_10/ng_loggp.out
+2024_07_28_14_38_10/hoverboard_reps_1.out
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_conc4.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe8.out
+2024_07_28_14_38_10/ng_netnoise_mpi_bw.cmdout
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_stripe2.out
+2024_07_28_14_38_10/ng_one_one_mpi_bidirect_mpi_conc8.out
+/gpfs/home1/gsavchenko/bench_singularity_results
+
+JOB STATISTICS
+==============
+Job ID: 7209592
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: COMPLETED (exit code 0)
+Nodes: 2
+Cores per node: 192
+CPU Utilized: 00:26:35
+CPU Efficiency: 0.61% of 3-01:10:24 core-walltime
+Job Wall-clock time: 00:11:26
+Memory Utilized: 456.87 MB (estimated maximum)
+Memory Efficiency: 0.07% of 672.00 GB (1.75 GB/core)

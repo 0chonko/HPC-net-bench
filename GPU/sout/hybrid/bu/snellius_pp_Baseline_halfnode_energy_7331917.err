@@ -1,0 +1,83 @@
+/var/spool/slurm/slurmd/job7331917/slurm_script: line 18: hybrid-config.sh: No such file or directory
+cat: tmp_1_7331917.txt: No such file or directory
+rm: cannot remove 'tmp_1_7331917.txt': No such file or directory
+[gcn22.local.snellius.surf.nl:2160370] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn22.local.snellius.surf.nl:2160354] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn22.local.snellius.surf.nl:2160369] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn22.local.snellius.surf.nl:2160376] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn22
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn22
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn22
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn22
+--------------------------------------------------------------------------
+[gcn22.local.snellius.surf.nl:2162173] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn22.local.snellius.surf.nl:2162180] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn22.local.snellius.surf.nl:2162170] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn22.local.snellius.surf.nl:2162182] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn22
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn22
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn22
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn22
+--------------------------------------------------------------------------

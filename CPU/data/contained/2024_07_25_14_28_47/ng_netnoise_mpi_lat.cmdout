@@ -1,0 +1,720 @@
+[1721910654.525851] [tcn830:755741:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910654.549389] [tcn830:755741:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910654.509754] [tcn958:184912:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910654.550973] [tcn958:184912:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.16 us 	 == 0.41 Mbit/s
+[1721910695.611126] [tcn830:756228:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910695.635589] [tcn830:756228:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910695.609938] [tcn958:185269:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910695.635787] [tcn958:185269:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.83 us 	 == 0.46 Mbit/s
+[1721910740.895113] [tcn830:756528:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910740.950520] [tcn830:756528:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910740.926363] [tcn958:185576:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910740.950738] [tcn958:185576:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.24 us 	 == 0.41 Mbit/s
+[1721910780.917064] [tcn830:756906:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910780.946622] [tcn830:756906:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910780.922215] [tcn958:185913:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910780.947933] [tcn958:185913:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.90 us 	 == 0.43 Mbit/s
+[1721910834.884256] [tcn830:757296:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910834.907958] [tcn830:757296:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910834.875060] [tcn958:186166:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910834.908266] [tcn958:186166:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.92 us 	 == 0.42 Mbit/s
+[1721910874.977812] [tcn830:757735:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910875.002473] [tcn830:757735:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910874.961337] [tcn958:186446:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910875.002606] [tcn958:186446:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.03 us 	 == 0.46 Mbit/s
+[1721910911.344947] [tcn830:758016:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910911.368460] [tcn830:758016:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910911.328554] [tcn958:186745:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910911.369220] [tcn958:186745:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.52 us 	 == 0.48 Mbit/s
+[1721910958.317457] [tcn830:758486:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910958.342499] [tcn830:758486:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910958.310159] [tcn958:187117:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910958.342023] [tcn958:187117:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.12 us 	 == 0.49 Mbit/s
+[1721910994.929424] [tcn830:758800:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910994.962864] [tcn830:758800:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721910994.938997] [tcn958:188798:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910994.963518] [tcn958:188798:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.91 us 	 == 0.42 Mbit/s
+[1721911031.246657] [tcn830:759167:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911031.279131] [tcn830:759167:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911031.254082] [tcn958:189732:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911031.278878] [tcn958:189732:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.75 us 	 == 0.42 Mbit/s
+[1721911067.313306] [tcn830:759547:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911067.336773] [tcn830:759547:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911067.306317] [tcn958:190054:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911067.337331] [tcn958:190054:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.78 us 	 == 0.48 Mbit/s
+[1721911111.081754] [tcn830:759834:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911111.106517] [tcn830:759834:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911111.055048] [tcn958:190292:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911111.107438] [tcn958:190292:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.78 us 	 == 0.42 Mbit/s
+[1721911158.574240] [tcn830:760268:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911158.597945] [tcn830:760268:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911158.553206] [tcn958:190657:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911158.598738] [tcn958:190657:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.04 us 	 == 0.49 Mbit/s
+[1721911195.257885] [tcn830:760645:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911195.281580] [tcn830:760645:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911195.245211] [tcn958:190967:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911195.282052] [tcn958:190967:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.07 us 	 == 0.41 Mbit/s
+[1721911234.400363] [tcn830:761034:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911234.424829] [tcn830:761034:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911234.377793] [tcn958:191253:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911234.426127] [tcn958:191253:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.95 us 	 == 0.46 Mbit/s
+[1721911271.541853] [tcn830:761324:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911271.565856] [tcn830:761324:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911271.526392] [tcn958:191486:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911271.566333] [tcn958:191486:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.96 us 	 == 0.47 Mbit/s
+[1721911312.406006] [tcn830:761790:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911312.451381] [tcn830:761790:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911312.425992] [tcn958:191779:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911312.450982] [tcn958:191779:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.17 us 	 == 0.43 Mbit/s
+[1721911345.375404] [tcn830:762073:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911345.399384] [tcn830:762073:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911345.349408] [tcn958:192064:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911345.401327] [tcn958:192064:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.03 us 	 == 0.46 Mbit/s
+[1721911388.053740] [tcn830:762458:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911388.079338] [tcn830:762458:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911388.054709] [tcn958:192366:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911388.079082] [tcn958:192366:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.08 us 	 == 0.41 Mbit/s
+[1721911426.436015] [tcn830:764316:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911426.477100] [tcn830:764316:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911426.452584] [tcn958:192650:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911426.477596] [tcn958:192650:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.69 us 	 == 0.47 Mbit/s
+[1721911467.730386] [tcn830:765467:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911467.754156] [tcn830:765467:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911467.727153] [tcn958:192963:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911467.754481] [tcn958:192963:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.94 us 	 == 0.42 Mbit/s
+[1721911507.004986] [tcn830:765862:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911507.036615] [tcn830:765862:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911507.012416] [tcn958:193256:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911507.036432] [tcn958:193256:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.79 us 	 == 0.47 Mbit/s
+[1721911543.229811] [tcn830:766238:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911543.253260] [tcn830:766238:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911543.224072] [tcn958:193473:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911543.254300] [tcn958:193473:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.23 us 	 == 0.41 Mbit/s
+[1721911593.249983] [tcn830:766627:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911593.274631] [tcn830:766627:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911593.238886] [tcn958:193780:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911593.273989] [tcn958:193780:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.41 us 	 == 0.41 Mbit/s
+[1721911630.357553] [tcn830:766920:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911630.381046] [tcn830:766920:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911630.348237] [tcn958:194076:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911630.381897] [tcn958:194076:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.18 us 	 == 0.41 Mbit/s
+[1721911678.333525] [tcn830:767391:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911678.358121] [tcn830:767391:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911678.329031] [tcn958:194483:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911678.357960] [tcn958:194483:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.61 us 	 == 0.47 Mbit/s
+[1721911715.760407] [tcn830:767698:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911715.784325] [tcn830:767698:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911715.749442] [tcn958:194712:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911715.784729] [tcn958:194712:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.12 us 	 == 0.47 Mbit/s
+[1721911753.195667] [tcn830:768111:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911753.219972] [tcn830:768111:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911753.181270] [tcn958:194946:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911753.219993] [tcn958:194946:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.03 us 	 == 0.41 Mbit/s
+[1721911790.447497] [tcn830:768490:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911790.471242] [tcn830:768490:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911790.440731] [tcn958:195224:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911790.473019] [tcn958:195224:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.28 us 	 == 0.41 Mbit/s
+[1721911826.863572] [tcn830:768773:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911826.888009] [tcn830:768773:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911826.841169] [tcn958:195464:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911826.887832] [tcn958:195464:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.77 us 	 == 0.47 Mbit/s
+[1721911867.229219] [tcn830:769213:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911867.259183] [tcn830:769213:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911867.234812] [tcn958:195823:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911867.259145] [tcn958:195823:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 14.91 us 	 == 0.50 Mbit/s
+[1721911911.788440] [tcn830:769593:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911911.812454] [tcn830:769593:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911911.766609] [tcn958:196723:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911911.814197] [tcn958:196723:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.99 us 	 == 0.42 Mbit/s
+[1721911952.265884] [tcn830:769969:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911952.290177] [tcn830:769969:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911952.255056] [tcn958:198616:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911952.289840] [tcn958:198616:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.08 us 	 == 0.41 Mbit/s
+[1721911992.520393] [tcn830:770273:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911992.544063] [tcn830:770273:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721911992.506971] [tcn958:198848:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721911992.544964] [tcn958:198848:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.14 us 	 == 0.41 Mbit/s
+[1721912031.751785] [tcn830:770743:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912031.776216] [tcn830:770743:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912031.748728] [tcn958:199071:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912031.775683] [tcn958:199071:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.13 us 	 == 0.41 Mbit/s
+[1721912076.487184] [tcn830:771101:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912076.510613] [tcn830:771101:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912076.455614] [tcn958:199372:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912076.511311] [tcn958:199372:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.56 us 	 == 0.47 Mbit/s
+[1721912117.833465] [tcn830:771475:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912117.857007] [tcn830:771475:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912117.823109] [tcn958:199681:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912117.857867] [tcn958:199681:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.65 us 	 == 0.47 Mbit/s
+[1721912158.522901] [tcn830:771847:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912158.547040] [tcn830:771847:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912158.509456] [tcn958:200056:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912158.547084] [tcn958:200056:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.80 us 	 == 0.46 Mbit/s
+[1721912193.838128] [tcn830:772240:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912193.861662] [tcn830:772240:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912193.811833] [tcn958:200287:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912193.862408] [tcn958:200287:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.02 us 	 == 0.42 Mbit/s
+[1721912234.189179] [tcn830:772533:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912234.212726] [tcn830:772533:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912234.166035] [tcn958:200580:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912234.214232] [tcn958:200580:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.67 us 	 == 0.46 Mbit/s
+[1721912269.725965] [tcn830:772910:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912269.755484] [tcn830:772910:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912269.730928] [tcn958:200840:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912269.755119] [tcn958:200840:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.04 us 	 == 0.44 Mbit/s
+[1721912311.811692] [tcn830:773284:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912311.836205] [tcn830:773284:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912311.798672] [tcn958:201144:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912311.835863] [tcn958:201144:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.11 us 	 == 0.41 Mbit/s
+[1721912351.001387] [tcn830:773974:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912351.024441] [tcn830:773974:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912350.980459] [tcn958:201444:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912351.026153] [tcn958:201444:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.84 us 	 == 0.48 Mbit/s
+[1721912388.988308] [tcn830:776396:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912389.013959] [tcn830:776396:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912388.990044] [tcn958:201663:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912389.014449] [tcn958:201663:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.25 us 	 == 0.41 Mbit/s
+[1721912431.280572] [tcn830:776684:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912431.304514] [tcn830:776684:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912431.271894] [tcn958:202035:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912431.304961] [tcn958:202035:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.88 us 	 == 0.42 Mbit/s
+[1721912471.135915] [tcn830:777086:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912471.159474] [tcn830:777086:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912471.129592] [tcn958:202281:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912471.160967] [tcn958:202281:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.52 us 	 == 0.41 Mbit/s
+[1721912511.513897] [tcn830:777464:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912511.537532] [tcn830:777464:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912511.502786] [tcn958:202567:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912511.537995] [tcn958:202567:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.82 us 	 == 0.47 Mbit/s
+[1721912560.968172] [tcn830:777863:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912560.992074] [tcn830:777863:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912560.946374] [tcn958:202848:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912560.992640] [tcn958:202848:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.80 us 	 == 0.42 Mbit/s
+[1721912603.503334] [tcn830:778146:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912603.528452] [tcn830:778146:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912603.489924] [tcn958:203226:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912603.527919] [tcn958:203226:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.83 us 	 == 0.42 Mbit/s
+[1721912642.898877] [tcn830:778532:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912642.922777] [tcn830:778532:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912642.863325] [tcn958:203518:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912642.923331] [tcn958:203518:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.76 us 	 == 0.46 Mbit/s
+[1721912681.326905] [tcn830:778968:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912681.362013] [tcn830:778968:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912681.337833] [tcn958:203804:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912681.362332] [tcn958:203804:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.04 us 	 == 0.41 Mbit/s
+[1721912720.526368] [tcn830:779254:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912720.549792] [tcn830:779254:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912720.512928] [tcn958:204033:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912720.550281] [tcn958:204033:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.11 us 	 == 0.42 Mbit/s
+[1721912760.667960] [tcn830:779720:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912760.703228] [tcn830:779720:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912760.678646] [tcn958:204332:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912760.702598] [tcn958:204332:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.94 us 	 == 0.46 Mbit/s
+[1721912793.330956] [tcn830:780018:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912793.354325] [tcn830:780018:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912793.311641] [tcn958:204557:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912793.355548] [tcn958:204557:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.00 us 	 == 0.46 Mbit/s
+[1721912832.921484] [tcn830:780402:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912832.946091] [tcn830:780402:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912832.899280] [tcn958:204859:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912832.945976] [tcn958:204859:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.79 us 	 == 0.48 Mbit/s
+[1721912864.830378] [tcn830:780779:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912864.853944] [tcn830:780779:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912864.818539] [tcn958:206698:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912864.854828] [tcn958:206698:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.43 us 	 == 0.41 Mbit/s
+[1721912907.173520] [tcn830:781068:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912907.211885] [tcn830:781068:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912907.187795] [tcn958:207662:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912907.212802] [tcn958:207662:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.06 us 	 == 0.42 Mbit/s
+[1721912949.501991] [tcn830:781497:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912949.526230] [tcn830:781497:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912949.485028] [tcn958:207953:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912949.526738] [tcn958:207953:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.60 us 	 == 0.47 Mbit/s
+[1721912995.757039] [tcn830:781881:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912995.781827] [tcn830:781881:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721912995.758025] [tcn958:208196:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721912995.782255] [tcn958:208196:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.56 us 	 == 0.47 Mbit/s
+[1721913036.971229] [tcn830:782272:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913036.995132] [tcn830:782272:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913036.962787] [tcn958:208478:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913036.996480] [tcn958:208478:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.83 us 	 == 0.42 Mbit/s
+[1721913071.208785] [tcn830:782550:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913071.233022] [tcn830:782550:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913071.198581] [tcn958:208780:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913071.233669] [tcn958:208780:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 14.96 us 	 == 0.50 Mbit/s
+[1721913110.780787] [tcn830:783018:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913110.804130] [tcn830:783018:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913110.778582] [tcn958:209050:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913110.804835] [tcn958:209050:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.12 us 	 == 0.42 Mbit/s
+[1721913149.772622] [tcn830:783309:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913149.797203] [tcn830:783309:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913149.770896] [tcn958:209399:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913149.796445] [tcn958:209399:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.79 us 	 == 0.44 Mbit/s
+[1721913187.117400] [tcn830:783703:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913187.140873] [tcn830:783703:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913187.096276] [tcn958:209625:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913187.141535] [tcn958:209625:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.15 us 	 == 0.49 Mbit/s
+[1721913227.016367] [tcn830:784083:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913227.040983] [tcn830:784083:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913227.001926] [tcn958:209914:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913227.041260] [tcn958:209914:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.17 us 	 == 0.49 Mbit/s
+[1721913263.093998] [tcn830:784474:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913263.131990] [tcn830:784474:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913263.108131] [tcn958:210141:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913263.132133] [tcn958:210141:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.02 us 	 == 0.47 Mbit/s
+[1721913307.311328] [tcn830:787100:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913307.342826] [tcn830:787100:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913307.318911] [tcn958:210503:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913307.343164] [tcn958:210503:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.98 us 	 == 0.42 Mbit/s
+[1721913348.333723] [tcn830:787480:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913348.357340] [tcn830:787480:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913348.319260] [tcn958:210737:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913348.357951] [tcn958:210737:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 14.71 us 	 == 0.49 Mbit/s
+[1721913399.651371] [tcn830:787880:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913399.682995] [tcn830:787880:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913399.658991] [tcn958:211109:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913399.683039] [tcn958:211109:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.30 us 	 == 0.41 Mbit/s
+[1721913433.659876] [tcn830:788160:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913433.684835] [tcn830:788160:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913433.660484] [tcn958:211343:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913433.685258] [tcn958:211343:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.99 us 	 == 0.41 Mbit/s
+[1721913471.399783] [tcn830:788622:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913471.423397] [tcn830:788622:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913471.399401] [tcn958:211610:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913471.423841] [tcn958:211610:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.06 us 	 == 0.41 Mbit/s
+[1721913512.883716] [tcn830:788911:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913512.908354] [tcn830:788911:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913512.880763] [tcn958:211905:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913512.907825] [tcn958:211905:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.83 us 	 == 0.42 Mbit/s
+[1721913551.467705] [tcn830:789340:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913551.491089] [tcn830:789340:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913551.456813] [tcn958:212208:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913551.491765] [tcn958:212208:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.70 us 	 == 0.41 Mbit/s
+[1721913592.851303] [tcn830:789717:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913592.876190] [tcn830:789717:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913592.837206] [tcn958:212562:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913592.876202] [tcn958:212562:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.26 us 	 == 0.46 Mbit/s
+[1721913632.148155] [tcn830:790007:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913632.172279] [tcn830:790007:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913632.145336] [tcn958:212805:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913632.172569] [tcn958:212805:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.74 us 	 == 0.44 Mbit/s
+[1721913671.685061] [tcn830:790403:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913671.709194] [tcn830:790403:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913671.666604] [tcn958:213098:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913671.709794] [tcn958:213098:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.92 us 	 == 0.42 Mbit/s
+[1721913708.918852] [tcn830:790779:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913708.943673] [tcn830:790779:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913708.901315] [tcn958:213318:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913708.943325] [tcn958:213318:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.13 us 	 == 0.41 Mbit/s
+[1721913742.041772] [tcn830:791153:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913742.065498] [tcn830:791153:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913742.016316] [tcn958:213540:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913742.066257] [tcn958:213540:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.70 us 	 == 0.47 Mbit/s
+[1721913779.223641] [tcn830:791439:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913779.248173] [tcn830:791439:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913779.215282] [tcn958:214576:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913779.248148] [tcn958:214576:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 18.08 us 	 == 0.41 Mbit/s
+[1721913824.098039] [tcn830:791925:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913824.127239] [tcn830:791925:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913824.102939] [tcn958:216332:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913824.127706] [tcn958:216332:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.13 us 	 == 0.49 Mbit/s
+[1721913865.580827] [tcn830:792260:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913865.608520] [tcn830:792260:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913865.584727] [tcn958:216714:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913865.608909] [tcn958:216714:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 14.87 us 	 == 0.49 Mbit/s
+[1721913907.871223] [tcn830:792648:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913907.895121] [tcn830:792648:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913907.843693] [tcn958:216934:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913907.896053] [tcn958:216934:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.85 us 	 == 0.43 Mbit/s
+[1721913949.709161] [tcn830:793029:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913949.735036] [tcn830:793029:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913949.710109] [tcn958:217229:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913949.734741] [tcn958:217229:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.10 us 	 == 0.47 Mbit/s
+[1721913990.670185] [tcn830:793317:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913990.693763] [tcn830:793317:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721913990.657701] [tcn958:217477:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721913990.694597] [tcn958:217477:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.00 us 	 == 0.47 Mbit/s
+[1721914039.882214] [tcn830:793714:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914039.925426] [tcn830:793714:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721914039.900491] [tcn958:217839:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914039.924527] [tcn958:217839:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.85 us 	 == 0.46 Mbit/s
+[1721914079.310548] [tcn830:794090:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914079.334718] [tcn830:794090:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721914079.291403] [tcn958:218183:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914079.335217] [tcn958:218183:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 14.70 us 	 == 0.50 Mbit/s
+[1721914117.640886] [tcn830:794481:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914117.667533] [tcn830:794481:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721914117.643489] [tcn958:218476:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914117.668108] [tcn958:218476:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.87 us 	 == 0.42 Mbit/s
+[1721914159.911263] [tcn830:794808:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914159.947726] [tcn830:794808:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721914159.923461] [tcn958:218709:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914159.947932] [tcn958:218709:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.77 us 	 == 0.46 Mbit/s
+[1721914206.843920] [tcn830:797355:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914206.867276] [tcn830:797355:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721914206.793055] [tcn958:219008:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914206.868724] [tcn958:219008:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 17.77 us 	 == 0.42 Mbit/s
+[1721914247.385696] [tcn830:797910:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914247.409211] [tcn830:797910:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_25_14_28_47/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1721914247.379484] [tcn958:219241:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721914247.410127] [tcn958:219241:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.01 us 	 == 0.46 Mbit/s

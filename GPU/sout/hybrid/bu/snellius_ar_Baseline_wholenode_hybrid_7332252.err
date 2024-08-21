@@ -1,0 +1,179 @@
+cat: tmp_2_7332252.txt: No such file or directory
+rm: cannot remove 'tmp_2_7332252.txt': No such file or directory
+[gcn65.local.snellius.surf.nl:147495] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn64.local.snellius.surf.nl:25485] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn65.local.snellius.surf.nl:147486] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn65.local.snellius.surf.nl:147496] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn65.local.snellius.surf.nl:147489] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn64.local.snellius.surf.nl:25487] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn64.local.snellius.surf.nl:25488] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn64.local.snellius.surf.nl:25489] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn64
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn64
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn64
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn64
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn65
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn65
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn65
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn65
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn64
+  PID:        25489
+  Message:    connect() to 172.18.62.65:1024 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn65
+  PID:        147486
+  Message:    connect() to 172.18.62.64:1024 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn65
+  PID:        147495
+  Message:    connect() to 172.22.62.64:1027 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn65
+  PID:        147496
+  Message:    connect() to 172.22.62.64:1026 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn64
+  PID:        25485
+  Message:    connect() to 172.22.62.65:1026 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn64
+  PID:        25488
+  Message:    connect() to 172.22.62.65:1025 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn64
+  PID:        25487
+  Message:    connect() to 172.22.62.65:1027 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn65
+  PID:        147489
+  Message:    connect() to 172.22.62.64:1025 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+[gcn65.local.snellius.surf.nl:147486] 1 more process has sent help message help-mpi-btl-tcp.txt / client connect fail
+[gcn65.local.snellius.surf.nl:147486] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[gcn64.local.snellius.surf.nl:25489] 1 more process has sent help message help-mpi-btl-tcp.txt / client connect fail
+[gcn64.local.snellius.surf.nl:25489] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 7332252 ON gcn64 CANCELLED AT 2024-08-05T02:21:23 ***
+slurmstepd: error: *** STEP 7332252.1 ON gcn64 CANCELLED AT 2024-08-05T02:21:23 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/7332252/.ns: Invalid argument
+slurmstepd: error: container_g_join(7332252): Invalid argument

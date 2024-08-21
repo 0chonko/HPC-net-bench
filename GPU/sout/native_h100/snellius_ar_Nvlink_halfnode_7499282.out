@@ -1,0 +1,14 @@
+-------- Topology Info --------
+Nnodes = 1
+0: Node: 0 ---> root.ibsw42.gcn156
+-------------------------------
+switchesPaths:
+root.ibsw42.gcn156
+-------------------------------
+gcn156 ---> distance with node 0 (gcn156) = 0
+Max distance: 0
+-------------------------------
+
+-------------------------------
+echo NO exports to load
+NO exports to load

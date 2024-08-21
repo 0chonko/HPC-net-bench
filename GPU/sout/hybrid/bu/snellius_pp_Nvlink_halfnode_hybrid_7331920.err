@@ -1,0 +1,100 @@
+/var/spool/slurm/slurmd/job7331920/slurm_script: line 19: hybrid-config.sh: No such file or directory
+cat: tmp_1_7331920.txt: No such file or directory
+rm: cannot remove 'tmp_1_7331920.txt': No such file or directory
+[gcn72.local.snellius.surf.nl:1300319] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn72.local.snellius.surf.nl:1300322] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn72.local.snellius.surf.nl:1300298] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn72.local.snellius.surf.nl:1300306] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn72
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn72
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn72
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn72
+--------------------------------------------------------------------------
+[gcn72.local.snellius.surf.nl:1302182] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn72.local.snellius.surf.nl:1302214] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn72.local.snellius.surf.nl:1302181] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn72.local.snellius.surf.nl:1302215] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn72
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn72
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn72
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn72
+--------------------------------------------------------------------------
+Unable to collect GPU entities. EntityIds associated with GPUs may not be possible to specify. Result: -21 Host engine connection invalid/disconnected
+Got error while creating a GPU group: -21 Host engine connection invalid/disconnected
+Unable to collect GPU entities. EntityIds associated with GPUs may not be possible to specify. Result: -21 Host engine connection invalid/disconnected
+Got error while creating a GPU group: -21 Host engine connection invalid/disconnected
+Unable to collect GPU entities. EntityIds associated with GPUs may not be possible to specify. Result: -21 Host engine connection invalid/disconnected
+Got error while creating a GPU group: -21 Host engine connection invalid/disconnected
+Unable to collect GPU entities. EntityIds associated with GPUs may not be possible to specify. Result: -21 Host engine connection invalid/disconnected
+Got error while creating a GPU group: -21 Host engine connection invalid/disconnected
+Unable to collect GPU entities. EntityIds associated with GPUs may not be possible to specify. Result: -21 Host engine connection invalid/disconnected
+Got error while creating a GPU group: -21 Host engine connection invalid/disconnected
+Unable to collect GPU entities. EntityIds associated with GPUs may not be possible to specify. Result: -21 Host engine connection invalid/disconnected
+Got error while creating a GPU group: -21 Host engine connection invalid/disconnected
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 7331920 ON gcn72 CANCELLED AT 2024-08-05T01:03:27 ***
+slurmstepd: error: *** STEP 7331920.2 ON gcn72 CANCELLED AT 2024-08-05T01:03:27 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/7331920/.ns: Invalid argument
+slurmstepd: error: container_g_join(7331920): Invalid argument

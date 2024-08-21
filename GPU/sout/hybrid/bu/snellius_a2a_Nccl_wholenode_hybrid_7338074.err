@@ -1,0 +1,107 @@
+cat: tmp_2_7338074.txt: No such file or directory
+rm: cannot remove 'tmp_2_7338074.txt': No such file or directory
+[gcn58.local.snellius.surf.nl:157606] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn57.local.snellius.surf.nl:3542218] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn58.local.snellius.surf.nl:157609] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn58.local.snellius.surf.nl:157596] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn58.local.snellius.surf.nl:157608] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn57.local.snellius.surf.nl:3542214] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn57.local.snellius.surf.nl:3542323] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn57.local.snellius.surf.nl:3542336] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn58
+  PID:        157609
+  Message:    connect() to 172.18.62.57:1024 failed
+  Error:      Resource temporarily unavailable (11)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn57
+  PID:        3542336
+  Message:    connect() to 172.18.62.58:1024 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn57
+  PID:        3542214
+  Message:    connect() to 172.22.62.58:1026 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn57
+  PID:        3542218
+  Message:    connect() to 172.22.62.58:1025 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn58
+  PID:        157606
+  Message:    connect() to 172.22.62.57:1027 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn58
+  PID:        157608
+  Message:    connect() to 172.22.62.57:1026 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn58
+  PID:        157596
+  Message:    connect() to 172.22.62.57:1025 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn57
+  PID:        3542323
+  Message:    connect() to 172.22.62.58:1027 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+[gcn57.local.snellius.surf.nl:3542336] 1 more process has sent help message help-mpi-btl-tcp.txt / client connect fail
+[gcn57.local.snellius.surf.nl:3542336] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[gcn58.local.snellius.surf.nl:157609] 1 more process has sent help message help-mpi-btl-tcp.txt / client connect fail
+[gcn58.local.snellius.surf.nl:157609] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 7338074 ON gcn57 CANCELLED AT 2024-08-05T14:01:35 ***
+slurmstepd: error: *** STEP 7338074.1 ON gcn57 CANCELLED AT 2024-08-05T14:01:35 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/7338074/.ns: Invalid argument
+slurmstepd: error: container_g_join(7338074): Invalid argument

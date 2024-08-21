@@ -1,0 +1,20 @@
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=1, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -o ../data/snellius_spack/2024_05_24_00_48_55/ng_osnoise.out.tmp -m mpi -x noise )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ../data/snellius_spack/2024_05_24_00_48_55/ng_osnoise.out.tmp
+# Info:   (0): performing Selfish benchmark
+# min clock cycles per rank: 52 
+Minimal cycle length [ns]: 20.036965 
+Number of iterations (recorded+unrecorded): 1986340306 
+Threshold: [% minimal cycle length]: 900 
+[0] CPU overhead due to noise: 0.35%
+[0] Measurement period: 49.63 s
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=1, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -o ../data/snellius_spack/2024_05_24_00_48_55/ng_osnoise.out.tmp -m mpi -x noise )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ../data/snellius_spack/2024_05_24_00_48_55/ng_osnoise.out.tmp
+# Info:   (0): performing Selfish benchmark
+# min clock cycles per rank: 52 
+Minimal cycle length [ns]: 20.037240 
+Number of iterations (recorded+unrecorded): 1986097196 
+Threshold: [% minimal cycle length]: 900 
+[0] CPU overhead due to noise: 0.36%
+[0] Measurement period: 49.64 s

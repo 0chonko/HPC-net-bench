@@ -1,0 +1,42 @@
+cat: tmp_1_7568101.txt: No such file or directory
+rm: cannot remove 'tmp_1_7568101.txt': No such file or directory
+[gcn148.local.snellius.surf.nl:2566826] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn148.local.snellius.surf.nl:2566862] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn148.local.snellius.surf.nl:2566910] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn148.local.snellius.surf.nl:2566943] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn148
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn148
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn148
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn148
+--------------------------------------------------------------------------

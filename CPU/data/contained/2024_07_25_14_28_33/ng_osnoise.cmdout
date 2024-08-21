@@ -1,0 +1,24 @@
+[1721910514.689757] [tcn895:816376:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910514.715216] [tcn895:816376:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=1, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -o ../data/snellius_spack/2024_07_25_14_28_33/ng_osnoise.out.tmp -m mpi -x noise )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ../data/snellius_spack/2024_07_25_14_28_33/ng_osnoise.out.tmp
+# Info:   (0): performing Selfish benchmark
+# min clock cycles per rank: 24 
+Minimal cycle length [ns]: 9.999665 
+Number of iterations (recorded+unrecorded): 2866154377 
+Threshold: [% minimal cycle length]: 900 
+[0] CPU overhead due to noise: 0.37%
+[0] Measurement period: 43.78 s
+[1721910573.906301] [tcn895:816650:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1721910573.931684] [tcn895:816650:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=1, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -o ../data/snellius_spack/2024_07_25_14_28_33/ng_osnoise.out.tmp -m mpi -x noise )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ../data/snellius_spack/2024_07_25_14_28_33/ng_osnoise.out.tmp
+# Info:   (0): performing Selfish benchmark
+# min clock cycles per rank: 24 
+Minimal cycle length [ns]: 9.999676 
+Number of iterations (recorded+unrecorded): 2870961817 
+Threshold: [% minimal cycle length]: 900 
+[0] CPU overhead due to noise: 0.38%
+[0] Measurement period: 43.85 s

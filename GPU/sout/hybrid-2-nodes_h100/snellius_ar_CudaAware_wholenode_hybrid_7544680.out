@@ -1,0 +1,175 @@
+-------- Topology Info --------
+Nnodes = 8
+ 0: Node: 0 ---> root.ibsw40.gcn97
+24: Node: 6 ---> root.ibsw40.gcn103
+16: Node: 4 ---> root.ibsw40.gcn101
+ 4: Node: 1 ---> root.ibsw40.gcn98
+28: Node: 7 ---> root.ibsw40.gcn104
+ 8: Node: 2 ---> root.ibsw40.gcn99
+12: Node: 3 ---> root.ibsw40.gcn100
+20: Node: 5 ---> root.ibsw40.gcn102
+-------------------------------
+switchesPaths:
+root.ibsw40.gcn97
+root.ibsw40.gcn98
+root.ibsw40.gcn99
+root.ibsw40.gcn100
+root.ibsw40.gcn101
+root.ibsw40.gcn102
+root.ibsw40.gcn103
+root.ibsw40.gcn104
+-------------------------------
+gcn97 ---> distance with node 0 (gcn97) = 0
+gcn98 ---> distance with node 0 (gcn97) = 1
+gcn99 ---> distance with node 0 (gcn97) = 1
+gcn100 ---> distance with node 0 (gcn97) = 1
+gcn101 ---> distance with node 0 (gcn97) = 1
+gcn102 ---> distance with node 0 (gcn97) = 1
+gcn103 ---> distance with node 0 (gcn97) = 1
+gcn104 ---> distance with node 0 (gcn97) = 1
+Max distance: 1
+-------------------------------
+
+-------------------------------
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 31, host_name = gcn104.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 15, host_name = gcn100.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 23, host_name = gcn102.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 7, host_name = gcn98.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 30, host_name = gcn104.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 22, host_name = gcn102.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 6, host_name = gcn98.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 16, host_name = gcn101.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 14, host_name = gcn100.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 0, host_name = gcn97.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 28, host_name = gcn104.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 12, host_name = gcn100.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 8, host_name = gcn99.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 24, host_name = gcn103.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 4, host_name = gcn98.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 20, host_name = gcn102.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 27, host_name = gcn103.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 19, host_name = gcn101.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 21, host_name = gcn102.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 3, host_name = gcn97.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 11, host_name = gcn99.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 29, host_name = gcn104.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 17, host_name = gcn101.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 13, host_name = gcn100.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 1, host_name = gcn97.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 18, host_name = gcn101.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 25, host_name = gcn103.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 2, host_name = gcn97.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 5, host_name = gcn98.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 9, host_name = gcn99.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 26, host_name = gcn103.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 32, myrank = 10, host_name = gcn99.local.snellius.surf.nl
+
+JOB STATISTICS
+==============
+Job ID: 7544680
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: CANCELLED (exit code 0)
+Nodes: 8
+Cores per node: 64
+CPU Utilized: 00:01:11
+CPU Efficiency: 0.77% of 02:33:36 core-walltime
+Job Wall-clock time: 00:00:18
+Memory Utilized: 1.16 GB (estimated maximum)
+Memory Efficiency: 0.02% of 5.62 TB (720.00 GB/node)

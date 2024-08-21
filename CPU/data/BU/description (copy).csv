@@ -1,0 +1,10 @@
+snellius,HPC,Same Rack,Day,../data/snellius/2024_02_29_00_50_17
+snellius,HPC,Different Racks,Day,../data/snellius/2024_02_29_11_16_43
+snellius_collectives,HPC,Collectives,../data/snellius/2024_03_12_10_10_21,
+snellius-long-genoa,HPC,Different Racks,Day,../data/snellius/2024_03_17_23_35_32
+snellius-short-genoa,HPC,Different Racks,Day,../data/snellius/2024_03_17_23_35_52
+snellius-long-genoa,HPC,Same Rack,Day,../data/snellius/2024_03_17_23_36_13
+snellius-short-genoa,HPC,Same Rack,Day,../data/snellius/2024_03_17_23_36_33
+snellius-long-rome,HPC,Same Rack,Day,../data/snellius/2024_03_17_23_39_06
+snellius-long-rome,HPC,Different Racks,Day,../data/snellius/2024_03_18_00_34_07
+

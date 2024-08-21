@@ -1,0 +1,98 @@
+Bootstrap: docker
+From: spack/rockylinux8:v0.20.0
+Stage: build
+
+%files
+    /home/gsavchenko/interconnect-benchmark-clean /opt
+
+%post
+  # Create the manifest file for the installation in /opt/spack-environment
+  mkdir /opt/spack-environment && cd /opt/spack-environment
+  cat << EOF > spack.yaml
+spack:
+  specs:
+  - gmake @4.3
+  # - openmpi@4.1.5 fabrics=ucx,ofi +pmi +legacylaunchers +orterunprefix +cuda cuda_arch=80
+  # - libfabric fabrics=sockets,tcp,udp,psm2,verbs,mlx
+  # - ucx +cuda cuda_arch=80 cm=true verbs=true rocm=true rc=true mlx5_dv=true
+  - openmpi@4.1.5 fabrics=ucx,ofi +pmi +legacylaunchers +orterunprefix +cuda cuda_arch=80
+  - libfabric fabrics=sockets,tcp,udp,psm2,verbs,mlx
+  - ucx
+  - slurm
+  - cuda@12.1.0
+  - nccl +cuda cuda_arch=80
+  - pmix
+  # - mpileaks
+  - gcc@12.3.0
+  - libc
+
+
+  concretizer:
+    unify: true
+  config:
+    install_tree: /opt/software
+  view: /opt/view
+EOF
+
+  # Install all the required software
+  . /opt/spack/share/spack/setup-env.sh
+  spack -e . concretize
+  spack -e . install
+  spack gc -y
+  spack env activate --sh -d . >> /opt/spack-environment/environment_modifications.sh
+  echo "Finished installing"
+  # # Strip the binaries to reduce the size of the image, excluding CUDA files
+  # find -L /opt/view/* -type f -exec readlink -f '{}' \; | \
+  #   grep -v 'cuda' | \
+  #   xargs file -i | \
+  #   grep 'charset=binary' | \
+  #   grep 'x-executable\|x-archive\|x-sharedlib' | \
+  #   awk -F: '{print $1}' | xargs strip
+
+
+  export PATH=/opt/view/bin:$PATH                                               
+  echo "Compiling the application..."
+  echo $PATH
+  echo "MPI IS LOCATED AT..."
+  echo $(which mpirun)
+  echo $(which mpicc)
+  echo "CUDA IS LOCATED AT..."
+  echo $(which nvcc)
+
+
+
+Bootstrap: docker
+From: docker.io/rockylinux:8
+Stage: final
+
+%files from build
+  /opt/spack-environment /opt
+  /opt/software /opt  
+  /opt/._view /opt
+  /opt/view /opt
+  /opt/spack-environment/environment_modifications.sh /opt/spack-environment/environment_modifications.sh
+  /opt/interconnect-benchmark-clean/ /opt/interconnect-benchmark-clean
+
+%post
+
+  # Symlink the old view location
+  ln -s /opt/view /opt/view
+
+  # Update, install and cleanup of system packages needed at run-time
+  dnf update -y && dnf install -y epel-release && dnf update -y
+  dnf install -y libgfortran
+  rm -rf /var/cache/dnf && dnf clean all
+  # Modify the environment without relying on sourcing shell specific files at startup
+  cat /opt/spack-environment/environment_modifications.sh >> $SINGULARITY_ENVIRONMENT
+
+  dnf config-manager --add-repo http://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo
+  dnf clean expire-cache
+  dnf install -y datacenter-gpu-manager
+  
+  cd /opt/interconnect-benchmark-clean && make -f Makefile.SNELLIUS|| echo "Makefile.SNELLIUS execution failed"
+  cd /opt/interconnect-benchmark-clean && make -f Makefile.SNELLIUS-POWER || echo "Makefile.SNELLIUS-POWER execution failed"
+
+
+%labels
+  app spack_with_ucx
+  mpi openmpi

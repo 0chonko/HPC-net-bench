@@ -1,0 +1,265 @@
+-------- Topology Info --------
+Nnodes = 1
+0: Node: 0 ---> root.ibsw42.gcn142
+-------------------------------
+switchesPaths:
+root.ibsw42.gcn142
+-------------------------------
+gcn142 ---> distance with node 0 (gcn142) = 0
+Max distance: 0
+-------------------------------
+
+-------------------------------
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 4, myrank = 0, host_name = gcn142.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 4, myrank = 1, host_name = gcn142.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 4, myrank = 2, host_name = gcn142.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 4, myrank = 3, host_name = gcn142.local.snellius.surf.nl
+Assigning device 0 to process on node gcn142.local.snellius.surf.nl rank 0
+Flag profiler was set with argument: 2
+buff_cycle: 30 loop_count: 80 max_j: 30
+Assigning device 1 to process on node gcn142.local.snellius.surf.nl rank 1
+Assigning device 2 to process on node gcn142.local.snellius.surf.nl rank 2
+Assigning device 3 to process on node gcn142.local.snellius.surf.nl rank 3
+0#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+1#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+2#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 2: Getting stats
+3#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+4#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 3: Getting stats
+5#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+6#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+7#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+8#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+9#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+10#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 2: Getting stats
+11#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 2: Getting stats
+12#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 2: Getting stats
+13#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 3: Getting stats
+14#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+15#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+16#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+17#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 3: Getting stats
+18#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 1: Getting stats
+19#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 1: Getting stats
+Rank 1: Getting stats
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+Rank 2: Getting stats
+Rank 2: Getting stats
+DCGM class created
+Rank 3: Getting stats
+Rank 3: Getting stats
+Rank 3: Getting stats
+20#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+21#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 3: Getting stats
+DCGM class created
+Rank 1: Getting stats
+DCGM class created
+Rank 2: Getting stats
+22#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+DCGM class created
+Rank 2: Getting stats
+DCGM class created
+Rank 1: Getting stats
+Rank 1: Getting stats
+DCGM class created
+Rank 3: Getting stats
+23#DCGM class created
+Rank 0: Getting stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Rank 0: Getting stats
+
+JOB STATISTICS
+==============
+Job ID: 7568095
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: FAILED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:15:44
+CPU Efficiency: 3.86% of 06:47:28 core-walltime
+Job Wall-clock time: 00:06:22
+Memory Utilized: 7.99 GB (estimated maximum)
+Memory Efficiency: 1.11% of 720.00 GB (720.00 GB/node)

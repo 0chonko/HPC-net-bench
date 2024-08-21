@@ -1,0 +1,73 @@
+-------- Topology Info --------
+Nnodes = 2
+4: Node: 1 ---> root.ibsw40.gcn98
+0: Node: 0 ---> root.ibsw40.gcn97
+-------------------------------
+switchesPaths:
+root.ibsw40.gcn97
+root.ibsw40.gcn98
+-------------------------------
+gcn97 ---> distance with node 0 (gcn97) = 0
+gcn98 ---> distance with node 0 (gcn97) = 1
+Max distance: 1
+-------------------------------
+
+-------------------------------
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Assigning device 0 to process on node gcn97.local.snellius.surf.nl rank 0
+Process 0 took part to the ppComm.
+Process 0 took part to the firstsenderComm.
+Flag profiler was set with argument: 1
+buff_cycle: 30 loop_count: 80 max_j: 30
+Assigning device 3 to process on node gcn98.local.snellius.surf.nl rank 7
+Process 7 took part to the ppComm.
+Process 7 did not take part to the firstsenderComm.
+0#Starting profiler thread:  1
+NVML class created
+Starting experiment
+Assigning device 1 to process on node gcn97.local.snellius.surf.nl rank 1
+Process 1 did not take part to the ppComm.
+Process 1 did not take part to the firstsenderComm.
+Assigning device 2 to process on node gcn97.local.snellius.surf.nl rank 2
+Process 2 did not take part to the ppComm.
+Process 2 did not take part to the firstsenderComm.
+Assigning device 3 to process on node gcn97.local.snellius.surf.nl rank 3
+Process 3 did not take part to the ppComm.
+Process 3 did not take part to the firstsenderComm.
+
+JOB STATISTICS
+==============
+Job ID: 7544699
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: FAILED (exit code 143)
+Nodes: 2
+Cores per node: 64
+CPU Utilized: 00:00:45
+CPU Efficiency: 1.17% of 01:04:00 core-walltime
+Job Wall-clock time: 00:00:30
+Memory Utilized: 1.37 GB (estimated maximum)
+Memory Efficiency: 0.09% of 1.41 TB (720.00 GB/node)

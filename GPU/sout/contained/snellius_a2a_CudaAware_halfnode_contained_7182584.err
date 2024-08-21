@@ -1,0 +1,20 @@
+cat: tmp_1_7182584.txt: No such file or directory
+rm: cannot remove 'tmp_1_7182584.txt': No such file or directory
+WARNING: passwd file doesn't exist in container, not updating
+WARNING: group file doesn't exist in container, not updating
+WARNING: passwd file doesn't exist in container, not updating
+WARNING: passwd file doesn't exist in container, not updating
+WARNING: group file doesn't exist in container, not updating
+WARNING: group file doesn't exist in container, not updating
+WARNING: passwd file doesn't exist in container, not updating
+WARNING: group file doesn't exist in container, not updating
+WARNING: Skipping mount /var/tmp [tmp]: /var/tmp doesn't exist in container
+WARNING: Skipping mount /var/tmp [tmp]: /var/tmp doesn't exist in container
+WARNING: Skipping mount /var/tmp [tmp]: /var/tmp doesn't exist in container
+WARNING: Skipping mount /var/tmp [tmp]: /var/tmp doesn't exist in container
+FATAL:   "env": executable file not found in $PATH
+FATAL:   "env": executable file not found in $PATH
+FATAL:   "env": executable file not found in $PATH
+FATAL:   "env": executable file not found in $PATH
+srun: error: gcn65: tasks 0-3: Exited with exit code 255
+srun: Terminating StepId=7182584.1

@@ -1,0 +1,23 @@
+-------- Topology Info --------
+Nnodes = 1
+-------------------------------
+switchesPaths:
+-------------------------------
+Max distance: 0
+-------------------------------
+
+-------------------------------
+
+JOB STATISTICS
+==============
+Job ID: 7568099
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 02:48:32 core-walltime
+Job Wall-clock time: 00:02:38
+Memory Utilized: 8.74 MB (estimated maximum)
+Memory Efficiency: 0.00% of 720.00 GB (720.00 GB/node)

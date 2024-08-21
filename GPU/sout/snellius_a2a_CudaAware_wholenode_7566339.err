@@ -1,0 +1,152 @@
+cat: tmp_2_7566339.txt: No such file or directory
+rm: cannot remove 'tmp_2_7566339.txt': No such file or directory
+[gcn124:1288822:0:1288822] ib_mlx5_log.c:171  Remote OP on mlx5_5:1/IB (synd 0x14 vend 0x89 hw_synd 0/0)
+[gcn124:1288822:0:1288822] ib_mlx5_log.c:171  RC QP 0x21f3 wqe[444]: RDMA_READ s-- [rva 0x1464b7a00000 rkey 0x1b9fb] [va 0x14778b400000 len 1048576 lkey 0x46df3] [rqpn 0x154e dlid=2488 sl=1 port=1 src_path_bits=0]
+[gcn124:1288820:0:1288820] ib_mlx5_log.c:171  Remote OP on mlx5_2:1/IB (synd 0x14 vend 0x89 hw_synd 0/0)
+[gcn124:1288820:0:1288820] ib_mlx5_log.c:171  RC QP 0x2237 wqe[3499]: RDMA_READ s-- [rva 0x1464b7700000 rkey 0x19e15] [va 0x14b5fd500000 len 1048576 lkey 0x46557] [rqpn 0x155b dlid=2489 sl=1 port=1 src_path_bits=0]
+[gcn124:1288821:0:1288821] ib_mlx5_log.c:171  Remote OP on mlx5_3:1/IB (synd 0x14 vend 0x89 hw_synd 0/0)
+[gcn124:1288821:0:1288821] ib_mlx5_log.c:171  RC QP 0x2b82 wqe[444]: RDMA_READ s-- [rva 0x1464b7800000 rkey 0x1b9fb] [va 0x154caf400000 len 1048576 lkey 0x3feb2] [rqpn 0x154d dlid=2488 sl=1 port=1 src_path_bits=0]
+==== backtrace (tid:1288822) ====
+ 0 0x00000000000280ad uct_ib_mlx5_completion_with_err()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5_log.c:171
+ 1 0x000000000003f5cc uct_rc_mlx5_iface_handle_failure()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:297
+ 2 0x000000000003f5cc uct_rc_iface_arbiter_dispatch()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/base/rc_iface.h:452
+ 3 0x000000000003f5cc uct_rc_mlx5_iface_handle_failure()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:300
+ 4 0x0000000000029045 uct_ib_mlx5_check_completion()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5.c:470
+ 5 0x00000000000417f7 uct_ib_mlx5_poll_cq()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5.inl:146
+ 6 0x00000000000417f7 uct_rc_mlx5_iface_poll_tx()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:150
+ 7 0x00000000000417f7 uct_rc_mlx5_iface_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:190
+ 8 0x00000000000417f7 uct_rc_mlx5_iface_progress_cyclic()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:195
+ 9 0x000000000004982a ucs_callbackq_dispatch()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/ucs/datastruct/callbackq.h:211
+10 0x000000000004982a uct_worker_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/api/uct.h:2768
+11 0x000000000004982a ucp_worker_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/ucp/core/ucp_worker.c:2814
+12 0x0000000000033353 opal_progress()  ???:0
+13 0x0000000000055745 ompi_request_default_wait_all()  ???:0
+14 0x00000000000bc44a ompi_coll_base_alltoall_intra_basic_linear()  ???:0
+15 0x0000000000006bd1 ompi_coll_tuned_alltoall_intra_dec_fixed()  ???:0
+16 0x000000000006f87f MPI_Alltoall()  ???:0
+17 0x0000000000406132 main()  /home/gsavchenko/interconnect-benchmark/src/energy_metrics/a2a_CudaAware.cu:285
+18 0x000000000003ad85 __libc_start_main()  ???:0
+19 0x00000000004048fe _start()  ???:0
+=================================
+[gcn124:1288822] *** Process received signal ***
+[gcn124:1288822] Signal: Aborted (6)
+[gcn124:1288822] Signal code:  (-6)
+[gcn124:1288822] [ 0] /lib64/libpthread.so.0(+0x12cf0)[0x147a4f30dcf0]
+[gcn124:1288822] [ 1] /lib64/libc.so.6(gsignal+0x10f)[0x147a4e9feacf]
+[gcn124:1288822] [ 2] /lib64/libc.so.6(abort+0x127)[0x147a4e9d1ea5]
+[gcn124:1288822] [ 3] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(+0x2d90f)[0x147a4ce2390f]
+[gcn124:1288822] [ 4] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(+0x32d02)[0x147a4ce28d02]
+[gcn124:1288822] [ 5] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(ucs_log_dispatch+0xdd)[0x147a4ce290bd]
+[gcn124:1288822] [ 6] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(uct_ib_mlx5_completion_with_err+0x47d)[0x147a4c90e0ad]
+[gcn124:1288822] [ 7] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(+0x3f5cc)[0x147a4c9255cc]
+[gcn124:1288822] [ 8] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(uct_ib_mlx5_check_completion+0x35)[0x147a4c90f045]
+[gcn124:1288822] [ 9] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(+0x417f7)[0x147a4c9277f7]
+[gcn124:1288822] [10] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucp.so.0(ucp_worker_progress+0x5a)[0x147a4cee082a]
+[gcn124:1288822] [11] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libopen-pal.so.40(opal_progress+0x33)[0x147a4e865353]
+[gcn124:1288822] [12] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(ompi_request_default_wait_all+0xf5)[0x147a5299b745]
+[gcn124:1288822] [13] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_basic_linear+0x32a)[0x147a52a0244a]
+[gcn124:1288822] [14] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x81)[0x147a44494bd1]
+[gcn124:1288822] [15] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(MPI_Alltoall+0x15f)[0x147a529b587f]
+[gcn124:1288822] [16] src/energy_binary/a2a_CudaAware[0x406132]
+[gcn124:1288822] [17] /lib64/libc.so.6(__libc_start_main+0xe5)[0x147a4e9ead85]
+[gcn124:1288822] [18] src/energy_binary/a2a_CudaAware[0x4048fe]
+[gcn124:1288822] *** End of error message ***
+==== backtrace (tid:1288821) ====
+ 0 0x00000000000280ad uct_ib_mlx5_completion_with_err()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5_log.c:171
+ 1 0x000000000003f5cc uct_rc_mlx5_iface_handle_failure()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:297
+ 2 0x000000000003f5cc uct_rc_iface_arbiter_dispatch()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/base/rc_iface.h:452
+ 3 0x000000000003f5cc uct_rc_mlx5_iface_handle_failure()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:300
+ 4 0x0000000000029045 uct_ib_mlx5_check_completion()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5.c:470
+ 5 0x00000000000417f7 uct_ib_mlx5_poll_cq()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5.inl:146
+ 6 0x00000000000417f7 uct_rc_mlx5_iface_poll_tx()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:150
+ 7 0x00000000000417f7 uct_rc_mlx5_iface_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:190
+ 8 0x00000000000417f7 uct_rc_mlx5_iface_progress_cyclic()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:195
+ 9 0x000000000004982a ucs_callbackq_dispatch()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/ucs/datastruct/callbackq.h:211
+10 0x000000000004982a uct_worker_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/api/uct.h:2768
+11 0x000000000004982a ucp_worker_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/ucp/core/ucp_worker.c:2814
+12 0x0000000000033353 opal_progress()  ???:0
+13 0x0000000000055745 ompi_request_default_wait_all()  ???:0
+14 0x00000000000bc44a ompi_coll_base_alltoall_intra_basic_linear()  ???:0
+15 0x0000000000006bd1 ompi_coll_tuned_alltoall_intra_dec_fixed()  ???:0
+16 0x000000000006f87f MPI_Alltoall()  ???:0
+17 0x0000000000406132 main()  /home/gsavchenko/interconnect-benchmark/src/energy_metrics/a2a_CudaAware.cu:285
+18 0x000000000003ad85 __libc_start_main()  ???:0
+19 0x00000000004048fe _start()  ???:0
+=================================
+==== backtrace (tid:1288820) ====
+ 0 0x00000000000280ad uct_ib_mlx5_completion_with_err()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5_log.c:171
+ 1 0x000000000003f5cc uct_rc_mlx5_iface_handle_failure()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:297
+ 2 0x000000000003f5cc uct_rc_iface_arbiter_dispatch()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/base/rc_iface.h:452
+ 3 0x000000000003f5cc uct_rc_mlx5_iface_handle_failure()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:300
+ 4 0x0000000000029045 uct_ib_mlx5_check_completion()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5.c:470
+ 5 0x00000000000417f7 uct_ib_mlx5_poll_cq()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/mlx5/ib_mlx5.inl:146
+ 6 0x00000000000417f7 uct_rc_mlx5_iface_poll_tx()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:150
+ 7 0x00000000000417f7 uct_rc_mlx5_iface_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:190
+ 8 0x00000000000417f7 uct_rc_mlx5_iface_progress_cyclic()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/ib/rc/accel/rc_mlx5_iface.c:195
+ 9 0x000000000004982a ucs_callbackq_dispatch()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/ucs/datastruct/callbackq.h:211
+10 0x000000000004982a uct_worker_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/uct/api/uct.h:2768
+11 0x000000000004982a ucp_worker_progress()  /tmp/jenkins/build/UCX/1.14.1/GCCcore-12.3.0/ucx-1.14.1/src/ucp/core/ucp_worker.c:2814
+12 0x0000000000033353 opal_progress()  ???:0
+13 0x0000000000055745 ompi_request_default_wait_all()  ???:0
+14 0x00000000000bc44a ompi_coll_base_alltoall_intra_basic_linear()  ???:0
+15 0x0000000000006bd1 ompi_coll_tuned_alltoall_intra_dec_fixed()  ???:0
+16 0x000000000006f87f MPI_Alltoall()  ???:0
+17 0x0000000000406132 main()  /home/gsavchenko/interconnect-benchmark/src/energy_metrics/a2a_CudaAware.cu:285
+18 0x000000000003ad85 __libc_start_main()  ???:0
+19 0x00000000004048fe _start()  ???:0
+=================================
+[gcn124:1288821] *** Process received signal ***
+[gcn124:1288821] Signal: Aborted (6)
+[gcn124:1288821] Signal code:  (-6)
+[gcn124:1288820] *** Process received signal ***
+[gcn124:1288820] Signal: Aborted (6)
+[gcn124:1288820] Signal code:  (-6)
+[gcn124:1288820] [ 0] /lib64/libpthread.so.0(+0x12cf0)[0x14b8ca0d6cf0]
+[gcn124:1288821] [ 0] /lib64/libpthread.so.0(+0x12cf0)[0x154f73964cf0]
+[gcn124:1288820] [ 1] /lib64/libc.so.6(gsignal+0x10f)[0x14b8c97c7acf]
+[gcn124:1288821] [ 1] /lib64/libc.so.6(gsignal+0x10f)[0x154f73055acf]
+[gcn124:1288821] [ 2] /lib64/libc.so.6(abort+0x127)[0x154f73028ea5]
+[gcn124:1288820] [ 2] /lib64/libc.so.6(abort+0x127)[0x14b8c979aea5]
+[gcn124:1288821] [ 3] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(+0x2d90f)[0x154f7147590f]
+[gcn124:1288820] [ 3] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(+0x2d90f)[0x14b8c3bc890f]
+[gcn124:1288821] [ 4] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(+0x32d02)[0x154f7147ad02]
+[gcn124:1288821] [ 5] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(ucs_log_dispatch+0xdd)[0x154f7147b0bd]
+[gcn124:1288820] [ 4] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(+0x32d02)[0x14b8c3bcdd02]
+[gcn124:1288820] [ 5] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucs.so.0(ucs_log_dispatch+0xdd)[0x14b8c3bce0bd]
+[gcn124:1288821] [ 6] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(uct_ib_mlx5_completion_with_err+0x47d)[0x154f70f5a0ad]
+[gcn124:1288821] [ 7] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(+0x3f5cc)[0x154f70f715cc]
+[gcn124:1288821] [ 8] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(uct_ib_mlx5_check_completion+0x35)[0x154f70f5b045]
+[gcn124:1288820] [ 6] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(uct_ib_mlx5_completion_with_err+0x47d)[0x14b8c36d70ad]
+[gcn124:1288820] [ 7] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(+0x3f5cc)[0x14b8c36ee5cc]
+[gcn124:1288820] [ 8] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(uct_ib_mlx5_check_completion+0x35)[0x14b8c36d8045]
+[gcn124:1288821] [ 9] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(+0x417f7)[0x154f70f737f7]
+[gcn124:1288821] [10] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucp.so.0(ucp_worker_progress+0x5a)[0x154f7153282a]
+[gcn124:1288820] [ 9] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/ucx/libuct_ib.so.0(+0x417f7)[0x14b8c36f07f7]
+[gcn124:1288820] [10] /sw/arch/RHEL8/EB_production/2023/software/UCX/1.14.1-GCCcore-12.3.0/lib64/libucp.so.0(ucp_worker_progress+0x5a)[0x14b8c80aa82a]
+[gcn124:1288821] [11] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libopen-pal.so.40(opal_progress+0x33)[0x154f72ebc353]
+[gcn124:1288820] [11] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libopen-pal.so.40(opal_progress+0x33)[0x14b8c962e353]
+[gcn124:1288820] [12] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(ompi_request_default_wait_all+0xf5)[0x14b8cd764745]
+[gcn124:1288821] [12] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(ompi_request_default_wait_all+0xf5)[0x154f76fec745]
+[gcn124:1288821] [13] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_basic_linear+0x32a)[0x154f7705344a]
+[gcn124:1288821] [14] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x81)[0x154d5bac8bd1]
+[gcn124:1288820] [13] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_basic_linear+0x32a)[0x14b8cd7cb44a]
+[gcn124:1288820] [14] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x81)[0x14b8c0282bd1]
+[gcn124:1288821] [15] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(MPI_Alltoall+0x15f)[0x154f7700687f]
+[gcn124:1288821] [16] src/energy_binary/a2a_CudaAware[0x406132]
+[gcn124:1288820] [15] /sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0/lib/libmpi.so.40(MPI_Alltoall+0x15f)[0x14b8cd77e87f]
+[gcn124:1288820] [16] src/energy_binary/a2a_CudaAware[0x406132]
+[gcn124:1288821] [17] /lib64/libc.so.6(__libc_start_main+0xe5)[0x154f73041d85]
+[gcn124:1288821] [18] src/energy_binary/a2a_CudaAware[0x4048fe]
+[gcn124:1288821] *** End of error message ***
+[gcn124:1288820] [17] /lib64/libc.so.6(__libc_start_main+0xe5)[0x14b8c97b3d85]
+[gcn124:1288820] [18] src/energy_binary/a2a_CudaAware[0x4048fe]
+[gcn124:1288820] *** End of error message ***
+srun: error: gcn124: tasks 0,2: Aborted
+srun: Terminating StepId=7566339.1
+slurmstepd: error: *** STEP 7566339.1 ON gcn124 CANCELLED AT 2024-08-19T21:14:06 ***
+srun: error: gcn124: task 1: Aborted
+srun: error: gcn124: task 3: Terminated
+srun: error: gcn125: tasks 6-7: Terminated
+srun: error: gcn125: task 4: Terminated
+srun: error: gcn125: task 5: Terminated
+srun: Force Terminated StepId=7566339.1

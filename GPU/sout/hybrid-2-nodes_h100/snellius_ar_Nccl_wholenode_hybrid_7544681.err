@@ -1,0 +1,37 @@
+cat: tmp_8_7544681.txt: No such file or directory
+rm: cannot remove 'tmp_8_7544681.txt': No such file or directory
+[gcn109.local.snellius.surf.nl:740959] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn112.local.snellius.surf.nl:1290066] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn111.local.snellius.surf.nl:2727036] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn110.local.snellius.surf.nl:2390321] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn109.local.snellius.surf.nl:740996] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn109.local.snellius.surf.nl:741018] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn109.local.snellius.surf.nl:741017] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn112.local.snellius.surf.nl:1290067] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn112.local.snellius.surf.nl:1290059] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn112.local.snellius.surf.nl:1290039] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn111.local.snellius.surf.nl:2726995] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn111.local.snellius.surf.nl:2727035] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn111.local.snellius.surf.nl:2727015] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn110.local.snellius.surf.nl:2390301] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn110.local.snellius.surf.nl:2390327] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn110.local.snellius.surf.nl:2390326] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn106.local.snellius.surf.nl:2869026] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn105.local.snellius.surf.nl:2306043] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn107.local.snellius.surf.nl:1806309] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn108.local.snellius.surf.nl:1263067] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn106.local.snellius.surf.nl:2869025] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn106.local.snellius.surf.nl:2869021] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn106.local.snellius.surf.nl:2869020] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn105.local.snellius.surf.nl:2306012] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn105.local.snellius.surf.nl:2306037] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn105.local.snellius.surf.nl:2306045] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn107.local.snellius.surf.nl:1806302] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn107.local.snellius.surf.nl:1806306] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn107.local.snellius.surf.nl:1806293] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn108.local.snellius.surf.nl:1263070] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn108.local.snellius.surf.nl:1263054] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn108.local.snellius.surf.nl:1263014] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 7544681 ON gcn105 CANCELLED AT 2024-08-18T09:49:51 ***
+slurmstepd: error: *** STEP 7544681.1 ON gcn105 CANCELLED AT 2024-08-18T09:49:51 ***

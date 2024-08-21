@@ -1,0 +1,121 @@
+/var/spool/slurm/slurmd/job7332256/slurm_script: line 19: hybrid-config.sh: No such file or directory
+cat: tmp_2_7332256.txt: No such file or directory
+rm: cannot remove 'tmp_2_7332256.txt': No such file or directory
+[gcn50.local.snellius.surf.nl:3237674] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn50.local.snellius.surf.nl:3237673] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn51.local.snellius.surf.nl:1283368] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn51.local.snellius.surf.nl:1283366] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn51.local.snellius.surf.nl:1283352] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn51.local.snellius.surf.nl:1283351] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn50.local.snellius.surf.nl:3237793] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn50.local.snellius.surf.nl:3237783] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn51
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn51
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn51
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn51
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn50
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn50
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn50
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn50
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn50
+  PID:        3237783
+  Message:    connect() to 172.18.62.51:1024 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn50
+  PID:        3237793
+  Message:    connect() to 172.18.62.51:1024 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gcn50
+  PID:        3237673
+  Message:    connect() to 172.18.62.51:1024 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 7332256 ON gcn50 CANCELLED AT 2024-08-05T02:21:23 ***
+slurmstepd: error: *** STEP 7332256.1 ON gcn50 CANCELLED AT 2024-08-05T02:21:23 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/7332256/.ns: Invalid argument
+slurmstepd: error: container_g_join(7332256): Invalid argument

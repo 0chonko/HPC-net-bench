@@ -1,0 +1,79 @@
+-------- Topology Info --------
+Nnodes = 8
+ 0: Node: 0 ---> root.ibsw40.gcn105
+16: Node: 4 ---> root.ibsw40.gcn109
+28: Node: 7 ---> root.ibsw40.gcn112
+20: Node: 5 ---> root.ibsw40.gcn110
+ 4: Node: 1 ---> root.ibsw40.gcn106
+24: Node: 6 ---> root.ibsw40.gcn111
+ 8: Node: 2 ---> root.ibsw40.gcn107
+12: Node: 3 ---> root.ibsw40.gcn108
+-------------------------------
+switchesPaths:
+root.ibsw40.gcn105
+root.ibsw40.gcn106
+root.ibsw40.gcn107
+root.ibsw40.gcn108
+root.ibsw40.gcn109
+root.ibsw40.gcn110
+root.ibsw40.gcn111
+root.ibsw40.gcn112
+-------------------------------
+gcn105 ---> distance with node 0 (gcn105) = 0
+gcn106 ---> distance with node 0 (gcn105) = 1
+gcn107 ---> distance with node 0 (gcn105) = 1
+gcn108 ---> distance with node 0 (gcn105) = 1
+gcn109 ---> distance with node 0 (gcn105) = 1
+gcn110 ---> distance with node 0 (gcn105) = 1
+gcn111 ---> distance with node 0 (gcn105) = 1
+gcn112 ---> distance with node 0 (gcn105) = 1
+Max distance: 1
+-------------------------------
+
+-------------------------------
+Size = 32, myrank = 26, host_name = gcn111.local.snellius.surf.nl
+Size = 32, myrank = 10, host_name = gcn107.local.snellius.surf.nl
+Size = 32, myrank = 16, host_name = gcn109.local.snellius.surf.nl
+Size = 32, myrank = 2, host_name = gcn105.local.snellius.surf.nl
+Size = 32, myrank = 0, host_name = gcn105.local.snellius.surf.nl
+Size = 32, myrank = 8, host_name = gcn107.local.snellius.surf.nl
+Size = 32, myrank = 1, host_name = gcn105.local.snellius.surf.nl
+Size = 32, myrank = 6, host_name = gcn106.local.snellius.surf.nl
+Size = 32, myrank = 11, host_name = gcn107.local.snellius.surf.nl
+Size = 32, myrank = 14, host_name = gcn108.local.snellius.surf.nl
+Size = 32, myrank = 18, host_name = gcn109.local.snellius.surf.nl
+Size = 32, myrank = 3, host_name = gcn105.local.snellius.surf.nl
+Size = 32, myrank = 9, host_name = gcn107.local.snellius.surf.nl
+Size = 32, myrank = 24, host_name = gcn111.local.snellius.surf.nl
+Size = 32, myrank = 17, host_name = gcn109.local.snellius.surf.nl
+Size = 32, myrank = 30, host_name = gcn112.local.snellius.surf.nl
+Size = 32, myrank = 27, host_name = gcn111.local.snellius.surf.nl
+Size = 32, myrank = 19, host_name = gcn109.local.snellius.surf.nl
+Size = 32, myrank = 25, host_name = gcn111.local.snellius.surf.nl
+Size = 32, myrank = 20, host_name = gcn110.local.snellius.surf.nl
+Size = 32, myrank = 12, host_name = gcn108.local.snellius.surf.nl
+Size = 32, myrank = 4, host_name = gcn106.local.snellius.surf.nl
+Size = 32, myrank = 15, host_name = gcn108.local.snellius.surf.nl
+Size = 32, myrank = 5, host_name = gcn106.local.snellius.surf.nl
+Size = 32, myrank = 13, host_name = gcn108.local.snellius.surf.nl
+Size = 32, myrank = 7, host_name = gcn106.local.snellius.surf.nl
+Size = 32, myrank = 28, host_name = gcn112.local.snellius.surf.nl
+Size = 32, myrank = 29, host_name = gcn112.local.snellius.surf.nl
+Size = 32, myrank = 22, host_name = gcn110.local.snellius.surf.nl
+Size = 32, myrank = 31, host_name = gcn112.local.snellius.surf.nl
+Size = 32, myrank = 21, host_name = gcn110.local.snellius.surf.nl
+Size = 32, myrank = 23, host_name = gcn110.local.snellius.surf.nl
+
+JOB STATISTICS
+==============
+Job ID: 7544681
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: CANCELLED (exit code 0)
+Nodes: 8
+Cores per node: 64
+CPU Utilized: 00:00:54
+CPU Efficiency: 0.59% of 02:33:36 core-walltime
+Job Wall-clock time: 00:00:18
+Memory Utilized: 1.19 GB (estimated maximum)
+Memory Efficiency: 0.02% of 5.62 TB (720.00 GB/node)

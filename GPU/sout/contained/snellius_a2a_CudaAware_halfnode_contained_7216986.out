@@ -1,0 +1,26 @@
+-------- Topology Info --------
+Nnodes = 1
+0: Node: 0 ---> root.ibsw1.gcn48
+-------------------------------
+switchesPaths:
+root.ibsw1.gcn48
+-------------------------------
+gcn48 ---> distance with node 0 (gcn48) = 0
+Max distance: 0
+-------------------------------
+
+-------------------------------
+
+JOB STATISTICS
+==============
+Job ID: 7216986
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: FAILED (exit code 255)
+Nodes: 1
+Cores per node: 72
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.10% of 00:16:48 core-walltime
+Job Wall-clock time: 00:00:14
+Memory Utilized: 1.47 MB
+Memory Efficiency: 0.00% of 480.00 GB

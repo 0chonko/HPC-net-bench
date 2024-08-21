@@ -1,0 +1,12 @@
+3: slurmstepd: error: execve(): bash: No such file or directory
+1: slurmstepd: error: execve(): bash: No such file or directory
+0: slurmstepd: error: execve(): bash: No such file or directory
+2: slurmstepd: error: execve(): bash: No such file or directory
+srun: error: gcn146: tasks 0-3: Exited with exit code 2
+srun: Terminating StepId=7568099.0
+cat: tmp_0_7568099.txt: No such file or directory
+rm: cannot remove 'tmp_0_7568099.txt': No such file or directory
+cat: tmp_1_7568099.txt: No such file or directory
+rm: cannot remove 'tmp_1_7568099.txt': No such file or directory
+/var/spool/slurm/slurmd/job7568099/slurm_script: line 46: zeroPath: bad array subscript
+/var/spool/slurm/slurmd/job7568099/slurm_script: line 80: cd: HOME not set

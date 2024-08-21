@@ -1,0 +1,28 @@
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_05_24_00_48_55/ng_one_one_mpi_bidirect.out.tmp -m mpi -x one_one_mpi_bidirect )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+1 bytes 	 -> 1.64 us 	 == 4.77 Mbit/s
+2 bytes 	 -> 1.63 us 	 == 9.56 Mbit/s
+4 bytes 	 -> 1.64 us 	 == 18.96 Mbit/s
+8 bytes 	 -> 1.65 us 	 == 37.91 Mbit/s
+16 bytes 	 -> 1.70 us 	 == 73.43 Mbit/s
+32 bytes 	 -> 1.76 us 	 == 132.74 Mbit/s
+64 bytes 	 -> 1.85 us 	 == 264.79 Mbit/s
+128 bytes 	 -> 1.90 us 	 == 516.21 Mbit/s
+256 bytes 	 -> 2.26 us 	 == 877.33 Mbit/s
+512 bytes 	 -> 2.37 us 	 == 1672.14 Mbit/s
+1024 bytes 	 -> 2.59 us 	 == 2984.22 Mbit/s
+2048 bytes 	 -> 3.14 us 	 == 4985.83 Mbit/s
+4096 bytes 	 -> 3.98 us 	 == 7834.02 Mbit/s
+8192 bytes 	 -> 4.94 us 	 == 12555.48 Mbit/s
+16384 bytes 	 -> 6.58 us 	 == 19183.01 Mbit/s
+32768 bytes 	 -> 9.13 us 	 == 26618.14 Mbit/s
+65536 bytes 	 -> 13.90 us 	 == 35880.19 Mbit/s
+131072 bytes 	 -> 25.66 us 	 == 37042.12 Mbit/s
+262144 bytes 	 -> 32.09 us 	 == 60744.35 Mbit/s
+524288 bytes 	 -> 53.32 us 	 == 75168.34 Mbit/s
+1048576 bytes 	 -> 95.82 us 	 == 85169.37 Mbit/s
+2097152 bytes 	 -> 181.30 us 	 == 91480.71 Mbit/s
+4194304 bytes 	 -> 350.82 us 	 == 95047.83 Mbit/s
+8388608 bytes 	 -> 690.95 us 	 == 96804.69 Mbit/s
+16777216 bytes 	 -> 1370.65 us 	 == 97713.41 Mbit/s

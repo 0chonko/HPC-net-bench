@@ -1,0 +1,16 @@
+snellius-short-rome,HPC,Same Rack,Day,../data/native/2024_02_29_00_50_17
+snellius-short-rome,HPC,Different Racks,Day,../data/native/2024_02_29_11_16_43
+snellius-short-genoa,HPC,Same Rack,Day,../data/native/2024_03_19_14_49_56
+snellius-short-genoa,HPC,Different Racks,Day,../data/native/2024_03_17_23_35_52
+
+snellius-short-rome-hybrid,HPC,Same Rack,Day,../data/hybrid/2024_05_24_00_48_55
+snellius-short-rome-hybrid,HPC,Different Racks,Day,../data/hybrid/2024_05_27_01_28_12
+snellius-short-genoa-hybrid,HPC,Same Rack,Day,../data/hybrid/2024_05_24_00_48_34
+snellius-short-genoa-hybrid,HPC,Different Racks,Day,../data/hybrid/2024_05_24_09_15_48
+
+snellius-short-rome-contained,HPC,Same Rack,Day,../data/contained/2024_07_25_14_28_48
+snellius-short-rome-contained,HPC,Different Racks,Day,../data/contained/2024_07_28_13_28_29
+snellius-short-genoa-contained,HPC,Same Rack,Day,../data/contained/2024_07_25_14_28_33
+snellius-short-genoa-contained,HPC,Different Racks,Day,../data/contained/2024_07_25_14_28_47
+
+snellius-short-rome-cloud,HPC,Same Rack,Day,../data/cloud/2024_06_19_17_40_11

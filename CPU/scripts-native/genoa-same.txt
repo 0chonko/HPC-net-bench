@@ -1,0 +1,136 @@
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+Writing to ../data/snellius/2024_07_28_15_12_28
+Running netgauge OS noise test for 120 seconds ... [Done][127 seconds]
+Running netgauge network noise MPI test for 60 seconds ... [Done][61 seconds]
+Checking MPI_Wtime resolution ... [Done][2 seconds]
+Running netgauge LogGP test ... [Done][12 seconds]
+Running netgauge one_one MPI test with striping=1 ... [Done][5 seconds]
+Running netgauge one_one MPI test with 2 concurrent connections ... [Done][6 seconds]
+Running netgauge one_one MPI test with striping=2 ... [Done][6 seconds]
+Running netgauge one_one MPI test with 4 concurrent connections ... [Done][6 seconds]
+Running netgauge one_one MPI test with striping=4 ... [Done][6 seconds]
+Running netgauge one_one MPI test with 8 concurrent connections ... [Done][6 seconds]
+Running netgauge one_one MPI test with striping=8 ... [Done][5 seconds]
+Running netgauge one_one MPI test with 16 concurrent connections ... [Done][7 seconds]
+Running netgauge one_one MPI test with striping=16 ... [Done][6 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=1 ... [Done][6 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 2 concurrent connections ... [Done][6 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=2 ... [Done][7 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 4 concurrent connections ... [Done][6 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=4 ... [Done][6 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 8 concurrent connections ... [Done][6 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=8 ... [Done][6 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 16 concurrent connections ... [Done][7 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=16 ... [Done][7 seconds]
+Running hoverboard test ...[1722172661.419018] [tcn889:1719607:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172661.424879] [tcn890:2331246:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172661.541182] [tcn890:2331246:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172661.542917] [tcn889:1719607:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172692.908463] [tcn890:2331382:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172692.924095] [tcn889:1719745:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172693.044281] [tcn890:2331382:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172693.058931] [tcn889:1719745:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172709.325565] [tcn890:2331423:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172709.334983] [tcn889:1719796:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172709.455971] [tcn890:2331423:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172709.470271] [tcn889:1719796:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172725.938121] [tcn890:2331611:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172725.949439] [tcn889:1719850:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172726.069760] [tcn890:2331611:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172726.084575] [tcn889:1719850:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172737.326418] [tcn890:2331644:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172737.339058] [tcn889:1719964:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172737.460832] [tcn890:2331644:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172737.462948] [tcn889:1719964:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172744.730791] [tcn890:2331677:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172744.731626] [tcn889:1720002:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172744.851829] [tcn890:2331677:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172744.853970] [tcn889:1720002:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172746.180587] [tcn890:2331708:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172746.190484] [tcn889:1720040:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172746.309423] [tcn889:1720040:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172746.318775] [tcn890:2331708:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172753.543089] [tcn890:2331757:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172753.553615] [tcn889:1720076:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172753.672976] [tcn890:2331757:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172753.674096] [tcn889:1720076:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172765.143127] [tcn890:2331796:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172765.158192] [tcn889:1720128:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172765.277518] [tcn890:2331796:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172765.291468] [tcn889:1720128:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172781.340661] [tcn890:2331840:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172781.343697] [tcn889:1720172:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172781.465976] [tcn890:2331840:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172781.467722] [tcn889:1720172:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172798.160661] [tcn890:2331886:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172798.171347] [tcn889:1721735:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172798.292582] [tcn890:2331886:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+[1722172798.294185] [tcn889:1721735:0]     ucp_context.c:1081 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'mlx5_0:1'(ib), 'mlx5_2:1'(ib), 'vlan-pub.136'(tcp)
+ [Done][178 seconds]
+[Tests completed][490 seconds]
+Compressing ../data/snellius/2024_07_28_15_12_28 ...
+/gpfs/home1/gsavchenko/bench_2/cloud_noise/data/snellius /gpfs/home1/gsavchenko/bench_2/cloud_noise/benchmarks
+2024_07_28_15_12_28/
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe16.cmdout
+2024_07_28_15_12_28/ng_netnoise_mpi_lat.out
+2024_07_28_15_12_28/ng_osnoise.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_stripe4.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_stripe2.out
+2024_07_28_15_12_28/ng_one_one_mpi_conc4.out
+2024_07_28_15_12_28/ng_one_one_mpi_conc16.out
+2024_07_28_15_12_28/ng_one_one_mpi_conc8.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_conc2.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe4.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_conc2.cmdout
+2024_07_28_15_12_28/ng_osnoise.out
+2024_07_28_15_12_28/ng_netnoise_mpi_bw.out
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_conc16.out
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe1.out
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_conc16.cmdout
+2024_07_28_15_12_28/ng_netnoise_mpi_lat.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_stripe16.out
+2024_07_28_15_12_28/ng_loggp.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_stripe1.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_conc8.out
+2024_07_28_15_12_28/ng_one_one_mpi_stripe8.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_conc4.out
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe16.out
+2024_07_28_15_12_28/ng_one_one_mpi_stripe16.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_stripe8.out
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe4.out
+2024_07_28_15_12_28/ng_one_one_mpi_conc16.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_stripe2.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe2.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_conc2.out
+2024_07_28_15_12_28/ng_one_one_mpi_conc2.out
+2024_07_28_15_12_28/wtime_res.out
+2024_07_28_15_12_28/ng_one_one_mpi_conc4.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_conc8.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_stripe1.out
+2024_07_28_15_12_28/ng_one_one_mpi_stripe4.out
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe1.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe8.cmdout
+2024_07_28_15_12_28/ng_loggp.out
+2024_07_28_15_12_28/hoverboard_reps_1.out
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_conc4.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe8.out
+2024_07_28_15_12_28/ng_netnoise_mpi_bw.cmdout
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_stripe2.out
+2024_07_28_15_12_28/ng_one_one_mpi_bidirect_mpi_conc8.out
+/gpfs/home1/gsavchenko/bench_2/cloud_noise/benchmarks
+
+JOB STATISTICS
+==============
+Job ID: 7209730
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: COMPLETED (exit code 0)
+Nodes: 2
+Cores per node: 192
+CPU Utilized: 00:18:26
+CPU Efficiency: 0.56% of 2-06:30:24 core-walltime
+Job Wall-clock time: 00:08:31
+Memory Utilized: 246.20 MB
+Memory Efficiency: 0.04% of 672.00 GB

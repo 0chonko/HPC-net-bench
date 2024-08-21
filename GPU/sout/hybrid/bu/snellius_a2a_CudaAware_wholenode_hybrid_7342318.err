@@ -1,0 +1,272 @@
+cat: tmp_2_7342318.txt: No such file or directory
+rm: cannot remove 'tmp_2_7342318.txt': No such file or directory
+[gcn38.local.snellius.surf.nl:2978025] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn38.local.snellius.surf.nl:2978000] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn38.local.snellius.surf.nl:2978023] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn38.local.snellius.surf.nl:2978014] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn40.local.snellius.surf.nl:301546] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn40.local.snellius.surf.nl:301539] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn40.local.snellius.surf.nl:301545] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn40.local.snellius.surf.nl:301540] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn40:301540:0:301540] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x154773200205)
+[gcn40:301539:0:301539] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x146583200206)
+==== backtrace (tid: 301540) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x1547b6a41224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x1547b6a413dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x1547b6a41688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x1547c6c16ae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c) [0x1547b6eab24c]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x1547b7165104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1) [0x1547b75ba781]
+==== backtrace (tid: 301539) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x1465c5c15224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x1465c5c153dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x1465c5c15688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x1465d5cbaae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c) [0x1465c607f24c]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x1465c6339104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1) [0x1465c678e781]
+ 7  /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481) [0x1465d8f16651]
+ 8  /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d) [0x1465befa478d]
+ 9  /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162) [0x1465d8ec85c2]
+10  ./a2a_CudaAware() [0x405cb1]
+11  /lib64/libc.so.6(__libc_start_main+0xe5) [0x1465d5c3c7e5]
+12  ./a2a_CudaAware() [0x40441e]
+=================================
+[gcn40:301546:0:301546] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x147a21200203)
+ 7  /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481) [0x1547c9e72651]
+ 8  /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d) [0x1547afdf278d]
+ 9  /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162) [0x1547c9e245c2]
+10  ./a2a_CudaAware() [0x405cb1]
+11  /lib64/libc.so.6(__libc_start_main+0xe5) [0x1547c6b987e5]
+12  ./a2a_CudaAware() [0x40441e]
+=================================
+[gcn40:301540] *** Process received signal ***
+[gcn40:301540] Signal: Segmentation fault (11)
+[gcn40:301540] Signal code:  (-6)
+[gcn40:301540] Failing at address: 0x10b5d000499e4
+[gcn40:301539] *** Process received signal ***
+[gcn40:301539] Signal: Segmentation fault (11)
+[gcn40:301539] Signal code:  (-6)
+[gcn40:301539] Failing at address: 0x10b5d000499e3
+[gcn40:301539] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x1465d6788d20]
+[gcn40:301540] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x1547c76e4d20]
+[gcn40:301539] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x1465d5cbaae4]
+[gcn40:301539] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c)[0x1465c607f24c]
+[gcn38:2978023:0:2978023] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x150273200201)
+[gcn40:301540] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x1547c6c16ae4]
+[gcn40:301540] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c)[0x1547b6eab24c]
+[gcn40:301539] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x1465c6339104]
+[gcn40:301539] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1)[0x1465c678e781]
+[gcn38:2978014:0:2978014] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x1476cb200200)
+[gcn40:301540] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x1547b7165104]
+[gcn40:301540] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1)[0x1547b75ba781]
+[gcn40:301539] [ 5] /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481)[0x1465d8f16651]
+[gcn40:301539] [ 6] /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d)[0x1465befa478d]
+[gcn38:2978000:0:2978000] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x147073200207)
+[gcn40:301540] [ 5] /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481)[0x1547c9e72651]
+[gcn40:301540] [ 6] /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d)[0x1547afdf278d]
+==== backtrace (tid:2978023) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x1502b5c15224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x1502b5c153dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x1502b5c15688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x1502c5d23ae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c) [0x1502b607f24c]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x1502b6339104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1) [0x1502b678e781]
+ 7  /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481) [0x1502c8f7f651]
+ 8  /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d) [0x1502aefa478d]
+ 9  /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162) [0x1502c8f315c2]
+10  ./a2a_CudaAware() [0x405cb1]
+11  /lib64/libc.so.6(__libc_start_main+0xe5) [0x1502c5ca57e5]
+12  ./a2a_CudaAware() [0x40441e]
+[gcn40:301540] [ 7] /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162)[0x1547c9e245c2]
+[gcn40:301540] [ 8] ./a2a_CudaAware[0x405cb1]
+=================================
+[gcn40:301539] [ 7] /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162)[0x1465d8ec85c2]
+[gcn40:301539] [ 8] ./a2a_CudaAware[0x405cb1]
+[gcn40:301539] [ 9] /lib64/libc.so.6(__libc_start_main+0xe5)[0x1465d5c3c7e5]
+[gcn40:301539] [10] ./a2a_CudaAware[0x40441e]
+[gcn40:301539] *** End of error message ***
+==== backtrace (tid:2978014) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x1477147b9224]
+[gcn40:301540] [ 9] /lib64/libc.so.6(__libc_start_main+0xe5)[0x1547c6b987e5]
+[gcn40:301540] [10] ./a2a_CudaAware[0x40441e]
+[gcn40:301540] *** End of error message ***
+[gcn38:2978023] *** Process received signal ***
+[gcn38:2978023] Signal: Segmentation fault (11)
+[gcn38:2978023] Signal code:  (-6)
+[gcn38:2978023] Failing at address: 0x10b5d002d70e7
+==== backtrace (tid: 301546) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x147a6980b224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x147a6980b3dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x147a6980b688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x147a75883ae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/ucx/libuct_ib.so.0(uct_rc_mlx5_ep_am_short+0x27a) [0x147a6958523a]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x147a69f2f104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1) [0x147a6a384781]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x1477147b93dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x1477147b9688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x1477207ecae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c) [0x147714c2324c]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x147714edd104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1) [0x147715332781]
+ 7  /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481) [0x147723a48651]
+ 8  /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d) [0x14770dc8478d]
+ 9  /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162) [0x1477239fa5c2]
+10  ./a2a_CudaAware() [0x405cb1]
+11  /lib64/libc.so.6(__libc_start_main+0xe5) [0x14772076e7e5]
+12  ./a2a_CudaAware() [0x40441e]
+=================================
+ 7  /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481) [0x147a78adf651]
+ 8  /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d) [0x147a5eb8578d]
+ 9  /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162) [0x147a78a915c2]
+10  ./a2a_CudaAware() [0x405cb1]
+11  /lib64/libc.so.6(__libc_start_main+0xe5) [0x147a758057e5]
+12  ./a2a_CudaAware() [0x40441e]
+=================================
+[gcn38:2978014] *** Process received signal ***
+[gcn40:301546] *** Process received signal ***
+[gcn40:301546] Signal: Segmentation fault (11)
+[gcn40:301546] Signal code:  (-6)
+[gcn40:301546] Failing at address: 0x10b5d000499ea
+[gcn38:2978014] Signal: Segmentation fault (11)
+[gcn38:2978014] Signal code:  (-6)
+[gcn38:2978014] Failing at address: 0x10b5d002d70de
+[gcn40:301546] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x147a76351d20]
+[gcn38:2978023] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x1502c67f1d20]
+[gcn40:301546] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x147a75883ae4]
+[gcn38:2978023] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x1502c5d23ae4]
+[gcn38:2978023] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c)[0x1502b607f24c]
+[gcn40:301546] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/ucx/libuct_ib.so.0(uct_rc_mlx5_ep_am_short+0x27a)[0x147a6958523a]
+[gcn38:2978014] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x1477212bad20]
+[gcn40:301546] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x147a69f2f104]
+[gcn38:2978023] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x1502b6339104]
+[gcn38:2978023] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1)[0x1502b678e781]
+[gcn40:301546] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1)[0x147a6a384781]
+[gcn38:2978014] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x1477207ecae4]
+[gcn40:301546] [ 5] /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481)[0x147a78adf651]
+[gcn40:301546] [ 6] /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d)[0x147a5eb8578d]
+[gcn38:2978014] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c)[0x147714c2324c]
+[gcn40:301546] [ 7] /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162)[0x147a78a915c2]
+[gcn40:301546] [ 8] ./a2a_CudaAware[0x405cb1]
+[gcn38:2978023] [ 5] /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481)[0x1502c8f7f651]
+[gcn38:2978023] [ 6] /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d)[0x1502aefa478d]
+[gcn40:301546] [ 9] /lib64/libc.so.6(__libc_start_main+0xe5)[0x147a758057e5]
+[gcn40:301546] [10] ./a2a_CudaAware[0x40441e]
+[gcn40:301546] *** End of error message ***
+[gcn38:2978014] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x147714edd104]
+[gcn38:2978014] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1)[0x147715332781]
+[gcn38:2978023] [ 7] /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162)[0x1502c8f315c2]
+[gcn38:2978023] [ 8] ./a2a_CudaAware[0x405cb1]
+[gcn38:2978014] [ 5] /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481)[0x147723a48651]
+[gcn38:2978014] [ 6] /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d)[0x14770dc8478d]
+[gcn38:2978023] [ 9] /lib64/libc.so.6(__libc_start_main+0xe5)[0x1502c5ca57e5]
+[gcn38:2978023] [10] ./a2a_CudaAware[0x40441e]
+[gcn38:2978023] *** End of error message ***
+[gcn38:2978014] [ 7] /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162)[0x1477239fa5c2]
+[gcn38:2978014] [ 8] ./a2a_CudaAware[0x405cb1]
+==== backtrace (tid:2978000) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x1470bcdc0224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x1470bcdc03dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x1470bcdc0688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x1470c8d56ae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/ucx/libuct_ib.so.0(uct_rc_mlx5_ep_am_short+0x27a) [0x1470bcb3a23a]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x1470bd4e4104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1) [0x1470bd939781]
+ 7  /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481) [0x1470cbfb2651]
+ 8  /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d) [0x1470b613978d]
+ 9  /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162) [0x1470cbf645c2]
+10  ./a2a_CudaAware() [0x405cb1]
+11  /lib64/libc.so.6(__libc_start_main+0xe5) [0x1470c8cd87e5]
+12  ./a2a_CudaAware() [0x40441e]
+=================================
+[gcn38:2978014] [ 9] /lib64/libc.so.6(__libc_start_main+0xe5)[0x14772076e7e5]
+[gcn38:2978014] [10] ./a2a_CudaAware[0x40441e]
+[gcn38:2978014] *** End of error message ***
+[gcn38:2978000] *** Process received signal ***
+[gcn38:2978000] Signal: Segmentation fault (11)
+[gcn38:2978000] Signal code:  (-6)
+[gcn38:2978000] Failing at address: 0x10b5d002d70d0
+[gcn38:2978000] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x1470c9824d20]
+[gcn38:2978000] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x1470c8d56ae4]
+[gcn38:2978000] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/ucx/libuct_ib.so.0(uct_rc_mlx5_ep_am_short+0x27a)[0x1470bcb3a23a]
+[gcn38:2978000] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x1470bd4e4104]
+[gcn38:2978000] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1)[0x1470bd939781]
+[gcn38:2978000] [ 5] /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481)[0x1470cbfb2651]
+[gcn38:2978000] [ 6] /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d)[0x1470b613978d]
+[gcn38:2978000] [ 7] /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162)[0x1470cbf645c2]
+[gcn38:2978000] [ 8] ./a2a_CudaAware[0x405cb1]
+[gcn38:2978000] [ 9] /lib64/libc.so.6(__libc_start_main+0xe5)[0x1470c8cd87e5]
+[gcn38:2978000] [10] ./a2a_CudaAware[0x40441e]
+[gcn38:2978000] *** End of error message ***
+[gcn40:301545:0:301545] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x1522b3200204)
+==== backtrace (tid: 301545) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x1522fc3b4224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x1522fc3b43dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x1522fc3b4688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x15230838eae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c) [0x1522fc81e24c]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x1522fcad8104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1) [0x1522fcf2d781]
+ 7  /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481) [0x15230b5ea651]
+ 8  /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d) [0x1522f57f078d]
+ 9  /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162) [0x15230b59c5c2]
+10  ./a2a_CudaAware() [0x405cb1]
+11  /lib64/libc.so.6(__libc_start_main+0xe5) [0x1523083107e5]
+12  ./a2a_CudaAware() [0x40441e]
+=================================
+[gcn40:301545] *** Process received signal ***
+[gcn40:301545] Signal: Segmentation fault (11)
+[gcn40:301545] Signal code:  (-6)
+[gcn40:301545] Failing at address: 0x10b5d000499e9
+[gcn40:301545] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x152308e5cd20]
+[gcn40:301545] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x15230838eae4]
+[gcn40:301545] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c)[0x1522fc81e24c]
+[gcn40:301545] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x1522fcad8104]
+[gcn40:301545] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1)[0x1522fcf2d781]
+[gcn40:301545] [ 5] /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481)[0x15230b5ea651]
+[gcn40:301545] [ 6] /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d)[0x1522f57f078d]
+[gcn40:301545] [ 7] /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162)[0x15230b59c5c2]
+[gcn40:301545] [ 8] ./a2a_CudaAware[0x405cb1]
+[gcn40:301545] [ 9] /lib64/libc.so.6(__libc_start_main+0xe5)[0x1523083107e5]
+[gcn40:301545] [10] ./a2a_CudaAware[0x40441e]
+[gcn40:301545] *** End of error message ***
+[gcn38:2978025:0:2978025] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x145e13200202)
+==== backtrace (tid:2978025) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x145e55e19224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x145e55e193dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x145e55e19688]
+ 3  /lib64/libc.so.6(+0xb8ae4) [0x145e65f6dae4]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c) [0x145e5628324c]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x145e5653d104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1) [0x145e56992781]
+ 7  /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481) [0x145e691c9651]
+ 8  /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d) [0x145e4f1a978d]
+ 9  /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162) [0x145e6917b5c2]
+10  ./a2a_CudaAware() [0x405cb1]
+11  /lib64/libc.so.6(__libc_start_main+0xe5) [0x145e65eef7e5]
+12  ./a2a_CudaAware() [0x40441e]
+=================================
+[gcn38:2978025] *** Process received signal ***
+[gcn38:2978025] Signal: Segmentation fault (11)
+[gcn38:2978025] Signal code:  (-6)
+[gcn38:2978025] Failing at address: 0x10b5d002d70e9
+[gcn38:2978025] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x145e66a3bd20]
+[gcn38:2978025] [ 1] /lib64/libc.so.6(+0xb8ae4)[0x145e65f6dae4]
+[gcn38:2978025] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libuct.so.0(uct_mm_ep_am_short+0x8c)[0x145e5628324c]
+[gcn38:2978025] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x145e5653d104]
+[gcn38:2978025] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_isend+0xa1)[0x145e56992781]
+[gcn38:2978025] [ 5] /opt/ompi/lib/libmpi.so.40(ompi_coll_base_alltoall_intra_linear_sync+0x481)[0x145e691c9651]
+[gcn38:2978025] [ 6] /opt/ompi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_alltoall_intra_dec_fixed+0x7d)[0x145e4f1a978d]
+[gcn38:2978025] [ 7] /opt/ompi/lib/libmpi.so.40(MPI_Alltoall+0x162)[0x145e6917b5c2]
+[gcn38:2978025] [ 8] ./a2a_CudaAware[0x405cb1]
+[gcn38:2978025] [ 9] /lib64/libc.so.6(__libc_start_main+0xe5)[0x145e65eef7e5]
+[gcn38:2978025] [10] ./a2a_CudaAware[0x40441e]
+[gcn38:2978025] *** End of error message ***
+srun: error: gcn38: tasks 1-3: Segmentation fault
+srun: Terminating StepId=7342318.1
+slurmstepd: error: *** STEP 7342318.1 ON gcn38 CANCELLED AT 2024-08-05T20:01:57 ***
+srun: error: gcn40: tasks 5-7: Segmentation fault
+srun: error: gcn38: task 0: Segmentation fault
+srun: error: gcn40: task 4: Segmentation fault

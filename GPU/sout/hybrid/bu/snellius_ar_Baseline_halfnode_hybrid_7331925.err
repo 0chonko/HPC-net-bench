@@ -1,0 +1,88 @@
+cat: tmp_1_7331925.txt: No such file or directory
+rm: cannot remove 'tmp_1_7331925.txt': No such file or directory
+[gcn46.local.snellius.surf.nl:1953326] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn46.local.snellius.surf.nl:1953331] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn46.local.snellius.surf.nl:1953481] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn46.local.snellius.surf.nl:1953480] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn46
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn46
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn46
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn46
+--------------------------------------------------------------------------
+[gcn46.local.snellius.surf.nl:1956013] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn46.local.snellius.surf.nl:1955996] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn46.local.snellius.surf.nl:1956057] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn46.local.snellius.surf.nl:1956056] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn46
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn46
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn46
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: The default btl_vader_single_copy_mechanism CMA is
+not available due to different user namespaces.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: gcn46
+--------------------------------------------------------------------------
+Error setting watches. Result: -11: Timeout
+
+Error getting values information. Return -11: Timeout
+Error getting values information. Return -11: Timeout
+Unable to collect GPU entities. EntityIds associated with GPUs may not be possible to specify. Result: -21 Host engine connection invalid/disconnected
+Got error while creating a GPU group: -21 Host engine connection invalid/disconnected

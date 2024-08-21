@@ -1,0 +1,10 @@
+cat: tmp_2_7339116.txt: No such file or directory
+rm: cannot remove 'tmp_2_7339116.txt': No such file or directory
+[gcn35.local.snellius.surf.nl:1133856] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn35.local.snellius.surf.nl:1133855] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn35.local.snellius.surf.nl:1133887] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn35.local.snellius.surf.nl:1133888] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn30.local.snellius.surf.nl:4098988] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn30.local.snellius.surf.nl:4098975] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn30.local.snellius.surf.nl:4098977] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn30.local.snellius.surf.nl:4098987] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168

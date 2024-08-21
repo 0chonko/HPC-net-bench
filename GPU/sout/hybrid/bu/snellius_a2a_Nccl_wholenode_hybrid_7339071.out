@@ -1,0 +1,159 @@
+-------- Topology Info --------
+Nnodes = 2
+0: Node: 0 ---> root.ibsw4.gcn35
+4: Node: 1 ---> root.ibsw26.gcn72
+-------------------------------
+switchesPaths:
+root.ibsw4.gcn35
+root.ibsw26.gcn72
+-------------------------------
+gcn35 ---> distance with node 0 (gcn35) = 0
+gcn72 ---> distance with node 0 (gcn35) = 2
+Max distance: 2
+-------------------------------
+
+-------------------------------
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 0, host_name = gcn35.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 4, host_name = gcn72.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 1, host_name = gcn35.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 2, host_name = gcn35.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 3, host_name = gcn35.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 5, host_name = gcn72.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 6, host_name = gcn72.local.snellius.surf.nl
+Compile time check:
+This MPI library cannot determine if there is CUDA-aware support.
+Run time check:nThis MPI library cannot determine if there is CUDA-aware support.
+Size = 8, myrank = 7, host_name = gcn72.local.snellius.surf.nl
+Assigning device 3 to process on node gcn35.local.snellius.surf.nl rank 3
+Assigning device 2 to process on node gcn35.local.snellius.surf.nl rank 2
+Assigning device 1 to process on node gcn35.local.snellius.surf.nl rank 1
+Assigning device 0 to process on node gcn35.local.snellius.surf.nl rank 0
+Flag profiler was set with argument: 1
+buff_cycle: 30 loop_count: 80 max_j: 30
+Assigning device 3 to process on node gcn72.local.snellius.surf.nl rank 7
+Assigning device 2 to process on node gcn72.local.snellius.surf.nl rank 6
+Assigning device 0 to process on node gcn72.local.snellius.surf.nl rank 4
+Assigning device 1 to process on node gcn72.local.snellius.surf.nl rank 5
+NCCL init time: 1.360213 (s)
+0#New Iterations: 536870912
+NVML class created
+#
+1#New Iterations: 268435456
+NVML class created
+#
+2#New Iterations: 134217728
+NVML class created
+#
+3#New Iterations: 67108864
+NVML class created
+#
+4#New Iterations: 33554432
+NVML class created
+#
+5#New Iterations: 16777216
+NVML class created
+#
+6#New Iterations: 8388608
+NVML class created
+#
+7#New Iterations: 4194304
+NVML class created
+#
+8#New Iterations: 2097152
+NVML class created
+#
+9#New Iterations: 1048576
+NVML class created
+#
+10#New Iterations: 524288
+NVML class created
+#
+11#New Iterations: 262144
+NVML class created
+#
+12#New Iterations: 131072
+NVML class created
+#
+13#New Iterations: 65536
+NVML class created
+#
+14#New Iterations: 32768
+NVML class created
+#
+15#New Iterations: 16384
+NVML class created
+#
+16#New Iterations: 8192
+NVML class created
+#
+17#New Iterations: 4096
+NVML class created
+#
+18#New Iterations: 2048
+NVML class created
+#
+19#New Iterations: 1024
+NVML class created
+#
+20#New Iterations: 512
+NVML class created
+#
+21#New Iterations: 256
+NVML class created
+#
+22#New Iterations: 128
+NVML class created
+#
+23#New Iterations: 64
+NVML class created
+#
+24#New Iterations: 32
+NVML class created
+#
+25#New Iterations: 16
+NVML class created
+#
+26#New Iterations: 8
+NVML class created
+#
+27#New Iterations: 4
+NVML class created
+#
+28#New Iterations: 2
+NVML class created
+#
+
+JOB STATISTICS
+==============
+Job ID: 7339071
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: CANCELLED (exit code 0)
+Nodes: 2
+Cores per node: 72
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.00% of 08:19:12 core-walltime
+Job Wall-clock time: 00:03:28
+Memory Utilized: 8.43 MB
+Memory Efficiency: 0.00% of 960.00 GB

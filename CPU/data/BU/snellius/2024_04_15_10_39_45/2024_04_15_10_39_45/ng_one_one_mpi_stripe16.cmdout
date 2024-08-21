@@ -1,0 +1,28 @@
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (./netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius/2024_04_15_10_39_45/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing MPI_Wtime timer
+# Info:   (0): writing data to ng.out
+1 bytes 	 -> 2.28 us 	 == 3.32 Mbit/s
+2 bytes 	 -> 2.27 us 	 == 6.64 Mbit/s
+4 bytes 	 -> 2.29 us 	 == 13.25 Mbit/s
+8 bytes 	 -> 2.28 us 	 == 26.50 Mbit/s
+16 bytes 	 -> 5.64 us 	 == 22.15 Mbit/s
+32 bytes 	 -> 5.65 us 	 == 44.29 Mbit/s
+64 bytes 	 -> 5.62 us 	 == 88.66 Mbit/s
+128 bytes 	 -> 5.62 us 	 == 177.33 Mbit/s
+256 bytes 	 -> 5.63 us 	 == 355.22 Mbit/s
+512 bytes 	 -> 5.67 us 	 == 703.72 Mbit/s
+1024 bytes 	 -> 5.82 us 	 == 1360.68 Mbit/s
+2048 bytes 	 -> 5.92 us 	 == 2674.72 Mbit/s
+4096 bytes 	 -> 7.41 us 	 == 4011.02 Mbit/s
+8192 bytes 	 -> 7.66 us 	 == 7881.19 Mbit/s
+16384 bytes 	 -> 8.23 us 	 == 15127.47 Mbit/s
+32768 bytes 	 -> 10.13 us 	 == 24395.70 Mbit/s
+65536 bytes 	 -> 11.96 us 	 == 40006.71 Mbit/s
+131072 bytes 	 -> 15.22 us 	 == 64867.06 Mbit/s
+262144 bytes 	 -> 25.43 us 	 == 78866.99 Mbit/s
+524288 bytes 	 -> 27.86 us 	 == 147243.47 Mbit/s
+1048576 bytes 	 -> 49.07 us 	 == 167232.00 Mbit/s
+2097152 bytes 	 -> 87.51 us 	 == 189878.80 Mbit/s
+4194304 bytes 	 -> 159.84 us 	 == 206610.87 Mbit/s
+8388608 bytes 	 -> 308.87 us 	 == 215671.09 Mbit/s
+16777216 bytes 	 -> 605.50 us 	 == 220534.30 Mbit/s

@@ -1,0 +1,188 @@
+# ----------------- Path -----------------
+CUDA_HOME=/sw/arch/RHEL8/EB_production/2023/software/CUDA/12.1.1
+MPI_HOME=/sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0
+MPI_CUDA_HOME=/sw/arch/RHEL8/EB_production/2023/software/OpenMPI/4.1.5-GCC-12.3.0
+NCCL_HOME=/sw/arch/RHEL8/EB_production/2023/software/NCCL/2.18.3-GCCcore-12.3.0-CUDA-12.1.1
+# ---------------- Common ----------------
+CC=nvcc
+CFLAGS=-std=c++14 -DSKIPCPUAFFINITY -lnvidia-ml -L/usr/lib64/
+#-O3
+LIBS=
+INCL=
+LIBFLAGS=
+DBGFLAGS=-g -G
+# ----------- Shared libraries -----------
+MPI=-L$(MPI_HOME)/lib -I$(MPI_HOME)/include -lmpi 
+MPI_CUDA=-L$(MPI_CUDA_HOME)/lib -I$(MPI_CUDA_HOME)/include -lmpi 
+CUDA=-L$(CUDA_HOME)/lib64 -L$(CUDA_HOME)/compact -I$(CUDA_HOME)/include -lcudart -lcuda
+NCCL=-L$(NCCL_HOME)/lib -I$(NCCL_HOME)/include -lnccl 
+# ----------------------------------------
+SRC_DIR=src/energy_metrics
+# =====================================================================================
+
+
+# -------------- Experiment --------------
+NAME=pp
+ARNAME=ar
+A2ANAME=a2a
+HALONAME=hlo
+NBPPNAME=nbpp
+# --------------- Folders ----------------
+BINFOLDER=src/energy_binary
+OUTFOLDER=out
+SOUTFOLDER=sout
+MODULEFOLDER=moduleload
+EXPORTFOLDER=exportload
+# ------------ Module loading ------------
+SHELL:=/bin/bash
+#NCCL_MODULES="${MODULEFOLDER}/load_Nccl_modules.sh"
+#NVLINK_MODULES="${MODULEFOLDER}/load_Nvlink_modules.sh"
+#BASELINE_MODULES="${MODULEFOLDER}/load_Baseline_modules.sh"
+#CUDA_AWARE_MODULES="${MODULEFOLDER}/load_CudaAware_modules.sh"
+# ------------ Export loading ------------
+NCCL_MN_EXPORTS="${EXPORTFOLDER}/load_Nccl_wholenode_exports.sh"
+NCCL_SN_EXPORTS="${EXPORTFOLDER}/load_Nccl_halfnode_exports.sh"
+NVLINK_MN_EXPORTS="${EXPORTFOLDER}/load_Nvlink_wholenode_exports.sh"
+NVLINK_SN_EXPORTS="${EXPORTFOLDER}/load_Nvlink_halfnode_exports.sh"
+BASELINE_MN_EXPORTS="${EXPORTFOLDER}/load_Baseline_wholenode_exports.sh"
+BASELINE_SN_EXPORTS="${EXPORTFOLDER}/load_Baseline_halfnode_exports.sh"
+CUDA_AWARE_MN_EXPORTS="${EXPORTFOLDER}/load_CudaAware_wholenode_exports.sh"
+CUDA_AWARE_SN_EXPORTS="${EXPORTFOLDER}/load_CudaAware_halfnode_exports.sh"
+# ----------------------------------------
+
+
+# =====================================================================================
+
+
+# all: pp a2a ar hlo mpp inc otom
+
+all: a2a pp ar
+
+pp: $(BINFOLDER)/$(NAME)_Baseline $(BINFOLDER)/$(NAME)_CudaAware $(BINFOLDER)/$(NAME)_Nccl $(BINFOLDER)/$(NAME)_Nvlink
+a2a: $(BINFOLDER)/$(A2ANAME)_Baseline $(BINFOLDER)/$(A2ANAME)_CudaAware $(BINFOLDER)/$(A2ANAME)_Nccl $(BINFOLDER)/$(A2ANAME)_Nvlink
+ar: $(BINFOLDER)/$(ARNAME)_Baseline $(BINFOLDER)/$(ARNAME)_CudaAware $(BINFOLDER)/$(ARNAME)_Nccl $(BINFOLDER)/$(ARNAME)_Nvlink
+hlo: $(BINFOLDER)/$(HALONAME)_Baseline $(BINFOLDER)/$(HALONAME)_CudaAware $(BINFOLDER)/$(HALONAME)_Nccl
+mpp: $(BINFOLDER)/$(NBPPNAME)_Baseline $(BINFOLDER)/$(NBPPNAME)_CudaAware $(BINFOLDER)/$(NBPPNAME)_Nccl $(BINFOLDER)/$(NBPPNAME)_Nvlink $(BINFOLDER)/$(NBPPNAME)_Aggregated
+inc: $(BINFOLDER)/$(INCNAME)_Nccl
+otom: $(BINFOLDER)/$(OTOMNAME)_Nccl
+
+# --------------- Baseline ---------------
+$(BASELINE_SN_EXPORTS):
+	mkdir -p ${EXPORTFOLDER}
+	@echo "echo NO exports to load" > $@
+
+$(BASELINE_MN_EXPORTS):
+	mkdir -p ${EXPORTFOLDER}
+	@echo "echo NO exports to load" > $@
+
+$(BINFOLDER)/$(NAME)_Baseline: $(SRC_DIR)/$(NAME)_Baseline.cu $(BASELINE_MODULES) $(BASELINE_SN_EXPORTS) $(BASELINE_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS) -DPINNED
+
+$(BINFOLDER)/$(A2ANAME)_Baseline: $(SRC_DIR)/$(A2ANAME)_Baseline.cu $(BASELINE_MODULES) $(BASELINE_SN_EXPORTS) $(BASELINE_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS) -DPINNED
+
+$(BINFOLDER)/$(ARNAME)_Baseline: $(SRC_DIR)/$(ARNAME)_Baseline.cu $(BASELINE_MODULES) $(BASELINE_SN_EXPORTS) $(BASELINE_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS) -DPINNED
+
+$(BINFOLDER)/$(HALONAME)_Baseline: $(SRC_DIR)/$(HALONAME)_Baseline.cu $(BASELINE_MODULES) $(BASELINE_SN_EXPORTS) $(BASELINE_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS) -DPINNED
+
+$(BINFOLDER)/$(NBPPNAME)_Baseline: $(SRC_DIR)/$(NBPPNAME)_Baseline.cu $(BASELINE_MODULES)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS) -DPINNED
+# ----------------------------------------
+
+
+# -------------- CUDA aware --------------
+$(CUDA_AWARE_SN_EXPORTS):
+	mkdir -p ${EXPORTFOLDER}
+	@echo "echo NO exports to load" > $@
+
+$(CUDA_AWARE_MN_EXPORTS):
+	mkdir -p ${EXPORTFOLDER}
+	@echo "echo NO exports to load" > $@
+
+$(BINFOLDER)/$(NAME)_CudaAware: $(SRC_DIR)/$(NAME)_CudaAware.cu $(CUDA_AWARE_MODULES) $(CUDA_AWARE_SN_EXPORTS) $(CUDA_AWARE_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI_CUDA) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(A2ANAME)_CudaAware: $(SRC_DIR)/$(A2ANAME)_CudaAware.cu $(CUDA_AWARE_MODULES) $(CUDA_AWARE_SN_EXPORTS) $(CUDA_AWARE_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI_CUDA) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(ARNAME)_CudaAware: $(SRC_DIR)/$(ARNAME)_CudaAware.cu $(CUDA_AWARE_MODULES) $(CUDA_AWARE_SN_EXPORTS) $(CUDA_AWARE_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI_CUDA) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(HALONAME)_CudaAware: $(SRC_DIR)/$(HALONAME)_CudaAware.cu $(CUDA_AWARE_MODULES) $(CUDA_AWARE_SN_EXPORTS) $(CUDA_AWARE_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI_CUDA) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(NBPPNAME)_CudaAware: $(SRC_DIR)/$(NBPPNAME)_CudaAware.cu $(CUDA_AWARE_MODULES)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI_CUDA) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+# ----------------------------------------
+
+# ----------------- Nccl -----------------
+
+$(NCCL_SN_EXPORTS):
+	mkdir -p ${EXPORTFOLDER}
+	@echo "export NCCL_P2P_LEVEL=NVL" > $@
+
+$(NCCL_MN_EXPORTS):
+	mkdir -p ${EXPORTFOLDER}
+	@echo "export NCCL_P2P_DISABLE=1" > $@
+
+$(BINFOLDER)/$(NAME)_Nccl: $(SRC_DIR)/$(NAME)_Nccl.cu $(NCCL_MODULES) $(NCCL_SN_EXPORTS) $(NCCL_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) $(NCCL) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(A2ANAME)_Nccl: $(SRC_DIR)/$(A2ANAME)_Nccl.cu $(NCCL_MODULES) $(NCCL_SN_EXPORTS) $(NCCL_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) $(NCCL) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(ARNAME)_Nccl: $(SRC_DIR)/$(ARNAME)_Nccl.cu $(NCCL_MODULES) $(NCCL_SN_EXPORTS) $(NCCL_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) $(NCCL) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(HALONAME)_Nccl: $(SRC_DIR)/$(HALONAME)_Nccl.cu $(NCCL_MODULES) $(NCCL_SN_EXPORTS) $(NCCL_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) $(NCCL) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+# ----------------------------------------
+
+# ---------------- NVLink ----------------
+$(NVLINK_SN_EXPORTS):
+	mkdir -p ${EXPORTFOLDER}
+	@echo "echo NO exports to load" > $@
+
+$(NVLINK_MN_EXPORTS):
+	mkdir -p ${EXPORTFOLDER}
+	@echo "echo NO exports to load" > $@
+
+helper_multiprocess.o: include/helper_multiprocess.cpp $(NVLINK_MODULES)
+	$(CC) $(INCL) --threads 0 -o $@ -c $<
+
+$(BINFOLDER)/$(NAME)_Nvlink: $(SRC_DIR)/$(NAME)_Nvlink.cu $(NVLINK_MODULES) helper_multiprocess.o $(NVLINK_SN_EXPORTS) $(NVLINK_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) helper_multiprocess.o -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(A2ANAME)_Nvlink: $(SRC_DIR)/$(A2ANAME)_Nvlink.cu $(NVLINK_MODULES) helper_multiprocess.o $(NVLINK_SN_EXPORTS) $(NVLINK_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) helper_multiprocess.o -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(ARNAME)_Nvlink: $(SRC_DIR)/$(ARNAME)_Nvlink.cu $(NVLINK_MODULES) helper_multiprocess.o $(NVLINK_SN_EXPORTS) $(NVLINK_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) helper_multiprocess.o -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+
+$(BINFOLDER)/$(MPPNAME)_Nvlink: $(SRC_DIR)/$(MPPNAME)_Nvlink.cu $(NVLINK_MODULES) helper_multiprocess.o $(NVLINK_SN_EXPORTS) $(NVLINK_MN_EXPORTS)
+	mkdir -p $(BINFOLDER) $(OUTFOLDER) $(SOUTFOLDER)
+	$(CC) $(CFLAGS) helper_multiprocess.o -o $@ $< $(INCL) $(LIBS) $(LIBFLAGS) $(MPI) $(CUDA) -lstdc++ -lm -Wno-deprecated-gpu-targets $(DBGFLAGS)
+# ----------------------------------------
+
+clean:
+	rm -r $(BINFOLDER)/* ${MODULEFOLDER}/* ${EXPORTFOLDER}/*
+	rm helper_multiprocess.o

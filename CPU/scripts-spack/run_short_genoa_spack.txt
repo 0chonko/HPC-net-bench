@@ -1,0 +1,526 @@
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+Writing to ../data/snellius_spack/2024_07_28_14_39_08
+Running netgauge OS noise test for 120 seconds ...srun: warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+[1722170349.603783] [tcn1151:3842748:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722170349.627408] [tcn1151:3842748:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=1, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -o ../data/snellius_spack/2024_07_28_14_39_08/ng_osnoise.out.tmp -m mpi -x noise )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ../data/snellius_spack/2024_07_28_14_39_08/ng_osnoise.out.tmp
+# Info:   (0): performing Selfish benchmark
+# min clock cycles per rank: 24 
+Minimal cycle length [ns]: 9.999640 
+Number of iterations (recorded+unrecorded): 2914397387 
+Threshold: [% minimal cycle length]: 900 
+[0] CPU overhead due to noise: 0.31%
+[0] Measurement period: 42.63 s
+srun: warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+[1722170407.635442] [tcn1151:3843038:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722170407.659279] [tcn1151:3843038:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=1, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -o ../data/snellius_spack/2024_07_28_14_39_08/ng_osnoise.out.tmp -m mpi -x noise )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ../data/snellius_spack/2024_07_28_14_39_08/ng_osnoise.out.tmp
+# Info:   (0): performing Selfish benchmark
+# min clock cycles per rank: 24 
+Minimal cycle length [ns]: 9.999638 
+Number of iterations (recorded+unrecorded): 3050780739 
+Threshold: [% minimal cycle length]: 900 
+[0] CPU overhead due to noise: 0.28%
+[0] Measurement period: 44.61 s
+ [Done][120 seconds]
+Running netgauge network noise MPI test for 60 seconds ...[1722170470.523862] [tcn1151:3844050:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671919] [tcn1151:3844050:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 0 sending 42 to process 1 Process 0 received 73 from process 31 [1722170470.567299] [tcn1153:3767309:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675047] [tcn1153:3767309:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 18 received 59 from process 17 [1722170470.539450] [tcn1153:3767175:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675036] [tcn1153:3767175:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 25 received 66 from process 24 [1722170470.526838] [tcn1153:3767097:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.674962] [tcn1153:3767097:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 26 received 67 from process 25 [1722170470.539455] [tcn1153:3767156:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.669720] [tcn1153:3767156:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 16 received 57 from process 15 [1722170470.509246] [tcn1153:3767160:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675022] [tcn1153:3767160:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 23 received 64 from process 22 [1722170470.580005] [tcn1153:3767157:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675045] [tcn1153:3767157:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 27 received 68 from process 26 [1722170470.579501] [tcn1153:3767151:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.668198] [tcn1153:3767151:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 17 received 58 from process 16 [1722170470.547930] [tcn1153:3767159:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675034] [tcn1153:3767159:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 28 received 69 from process 27 [1722170470.520997] [tcn1153:3767148:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.674608] [tcn1153:3767148:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 30 received 71 from process 29 [1722170470.541999] [tcn1153:3766963:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.674539] [tcn1153:3766963:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 19 received 60 from process 18 [1722170470.520860] [tcn1153:3767099:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675019] [tcn1153:3767099:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 31 received 72 from process 30 [1722170470.578623] [tcn1153:3767001:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675029] [tcn1153:3767001:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 24 received 65 from process 23 [1722170470.541112] [tcn1153:3767125:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.674880] [tcn1153:3767125:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 22 received 63 from process 21 [1722170470.517203] [tcn1153:3767311:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675042] [tcn1153:3767311:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 29 received 70 from process 28 [1722170470.496158] [tcn1153:3767112:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.674752] [tcn1153:3767112:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 21 received 62 from process 20 [1722170470.525601] [tcn1151:3844064:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671914] [tcn1151:3844064:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 1 received 42 from process 0 [1722170470.516734] [tcn1151:3844020:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671906] [tcn1151:3844020:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 9 received 50 from process 8 [1722170470.525594] [tcn1151:3844024:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671636] [tcn1151:3844024:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 11 received 52 from process 10 [1722170470.545409] [tcn1151:3844013:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.667323] [tcn1151:3844013:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 15 received 56 from process 14 [1722170470.527893] [tcn1151:3844037:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671637] [tcn1151:3844037:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 8 received 49 from process 7 [1722170470.488814] [tcn1151:3843590:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671925] [tcn1151:3843590:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 10 received 51 from process 9 [1722170470.546137] [tcn1151:3844058:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671921] [tcn1151:3844058:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 12 received 53 from process 11 [1722170470.547029] [tcn1151:3844053:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671933] [tcn1151:3844053:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 13 received 54 from process 12 [1722170470.496073] [tcn1151:3843857:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671574] [tcn1151:3843857:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 14 received 55 from process 13 [1722170470.526553] [tcn1151:3844039:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671929] [tcn1151:3844039:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 6 received 47 from process 5 [1722170470.469867] [tcn1151:3843967:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671892] [tcn1151:3843967:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 7 received 48 from process 6 [1722170470.495904] [tcn1151:3843842:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671629] [tcn1151:3843842:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 4 received 45 from process 3 [1722170470.451043] [tcn1151:3843734:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671625] [tcn1151:3843734:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 5 received 46 from process 4 [1722170470.486150] [tcn1151:3843639:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671913] [tcn1151:3843639:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 3 received 44 from process 2 [1722170470.511350] [tcn1151:3843894:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.671847] [tcn1151:3843894:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 2 received 43 from process 1 [1722170470.469854] [tcn1153:3766826:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170470.675024] [tcn1153:3766826:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) Process 20 received 61 from process 19[1722170472.337891] [tcn1151:3844776:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170472.361433] [tcn1151:3844776:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) # Info: (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one.out.tmp -m mpi -x one_one ) # initializing x86-64 timer (takes some seconds) # Info: (0): writing data to ng.out [1722170472.328870] [tcn1153:3767876:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170472.361930] [tcn1153:3767876:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) 1 bytes -> 13.87 us == 0.54 Mbit/sERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722170503.540229] [tcn1151:3845161:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170503.563670] [tcn1151:3845161:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) # Info: (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s 1-1 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one.out.tmp -m mpi -x one_one ) # initializing x86-64 timer (takes some seconds) # Info: (0): writing data to ng.out [1722170503.523651] [tcn1153:3768110:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) [1722170503.564475] [tcn1153:3768110:0] ucp_context.c:1086 UCX WARN network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp) 1 bytes -> 14.07 us == 0.54 Mbit/sERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][71 seconds]
+Checking MPI_Wtime resolution ...srun: warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+slurmstepd: error: execve(): /gpfs/home1/gsavchenko/bench_singularity_results/./misc/check_mpi_wtime_res: No such file or directory
+srun: error: tcn1151: task 0: Exited with exit code 2
+srun: Terminating StepId=7209595.7
+ [Done][1 seconds]
+Running netgauge LogGP test ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][1417 seconds]
+Running netgauge one_one MPI test with striping=1 ...[1722171958.196396] [tcn1151:3854438:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722171958.219676] [tcn1151:3854438:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722171958.188039] [tcn1153:3776162:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722171958.220470] [tcn1153:3776162:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.62 us 	 == 0.48 Mbit/s
+2 bytes 	 -> 15.65 us 	 == 0.97 Mbit/s
+4 bytes 	 -> 15.45 us 	 == 1.94 Mbit/s
+8 bytes 	 -> 15.51 us 	 == 3.89 Mbit/s
+16 bytes 	 -> 15.49 us 	 == 7.83 Mbit/s
+32 bytes 	 -> 15.52 us 	 == 15.59 Mbit/s
+64 bytes 	 -> 15.85 us 	 == 30.20 Mbit/s
+128 bytes 	 -> 15.61 us 	 == 60.81 Mbit/s
+256 bytes 	 -> 16.04 us 	 == 120.87 Mbit/s
+512 bytes 	 -> 16.62 us 	 == 233.47 Mbit/s
+1024 bytes 	 -> 18.51 us 	 == 412.51 Mbit/s
+2048 bytes 	 -> 18.23 us 	 == 831.72 Mbit/s
+4096 bytes 	 -> 20.64 us 	 == 1408.55 Mbit/s
+8192 bytes 	 -> 25.21 us 	 == 2259.21 Mbit/s
+16384 bytes 	 -> 31.91 us 	 == 3370.08 Mbit/s
+32768 bytes 	 -> 57.39 us 	 == 4058.18 Mbit/s
+65536 bytes 	 -> 125.12 us 	 == 3544.72 Mbit/s
+131072 bytes 	 -> 171.18 us 	 == 5564.97 Mbit/s
+262144 bytes 	 -> 255.39 us 	 == 6590.94 Mbit/s
+524288 bytes 	 -> 434.06 us 	 == 8716.92 Mbit/s
+1048576 bytes 	 -> 780.28 us 	 == 9611.19 Mbit/s
+2097152 bytes 	 -> 1443.91 us 	 == 10806.59 Mbit/s
+4194304 bytes 	 -> 2781.71 us 	 == 11691.61 Mbit/s
+8388608 bytes 	 -> 5413.11 us 	 == 11984.69 Mbit/s
+16777216 bytes 	 -> 10736.59 us 	 == 12108.20 Mbit/s
+ [Done][54 seconds]
+Running netgauge one_one MPI test with 2 concurrent connections ... [Done][24 seconds]
+Running netgauge one_one MPI test with striping=2 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722172036.700542] [tcn1151:3854854:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172036.724006] [tcn1151:3854854:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722172036.686688] [tcn1153:3776660:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172036.724886] [tcn1153:3776660:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 13.53 us 	 == 0.56 Mbit/s
+2 bytes 	 -> 13.23 us 	 == 1.12 Mbit/s
+4 bytes 	 -> 13.41 us 	 == 2.24 Mbit/s
+8 bytes 	 -> 13.44 us 	 == 4.47 Mbit/s
+16 bytes 	 -> 13.61 us 	 == 8.90 Mbit/s
+32 bytes 	 -> 13.55 us 	 == 17.93 Mbit/s
+64 bytes 	 -> 13.88 us 	 == 35.03 Mbit/s
+128 bytes 	 -> 13.95 us 	 == 69.24 Mbit/s
+256 bytes 	 -> 14.13 us 	 == 137.45 Mbit/s
+512 bytes 	 -> 14.45 us 	 == 265.12 Mbit/s
+1024 bytes 	 -> 16.29 us 	 == 470.41 Mbit/s
+2048 bytes 	 -> 17.00 us 	 == 829.79 Mbit/s
+4096 bytes 	 -> 18.72 us 	 == 1469.77 Mbit/s
+8192 bytes 	 -> 22.95 us 	 == 2590.39 Mbit/s
+16384 bytes 	 -> 33.15 us 	 == 3116.35 Mbit/s
+32768 bytes 	 -> 48.54 us 	 == 4209.18 Mbit/s
+65536 bytes 	 -> 113.67 us 	 == 3794.98 Mbit/s
+131072 bytes 	 -> 156.01 us 	 == 5657.20 Mbit/s
+262144 bytes 	 -> 229.42 us 	 == 8203.33 Mbit/s
+524288 bytes 	 -> 385.22 us 	 == 9733.39 Mbit/s
+1048576 bytes 	 -> 680.72 us 	 == 10654.37 Mbit/s
+2097152 bytes 	 -> 1324.16 us 	 == 12314.76 Mbit/s
+4194304 bytes 	 -> 2538.69 us 	 == 12814.74 Mbit/s
+8388608 bytes 	 -> 4967.77 us 	 == 13143.64 Mbit/s
+16777216 bytes 	 -> 9646.06 us 	 == 13417.51 Mbit/s
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][50 seconds]
+Running netgauge one_one MPI test with 4 concurrent connections ... [Done][21 seconds]
+Running netgauge one_one MPI test with striping=4 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722172108.022771] [tcn1151:3855691:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172108.046563] [tcn1151:3855691:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722172108.004316] [tcn1153:3777301:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172108.046711] [tcn1153:3777301:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 13.94 us 	 == 0.54 Mbit/s
+2 bytes 	 -> 13.77 us 	 == 1.09 Mbit/s
+4 bytes 	 -> 14.03 us 	 == 2.17 Mbit/s
+8 bytes 	 -> 13.81 us 	 == 4.34 Mbit/s
+16 bytes 	 -> 13.97 us 	 == 8.68 Mbit/s
+32 bytes 	 -> 13.93 us 	 == 17.39 Mbit/s
+64 bytes 	 -> 14.27 us 	 == 33.83 Mbit/s
+128 bytes 	 -> 14.07 us 	 == 67.84 Mbit/s
+256 bytes 	 -> 14.37 us 	 == 134.17 Mbit/s
+512 bytes 	 -> 14.83 us 	 == 260.15 Mbit/s
+1024 bytes 	 -> 16.54 us 	 == 456.01 Mbit/s
+2048 bytes 	 -> 17.32 us 	 == 834.67 Mbit/s
+4096 bytes 	 -> 19.62 us 	 == 1521.31 Mbit/s
+8192 bytes 	 -> 24.45 us 	 == 2462.92 Mbit/s
+16384 bytes 	 -> 36.41 us 	 == 2349.25 Mbit/s
+32768 bytes 	 -> 55.69 us 	 == 3917.70 Mbit/s
+65536 bytes 	 -> 95.90 us 	 == 5117.67 Mbit/s
+131072 bytes 	 -> 138.34 us 	 == 6289.09 Mbit/s
+262144 bytes 	 -> 208.43 us 	 == 8591.83 Mbit/s
+524288 bytes 	 -> 368.14 us 	 == 8856.33 Mbit/s
+1048576 bytes 	 -> 641.51 us 	 == 10585.95 Mbit/s
+2097152 bytes 	 -> 1199.36 us 	 == 12390.22 Mbit/s
+4194304 bytes 	 -> 2324.64 us 	 == 12822.93 Mbit/s
+8388608 bytes 	 -> 4436.81 us 	 == 13278.09 Mbit/s
+16777216 bytes 	 -> 8912.05 us 	 == 13458.65 Mbit/s
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][52 seconds]
+Running netgauge one_one MPI test with 8 concurrent connections ... [Done][17 seconds]
+Running netgauge one_one MPI test with striping=8 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722172177.185116] [tcn1151:3856790:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172177.209520] [tcn1151:3856790:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722172177.185725] [tcn1153:3778226:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172177.209927] [tcn1153:3778226:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.33 us 	 == 0.49 Mbit/s
+2 bytes 	 -> 15.27 us 	 == 0.98 Mbit/s
+4 bytes 	 -> 15.25 us 	 == 1.97 Mbit/s
+8 bytes 	 -> 15.32 us 	 == 3.95 Mbit/s
+16 bytes 	 -> 15.33 us 	 == 7.84 Mbit/s
+32 bytes 	 -> 15.58 us 	 == 15.62 Mbit/s
+64 bytes 	 -> 15.75 us 	 == 30.53 Mbit/s
+128 bytes 	 -> 15.82 us 	 == 60.67 Mbit/s
+256 bytes 	 -> 15.90 us 	 == 120.37 Mbit/s
+512 bytes 	 -> 16.44 us 	 == 233.00 Mbit/s
+1024 bytes 	 -> 18.01 us 	 == 414.60 Mbit/s
+2048 bytes 	 -> 18.09 us 	 == 854.71 Mbit/s
+4096 bytes 	 -> 20.42 us 	 == 1478.11 Mbit/s
+8192 bytes 	 -> 25.77 us 	 == 2247.58 Mbit/s
+16384 bytes 	 -> 35.36 us 	 == 3326.88 Mbit/s
+32768 bytes 	 -> 56.69 us 	 == 3902.32 Mbit/s
+65536 bytes 	 -> 120.35 us 	 == 3807.95 Mbit/s
+131072 bytes 	 -> 174.06 us 	 == 5342.40 Mbit/s
+262144 bytes 	 -> 247.12 us 	 == 7366.45 Mbit/s
+524288 bytes 	 -> 425.26 us 	 == 8263.94 Mbit/s
+1048576 bytes 	 -> 770.79 us 	 == 9731.69 Mbit/s
+2097152 bytes 	 -> 1450.33 us 	 == 10819.05 Mbit/s
+4194304 bytes 	 -> 2736.93 us 	 == 11651.11 Mbit/s
+8388608 bytes 	 -> 5315.75 us 	 == 12029.85 Mbit/s
+16777216 bytes 	 -> 10555.40 us 	 == 12195.13 Mbit/s
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][58 seconds]
+Running netgauge one_one MPI test with 16 concurrent connections ... [Done][17 seconds]
+Running netgauge one_one MPI test with striping=16 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722172251.464513] [tcn1151:3858512:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172251.488507] [tcn1151:3858512:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one.out.tmp -m mpi -x one_one )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722172251.455731] [tcn1153:3779839:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172251.489083] [tcn1153:3779839:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 14.28 us 	 == 0.53 Mbit/s
+2 bytes 	 -> 14.26 us 	 == 1.07 Mbit/s
+4 bytes 	 -> 14.15 us 	 == 2.14 Mbit/s
+8 bytes 	 -> 14.07 us 	 == 4.30 Mbit/s
+16 bytes 	 -> 14.14 us 	 == 8.58 Mbit/s
+32 bytes 	 -> 14.29 us 	 == 17.15 Mbit/s
+64 bytes 	 -> 14.49 us 	 == 33.44 Mbit/s
+128 bytes 	 -> 14.39 us 	 == 66.34 Mbit/s
+256 bytes 	 -> 14.52 us 	 == 132.43 Mbit/s
+512 bytes 	 -> 15.14 us 	 == 255.52 Mbit/s
+1024 bytes 	 -> 16.80 us 	 == 452.73 Mbit/s
+2048 bytes 	 -> 17.14 us 	 == 885.63 Mbit/s
+4096 bytes 	 -> 19.56 us 	 == 1539.87 Mbit/s
+8192 bytes 	 -> 23.97 us 	 == 2468.90 Mbit/s
+16384 bytes 	 -> 34.12 us 	 == 2696.43 Mbit/s
+32768 bytes 	 -> 55.21 us 	 == 3846.91 Mbit/s
+65536 bytes 	 -> 108.46 us 	 == 4218.49 Mbit/s
+131072 bytes 	 -> 148.21 us 	 == 5910.88 Mbit/s
+262144 bytes 	 -> 222.43 us 	 == 8475.16 Mbit/s
+524288 bytes 	 -> 363.80 us 	 == 9072.71 Mbit/s
+1048576 bytes 	 -> 715.23 us 	 == 10491.34 Mbit/s
+2097152 bytes 	 -> 1194.23 us 	 == 12308.88 Mbit/s
+4194304 bytes 	 -> 2241.20 us 	 == 12860.06 Mbit/s
+8388608 bytes 	 -> 4500.83 us 	 == 13323.92 Mbit/s
+16777216 bytes 	 -> 8906.65 us 	 == 13538.78 Mbit/s
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][51 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=1 ...[1722172303.181574] [tcn1151:3858698:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172303.223308] [tcn1151:3858698:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one_mpi_bidirect.out.tmp -m mpi -x one_one_mpi_bidirect )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722172303.199267] [tcn1153:3779970:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172303.223645] [tcn1153:3779970:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 15.07 us 	 == 0.49 Mbit/s
+2 bytes 	 -> 14.88 us 	 == 0.98 Mbit/s
+4 bytes 	 -> 15.11 us 	 == 1.98 Mbit/s
+8 bytes 	 -> 15.18 us 	 == 3.94 Mbit/s
+16 bytes 	 -> 15.13 us 	 == 7.84 Mbit/s
+32 bytes 	 -> 15.33 us 	 == 15.72 Mbit/s
+64 bytes 	 -> 15.51 us 	 == 30.77 Mbit/s
+128 bytes 	 -> 15.16 us 	 == 61.04 Mbit/s
+256 bytes 	 -> 15.14 us 	 == 125.15 Mbit/s
+512 bytes 	 -> 15.83 us 	 == 241.02 Mbit/s
+1024 bytes 	 -> 16.20 us 	 == 464.27 Mbit/s
+2048 bytes 	 -> 17.22 us 	 == 826.44 Mbit/s
+4096 bytes 	 -> 19.57 us 	 == 1400.06 Mbit/s
+8192 bytes 	 -> 22.12 us 	 == 1626.83 Mbit/s
+16384 bytes 	 -> 31.85 us 	 == 2925.11 Mbit/s
+32768 bytes 	 -> 43.49 us 	 == 3343.73 Mbit/s
+65536 bytes 	 -> 167.85 us 	 == 2448.78 Mbit/s
+131072 bytes 	 -> 184.62 us 	 == 3581.93 Mbit/s
+262144 bytes 	 -> 406.05 us 	 == 4328.73 Mbit/s
+524288 bytes 	 -> 451.91 us 	 == 5217.66 Mbit/s
+1048576 bytes 	 -> 1060.45 us 	 == 5990.24 Mbit/s
+2097152 bytes 	 -> 1903.90 us 	 == 6396.05 Mbit/s
+4194304 bytes 	 -> 3998.29 us 	 == 6690.42 Mbit/s
+8388608 bytes 	 -> 7798.12 us 	 == 6715.61 Mbit/s
+16777216 bytes 	 -> 15528.01 us 	 == 6801.02 Mbit/s
+ [Done][90 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 2 concurrent connections ... [Done][29 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=2 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722172421.482705] [tcn1151:3859564:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172421.506322] [tcn1151:3859564:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one_mpi_bidirect.out.tmp -m mpi -x one_one_mpi_bidirect )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722172421.478966] [tcn1153:3780523:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172421.506711] [tcn1153:3780523:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 4935.30 us 	 == 0.00 Mbit/s
+2 bytes 	 -> 4946.97 us 	 == 0.00 Mbit/s
+4 bytes 	 -> 4946.89 us 	 == 0.01 Mbit/s
+8 bytes 	 -> 4952.28 us 	 == 0.01 Mbit/s
+16 bytes 	 -> 4936.75 us 	 == 0.03 Mbit/s
+32 bytes 	 -> 4955.68 us 	 == 0.05 Mbit/s
+64 bytes 	 -> 4918.84 us 	 == 0.10 Mbit/s
+128 bytes 	 -> 4940.11 us 	 == 0.21 Mbit/s
+256 bytes 	 -> 4945.24 us 	 == 0.41 Mbit/s
+512 bytes 	 -> 4945.26 us 	 == 0.82 Mbit/s
+1024 bytes 	 -> 4957.17 us 	 == 1.65 Mbit/s
+2048 bytes 	 -> 4952.98 us 	 == 3.30 Mbit/s
+4096 bytes 	 -> 4946.99 us 	 == 6.60 Mbit/s
+8192 bytes 	 -> 4951.84 us 	 == 13.20 Mbit/s
+16384 bytes 	 -> 4929.08 us 	 == 26.39 Mbit/s
+32768 bytes 	 -> 4930.99 us 	 == 52.79 Mbit/s
+65536 bytes 	 -> 164.49 us 	 == 2333.30 Mbit/s
+131072 bytes 	 -> 152.07 us 	 == 3537.60 Mbit/s
+262144 bytes 	 -> 402.40 us 	 == 4436.12 Mbit/s
+524288 bytes 	 -> 443.13 us 	 == 5397.15 Mbit/s
+1048576 bytes 	 -> 1035.41 us 	 == 6298.57 Mbit/s
+2097152 bytes 	 -> 2017.92 us 	 == 6371.33 Mbit/s
+4194304 bytes 	 -> 3229.30 us 	 == 6719.18 Mbit/s
+8388608 bytes 	 -> 7590.71 us 	 == 6765.04 Mbit/s
+16777216 bytes 	 -> 14931.40 us 	 == 6812.15 Mbit/s
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][248 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 4 concurrent connections ... [Done][21 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=4 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722172690.418965] [tcn1151:3860812:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172690.443137] [tcn1151:3860812:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one_mpi_bidirect.out.tmp -m mpi -x one_one_mpi_bidirect )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722172690.415268] [tcn1153:3781596:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172690.443015] [tcn1153:3781596:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 16.48 us 	 == 0.42 Mbit/s
+2 bytes 	 -> 17.14 us 	 == 0.83 Mbit/s
+4 bytes 	 -> 16.95 us 	 == 1.66 Mbit/s
+8 bytes 	 -> 16.76 us 	 == 3.34 Mbit/s
+16 bytes 	 -> 16.76 us 	 == 6.64 Mbit/s
+32 bytes 	 -> 16.65 us 	 == 13.31 Mbit/s
+64 bytes 	 -> 17.44 us 	 == 25.96 Mbit/s
+128 bytes 	 -> 17.29 us 	 == 52.10 Mbit/s
+256 bytes 	 -> 17.08 us 	 == 106.37 Mbit/s
+512 bytes 	 -> 17.42 us 	 == 209.31 Mbit/s
+1024 bytes 	 -> 18.09 us 	 == 418.09 Mbit/s
+2048 bytes 	 -> 32.23 us 	 == 288.92 Mbit/s
+4096 bytes 	 -> 20.44 us 	 == 1485.15 Mbit/s
+8192 bytes 	 -> 26.43 us 	 == 1563.44 Mbit/s
+16384 bytes 	 -> 33.68 us 	 == 2579.54 Mbit/s
+32768 bytes 	 -> 53.02 us 	 == 3077.52 Mbit/s
+65536 bytes 	 -> 222.22 us 	 == 2191.00 Mbit/s
+131072 bytes 	 -> 286.13 us 	 == 3005.28 Mbit/s
+262144 bytes 	 -> 460.47 us 	 == 4132.10 Mbit/s
+524288 bytes 	 -> 817.97 us 	 == 4295.56 Mbit/s
+1048576 bytes 	 -> 1530.04 us 	 == 5011.24 Mbit/s
+2097152 bytes 	 -> 2815.79 us 	 == 5638.27 Mbit/s
+4194304 bytes 	 -> 5428.60 us 	 == 5940.65 Mbit/s
+8388608 bytes 	 -> 10606.96 us 	 == 6133.11 Mbit/s
+16777216 bytes 	 -> 21035.48 us 	 == 6152.80 Mbit/s
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][100 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 8 concurrent connections ... [Done][16 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=8 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722172806.190685] [tcn1151:3864338:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172806.214217] [tcn1151:3864338:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one_mpi_bidirect.out.tmp -m mpi -x one_one_mpi_bidirect )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722172806.171222] [tcn1153:3784935:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722172806.214470] [tcn1153:3784935:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 4572.15 us 	 == 0.00 Mbit/s
+2 bytes 	 -> 4854.38 us 	 == 0.00 Mbit/s
+4 bytes 	 -> 4944.86 us 	 == 0.01 Mbit/s
+8 bytes 	 -> 4903.07 us 	 == 0.01 Mbit/s
+16 bytes 	 -> 4836.11 us 	 == 0.03 Mbit/s
+32 bytes 	 -> 4944.67 us 	 == 0.05 Mbit/s
+64 bytes 	 -> 4946.43 us 	 == 0.10 Mbit/s
+128 bytes 	 -> 4903.63 us 	 == 0.21 Mbit/s
+256 bytes 	 -> 4941.02 us 	 == 0.41 Mbit/s
+512 bytes 	 -> 4933.30 us 	 == 0.82 Mbit/s
+1024 bytes 	 -> 4942.45 us 	 == 1.65 Mbit/s
+2048 bytes 	 -> 4939.17 us 	 == 3.30 Mbit/s
+4096 bytes 	 -> 4942.49 us 	 == 6.60 Mbit/s
+8192 bytes 	 -> 4893.09 us 	 == 13.20 Mbit/s
+16384 bytes 	 -> 4832.59 us 	 == 26.39 Mbit/s
+32768 bytes 	 -> 4834.09 us 	 == 52.79 Mbit/s
+65536 bytes 	 -> 171.51 us 	 == 2413.32 Mbit/s
+131072 bytes 	 -> 168.03 us 	 == 3245.89 Mbit/s
+262144 bytes 	 -> 317.94 us 	 == 4625.14 Mbit/s
+524288 bytes 	 -> 669.93 us 	 == 4914.86 Mbit/s
+1048576 bytes 	 -> 1264.44 us 	 == 5747.48 Mbit/s
+2097152 bytes 	 -> 1906.16 us 	 == 6491.85 Mbit/s
+4194304 bytes 	 -> 4745.32 us 	 == 6572.25 Mbit/s
+8388608 bytes 	 -> 9465.48 us 	 == 6707.02 Mbit/s
+16777216 bytes 	 -> 14580.69 us 	 == 6801.49 Mbit/s
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][250 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with 16 concurrent connections ... [Done][18 seconds]
+Running netgauge one_one_mpi_bidirect MPI test with striping=16 ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722173074.766859] [tcn1151:3866690:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722173074.802032] [tcn1151:3866690:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+# Info:   (0): Netgauge v2.4.6 MPI enabled (P=2, threadlevel=0) (/opt/cloud_noise/benchmarks/netgauge/netgauge -c 1000 -g 1 -s -16777216 -f ../data/snellius_spack/2024_07_28_14_39_08/ng_one_one_mpi_bidirect.out.tmp -m mpi -x one_one_mpi_bidirect )
+# initializing x86-64 timer (takes some seconds)
+# Info:   (0): writing data to ng.out
+[1722173074.778264] [tcn1153:3786975:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722173074.802637] [tcn1153:3786975:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+1 bytes 	 -> 13.64 us 	 == 0.55 Mbit/s
+2 bytes 	 -> 13.65 us 	 == 1.10 Mbit/s
+4 bytes 	 -> 13.58 us 	 == 2.16 Mbit/s
+8 bytes 	 -> 13.53 us 	 == 4.33 Mbit/s
+16 bytes 	 -> 13.55 us 	 == 8.60 Mbit/s
+32 bytes 	 -> 13.59 us 	 == 17.12 Mbit/s
+64 bytes 	 -> 13.78 us 	 == 33.77 Mbit/s
+128 bytes 	 -> 13.98 us 	 == 67.11 Mbit/s
+256 bytes 	 -> 13.59 us 	 == 134.79 Mbit/s
+512 bytes 	 -> 14.20 us 	 == 261.32 Mbit/s
+1024 bytes 	 -> 14.37 us 	 == 378.75 Mbit/s
+2048 bytes 	 -> 15.75 us 	 == 949.02 Mbit/s
+4096 bytes 	 -> 18.20 us 	 == 1019.60 Mbit/s
+8192 bytes 	 -> 22.65 us 	 == 2439.14 Mbit/s
+16384 bytes 	 -> 27.92 us 	 == 2333.20 Mbit/s
+32768 bytes 	 -> 49.24 us 	 == 2679.46 Mbit/s
+65536 bytes 	 -> 162.06 us 	 == 2381.36 Mbit/s
+131072 bytes 	 -> 150.71 us 	 == 3580.06 Mbit/s
+262144 bytes 	 -> 403.84 us 	 == 4561.81 Mbit/s
+524288 bytes 	 -> 506.33 us 	 == 5474.97 Mbit/s
+1048576 bytes 	 -> 1017.66 us 	 == 6200.39 Mbit/s
+2097152 bytes 	 -> 1976.80 us 	 == 6429.68 Mbit/s
+4194304 bytes 	 -> 3961.86 us 	 == 6639.17 Mbit/s
+8388608 bytes 	 -> 6967.07 us 	 == 6812.55 Mbit/s
+16777216 bytes 	 -> 14613.12 us 	 == 6864.37 Mbit/s
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ [Done][88 seconds]
+Running hoverboard test ...ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ERROR: ld.so: object './libstripe/libstripe.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+[1722173162.584355] [tcn1153:3787226:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722173162.613489] [tcn1153:3787226:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722173162.589356] [tcn1151:3867078:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+[1722173162.613116] [tcn1151:3867078:0]     ucp_context.c:1086 UCX  WARN  network devices 'mlx5_5:1','mlx5_4:1','mlx5_3:1','mlx5_0:1','mlx5_2:1','ib-bond0' are not available, please use one or more of: 'eno2np0'(tcp), 'enp2s0f4u1u6'(tcp), 'ib0'(tcp), 'lo'(tcp), 'vlan-pub.136'(tcp)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 7209595 ON tcn1151 CANCELLED AT 2024-07-28T15:26:08 ***
+slurmstepd: error: *** STEP 7209595.27 ON tcn1151 CANCELLED AT 2024-07-28T15:26:08 ***
+slurmstepd: error: container_p_join: setns failed for /slurm/7209595/.ns: Invalid argument
+slurmstepd: error: container_g_join(7209595): Invalid argument
+
+JOB STATISTICS
+==============
+Job ID: 7209595
+Cluster: snellius
+User/Group: gsavchenko/gsavchenko
+State: CANCELLED (exit code 0)
+Nodes: 2
+Cores per node: 192
+CPU Utilized: 01:43:38
+CPU Efficiency: 0.57% of 12-14:04:48 core-walltime
+Job Wall-clock time: 00:47:12
+Memory Utilized: 176.51 MB (estimated maximum)
+Memory Efficiency: 0.03% of 672.00 GB (1.75 GB/core)

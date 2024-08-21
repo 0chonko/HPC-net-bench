@@ -1,0 +1,44 @@
+cat: tmp_2_7544699.txt: No such file or directory
+rm: cannot remove 'tmp_2_7544699.txt': No such file or directory
+[gcn97.local.snellius.surf.nl:1631844] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn98.local.snellius.surf.nl:2544888] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn97.local.snellius.surf.nl:1631742] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn97.local.snellius.surf.nl:1631804] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn97.local.snellius.surf.nl:1631845] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn98.local.snellius.surf.nl:2544814] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn98.local.snellius.surf.nl:2544889] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn98.local.snellius.surf.nl:2544914] PMIX ERROR: ERROR in file gds_ds12_lock_pthread.c at line 168
+[gcn97:1631742:0:1631742] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x145a6be00200)
+==== backtrace (tid:1631742) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x145cb6e4e224]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d3dc) [0x145cb6e4e3dc]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d688) [0x145cb6e4e688]
+ 3  /lib64/libc.so.6(+0xde930) [0x145ccf634930]
+ 4  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/ucx/libuct_ib.so.0(uct_rc_mlx5_ep_am_short+0x27a) [0x145cb6bc823a]
+ 5  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64) [0x145cb7572104]
+ 6  /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_send+0xf9) [0x145cb79c7b49]
+ 7  /opt/ompi/lib/libmpi.so.40(PMPI_Send+0x11b) [0x145cd284138b]
+ 8  ./pp_CudaAware() [0x405d65]
+ 9  /lib64/libc.so.6(__libc_start_main+0xe5) [0x145ccf5907e5]
+10  ./pp_CudaAware() [0x40452e]
+=================================
+[gcn97:1631742] *** Process received signal ***
+[gcn97:1631742] Signal: Segmentation fault (11)
+[gcn97:1631742] Signal code:  (-6)
+[gcn97:1631742] Failing at address: 0x10b5d0018e5fe
+[gcn97:1631742] [ 0] /lib64/libpthread.so.0(+0x12d20)[0x145cd00dcd20]
+[gcn97:1631742] [ 1] /lib64/libc.so.6(+0xde930)[0x145ccf634930]
+[gcn97:1631742] [ 2] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/ucx/libuct_ib.so.0(uct_rc_mlx5_ep_am_short+0x27a)[0x145cb6bc823a]
+[gcn97:1631742] [ 3] /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucp.so.0(ucp_tag_send_nbx+0x64)[0x145cb7572104]
+[gcn97:1631742] [ 4] /opt/ompi/lib/openmpi/mca_pml_ucx.so(mca_pml_ucx_send+0xf9)[0x145cb79c7b49]
+[gcn97:1631742] [ 5] /opt/ompi/lib/libmpi.so.40(PMPI_Send+0x11b)[0x145cd284138b]
+[gcn97:1631742] [ 6] ./pp_CudaAware[0x405d65]
+[gcn97:1631742] [ 7] /lib64/libc.so.6(__libc_start_main+0xe5)[0x145ccf5907e5]
+[gcn97:1631742] [ 8] ./pp_CudaAware[0x40452e]
+[gcn97:1631742] *** End of error message ***
+srun: error: gcn97: task 0: Segmentation fault
+srun: Terminating StepId=7544699.1
+slurmstepd: error: *** STEP 7544699.1 ON gcn97 CANCELLED AT 2024-08-18T09:52:35 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: gcn98: tasks 4-5,7: Terminated
+srun: error: gcn98: task 6: Terminated

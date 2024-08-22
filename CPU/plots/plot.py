@@ -16,8 +16,8 @@ from datetime import datetime
 from pytz import timezone
 import time
 import os
-sys.path.append('../simulations/')
-from loggp_params import get_loggp_params
+#sys.path.append('../simulations/')
+#from loggp_params import get_loggp_params
 
 def patch_violinplot(palette, n):
     from matplotlib.collections import PolyCollection
@@ -146,23 +146,23 @@ def fname(name):
     elif name =="HPC (200 Gb/s)":
         return "hpc200"
     elif name =="snellius-short-rome":
-        return "rome"
+        return "Rome"
     elif name == "snellius-long-genoa":
         return "snellius-long-genoa"
     elif name == "snellius-long-rome":
         return "snellius-long-rome"
     elif name == "snellius-short-genoa":
-        return "genoa"
+        return "Genoa"
     elif name == "snellius-short-rome-hybrid":
-        return "rome-hybrid"
+        return "Rome Hybrid"
     elif name == "snellius-short-rome-contained":
-        return "rome-contained"
+        return "Rome Contained"
     elif name == "snellius-short-rome-cloud":
-        return "rome-cloud"
+        return "Rome Cloud"
     elif name == "snellius-short-genoa-hybrid":
-        return "genoa-hybrid"
+        return "Genoa Hybrid"
     elif name == "snellius-short-genoa-contained":
-        return "genoa-contained"
+        return "Genoa Contained"
     elif name == "Same Rack":
         return "same_rack"
     elif name == "Different Racks":

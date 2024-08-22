@@ -1579,16 +1579,16 @@ def main():
         # plot_paper_noise_long_time_alloc("os_noise", "Detour (us)") # OK but not shown in the paper
 
 
-        # plot_paper_noise_long_instance_type("os_noise", "Detour (us)") # OK        
-        # plot_paper_noise_long_time_alloc("noise_lat", "Normalized Latency") # OK                
-        # plot_paper_noise_long_instance_type("noise_bw", "Normalized Bandwidth") # OK                
+        plot_paper_noise_long_instance_type("os_noise", "Detour (us)") # OK        
+        plot_paper_noise_long_time_alloc("noise_lat", "Normalized Latency") # OK                
+        plot_paper_noise_long_instance_type("noise_bw", "Normalized Bandwidth") # OK                
         # plot_paper_striping("stripe") # OK        
         # plot_paper_striping("conc") # OK
         # plot_paper_lat_bw_instances("unidirectional_bw") # OK
         # plot_paper_uni_vs_bi() # OK
         # plot_paper_noise_long_time_alloc("noise_lat", "Normalized Latency") # OK 
         # plot_paper_noise_long_instance_type("noise_lat", "Normalized Latency") # OK        
-       plot_paper_lat_bw() # OK
+        plot_paper_lat_bw() # OK
         # for time in times:
         #     for placement in placements:
         #         plot_lat_bw("unidirectional_lat", "RTT/2 (us)", time, placement)    
@@ -1598,8 +1598,8 @@ def main():
 
 
         # # plot_logGP()
-        # plot_paper_noise_long_time_alloc("noise_lat", "Latency (us)") 
-        # plot_paper_noise_long_time_alloc("noise_bw", "Bandwidth (Gb/s)")
+        plot_paper_noise_long_time_alloc("noise_lat", "Latency (us)") 
+        plot_paper_noise_long_time_alloc("noise_bw", "Bandwidth (Gb/s)")
 
 
 if __name__ == "__main__":

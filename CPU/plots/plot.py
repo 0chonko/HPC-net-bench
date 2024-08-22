@@ -32,9 +32,9 @@ sns.set_style("whitegrid")
 plot_ci = "sd"
 
 providers = [
-    # "snellius-short-rome",
-    # "snellius-short-rome-hybrid",
-    # "snellius-short-rome-contained",
+    "snellius-short-rome",
+    "snellius-short-rome-hybrid",
+    "snellius-short-rome-contained",
     "snellius-short-genoa",
     "snellius-short-genoa-hybrid",
     "snellius-short-genoa-contained",
@@ -146,23 +146,23 @@ def fname(name):
     elif name =="HPC (200 Gb/s)":
         return "hpc200"
     elif name =="snellius-short-rome":
-        return "Rome"
+        return "Rome-Native"
     elif name == "snellius-long-genoa":
         return "snellius-long-genoa"
     elif name == "snellius-long-rome":
         return "snellius-long-rome"
     elif name == "snellius-short-genoa":
-        return "Genoa"
+        return "Genoa-Native"
     elif name == "snellius-short-rome-hybrid":
-        return "Rome Hybrid"
+        return "Rome-Hybrid"
     elif name == "snellius-short-rome-contained":
-        return "Rome Contained"
+        return "Rome-Contained"
     elif name == "snellius-short-rome-cloud":
-        return "Rome Cloud"
+        return "Rome-Cloud"
     elif name == "snellius-short-genoa-hybrid":
-        return "Genoa Hybrid"
+        return "Genoa-Hybrid"
     elif name == "snellius-short-genoa-contained":
-        return "Genoa Contained"
+        return "Genoa-Contained"
     elif name == "Same Rack":
         return "same_rack"
     elif name == "Different Racks":
@@ -413,10 +413,10 @@ def plot_size_vs_lat_bw(df, ax, data_type, data_type_human, style, provider, xli
         innertick_spacing = tick_spacing
     if palette is not None:
         ax = sns.lineplot(data=df, x="Message Size", y=data_type_human, style=style, \
-                hue=style, markers=markers, dashes=dashes, ci=plot_ci, sort=False, palette=palette, ax=ax, linewidth=2, markersize=10)    
+                hue=style, markers=markers, dashes=dashes, ci=plot_ci, sort=False, palette=palette, ax=ax, linewidth=3, markersize=10)    
     else:
         ax = sns.lineplot(data=df, x="Message Size", y=data_type_human, style=style, \
-                  hue=style, markers=True, dashes=True, ci=plot_ci, sort=False, ax=ax, linewidth=2, markersize=10)    
+                  hue=style, markers=True, dashes=True, ci=plot_ci, sort=False, ax=ax, linewidth=3, markersize=10)    
     #ax.legend(title=None, ncol=3)
     ax.legend(ncol=3, fontsize=8, title_fontsize=8, title=style)
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
@@ -670,76 +670,73 @@ def plot_paper_lat_bw():
     #   - X axis: message size
     #   - hue: provider
     #   - one sublot for each lat and one for bandwidth
-    #   - Fixed time (Night), allocation (Same Rack), and instance types (HPC)
+    #   - Fixed time (Night), allocation (Same Rack & Different Racks), and instance types (HPC)
     if not os.path.exists('out/paper_pre'):
         os.makedirs('out/paper_pre')
     filename = 'out/paper_pre/lat_bw.pdf'
     print("Plotting " + filename + " ...")
+    
     rows = 1
-    cols = 1
-    fig, axes = plt.subplots(rows, cols, figsize=(6,5), sharex=False, sharey=False)
-    i = 0
-    for metric in ["unidirectional_bw"]:        
-        handles = None
-        labels = None
-        df = pd.DataFrame()            
-        for provider in providers:
-            stripes = [1]
-            if provider == "AWS" or provider == "GCP" or provider == "Oracle":
-                stripes = [1, 16]
-            
-            # Get data
-            for stripe in stripes:
-                suffix = "x" + str(stripe)
-                if (provider == "GCP" or provider == "AWS" or provider == "Oracle") and stripe != 1:
-                    suffix = "y" + str(stripe)
-                dfc = load_all(metric + suffix)            
-                dfc = filter_instance(dfc, instance_type_t[provider])            
-                dfc = filter_placement(dfc, "Different Racks")            
-                dfc = filter_time(dfc, time_t[provider])
-                dfc = filter_provider(dfc, provider)
-                if provider == "AWS" or provider == "GCP" or provider == "Oracle":
-                    small_msgs = ["1B", "2B", "4B", "8B", "16B", "32B", "64B", "128B", "256B"]
-                    if stripe == 1:
-                         dfc = dfc[dfc['Message Size'].isin(small_msgs)]
-                    elif stripe == 16:
-                         dfc = dfc[~dfc['Message Size'].isin(small_msgs)]
-                df = pd.concat([df, dfc])
-        df.reset_index(inplace=True, drop=True)   
-        #ax = axes[int(i / cols)][i % cols]
-        ax = axes
-        innerxlim=None
-        innerylim=None
-        innerpars = None
-        xlim = None
-        ylim = None
-        if "lat" in metric: # Lat
-            innerxlim=(0, 8)
-            innerylim=(0, 30)
-            innerpars = [0.12, 0.35, 0.44, 0.55]
-            innerpars_dt = "RTT/2 (us)"
-        else: # Bw
-            innerxlim=(0, 8)
-            innerylim=(0, 30)
-            innerpars = [0.12, 0.35, 0.44, 0.55]
+    cols = 2  # One for Same Rack, one for Different Racks
+    fig, axes = plt.subplots(rows, cols, figsize=(6.5, 3.5), sharex=False, sharey=True)
+    placements = ["Same Rack", "Different Racks"]
+    plt.subplots_adjust(bottom=0.2)
+
+    for j, placement in enumerate(placements):
+        i = 0
+        for metric in ["unidirectional_bw"]:        
+            handles = None
+            labels = None
+            df = pd.DataFrame()            
+            for provider in providers:
+                stripes = [1]
+                if provider in ["AWS", "GCP", "Oracle"]:
+                    stripes = [1, 16]
+                
+                # Get data
+                for stripe in stripes:
+                    suffix = "x" + str(stripe)
+                    if provider in ["GCP", "AWS", "Oracle"] and stripe != 1:
+                        suffix = "y" + str(stripe)
+                    dfc = load_all(metric + suffix)            
+                    dfc = filter_instance(dfc, instance_type_t[provider])            
+                    dfc = filter_placement(dfc, placement)  # Different placement each iteration            
+                    dfc = filter_time(dfc, time_t[provider])
+                    dfc = filter_provider(dfc, provider)
+                    if provider in ["AWS", "GCP", "Oracle"]:
+                        small_msgs = ["1B", "2B", "4B", "8B", "16B", "32B", "64B", "128B", "256B"]
+                        if stripe == 1:
+                            dfc = dfc[dfc['Message Size'].isin(small_msgs)]
+                        elif stripe == 16:
+                            dfc = dfc[~dfc['Message Size'].isin(small_msgs)]
+                    df = pd.concat([df, dfc])
+            df.reset_index(inplace=True, drop=True)   
+            ax = axes[j]  # Select the correct axis for Same or Different Rack
+            innerxlim = (0, 8)
+            innerylim = (0, 30)
+            innerpars = [0.18, 0.35, 0.44, 0.55]
             innerpars_dt = "RTT/2 (us)"
 
-        plot_size_vs_lat_bw(df, ax, metric, metric_human[metric], "Provider", None, xlim=xlim, ylim=ylim, innerpars_dt=innerpars_dt, innerpars=innerpars, innerxlim=innerxlim, innerylim=innerylim, innerfontsize=10)
-        ax.grid
-        ax.set_title(None)   
-        ax.grid(True, linestyle='--')
-        handles, labels = ax.get_legend_handles_labels()     
-        ax.get_legend().remove()
-        i += 1
-    plt.xticks(fontsize=14)
-    plt.yticks(fontsize=14)
-    ax.set_xlabel(ax.get_xlabel(), fontsize=14)
-    ax.set_ylabel(ax.get_ylabel(), fontsize=14)
-    fig.legend(handles, [fname(label) for label in labels], ncol=3, fontsize=12, loc="upper center", columnspacing=0.5)
-    plt.tight_layout()
-    # plt.subplots_adjust(top=0.8)
+            plot_size_vs_lat_bw(df, ax, metric, metric_human[metric], "Provider", None, xlim=None, ylim=None, innerpars_dt=innerpars_dt, innerpars=innerpars, innerxlim=innerxlim, innerylim=innerylim, innerfontsize=8)
+            ax.grid(True, linestyle='--')
+            # ax.set_title(placement)   
+            handles, labels = ax.get_legend_handles_labels()     
+            ax.get_legend().remove()
+            i += 1
+    
+    plt.xticks(fontsize=10)
+    plt.yticks(fontsize=10)
+    
+    for ax in axes:  # Set the x-label font size for both axes
+        ax.set_xlabel(ax.get_xlabel(), fontsize=12)
+    
+    axes[0].set_ylabel(axes[0].get_ylabel(), fontsize=12)
+    
+    fig.legend(handles, [fname(label) for label in labels], ncol=3, fontsize=12, loc="upper center", columnspacing=0.1, bbox_to_anchor=(0.5, 1.0), borderaxespad=0.0)
+    plt.tight_layout(rect=[0, 0, 1, 0.9])
     fig.savefig(filename, format='pdf', dpi=300)
     plt.clf()
+
 
 def plot_paper_lat_bw_instances(metric):
     # Plot lat and bw (linesplot):
@@ -1306,10 +1303,10 @@ def plot_paper_noise_long_instance_type(data_type, data_type_human):
         #cols = 3
         #fig, axes = plt.subplots(rows, cols, figsize=(8, 6), sharex=True, sharey=True)
 
-        rows = 1
-        cols = 6
+        rows = 2
+        cols = 3
 
-        fig = plt.figure(constrained_layout=True, figsize=(10,3))
+        fig = plt.figure(constrained_layout=True, figsize=(6,5))
         gs0 = fig.add_gridspec(rows, 1)
 
         gs00 = gs0[0].subgridspec(1, cols)
@@ -1327,7 +1324,7 @@ def plot_paper_noise_long_instance_type(data_type, data_type_human):
     else:
         rows = 1
         cols = 6
-        fig, axes = plt.subplots(rows, cols, figsize=(8, 2.5), sharex=True, sharey=True)
+        fig, axes = plt.subplots(rows, cols, figsize=(8, 2.5))
 
     if "os" in data_type:
         x_col = "Time (s)"
@@ -1365,9 +1362,9 @@ def plot_paper_noise_long_instance_type(data_type, data_type_human):
                 ax = sns.kdeplot(data=df, x=data_type_human, hue="Instance", palette=palette_dict, ax=ax)    
             else:
                 ax = sns.scatterplot(data=df, x=x_col, y=data_type_human, hue="Instance", style="Instance", \
-                                     palette={'coral'}, markers='x', ax=ax, linewidth=1, s=60) #, s=15)
+                                     palette={'coral'}, markers='x', ax=ax, linewidth=1.5, s=60) #, s=15)
                 if "os" in data_type:
-                    ax.set_title(fname(provider))
+                    ax.set_title(fname(provider), fontsize=14)
                     # if i != 0:
                         
                 if "lat" in data_type:
@@ -1378,7 +1375,13 @@ def plot_paper_noise_long_instance_type(data_type, data_type_human):
             if data_type == "os_noise":                
                 ax.set_yscale("log")
                 ax.set(ylim=(-20,1000), xlim=(0,5), xticks=[0,1,2,3,4,5], xticklabels=[0,1,2,3,4,5])
-                if i != 0:
+                ax.set_xlabel(ax.get_xlabel(), fontsize=14)
+                ax.set_xticklabels(ax.get_xticklabels(), fontsize=12)
+                ax.set_yticklabels(ax.get_yticklabels(), fontsize=12)
+
+                if i == 0 or i == 3:
+                    ax.set_ylabel(data_type_human, fontsize=14)
+                else:
                     ax.set_ylabel(None)
                     ax.set(yticklabels=[])
             if "bw" in data_type:
@@ -1394,71 +1397,73 @@ def plot_paper_noise_long_instance_type(data_type, data_type_human):
         # plt.subplots_adjust(top=0.83)
     # else:
         # plt.subplots_adjust(top=0.78)
-    fig.savefig(filename, format='pdf', dpi=100)
+    fig.savefig(filename, format='pdf', dpi=300)
     plt.clf()
 
 
 
 def plot_paper_noise_long_time_alloc(data_type, data_type_human):
     kde = False
-    if kde:
-        filename = 'out/paper_pre/' + data_type + '_time_alloc_long_kde.pdf'
-    else:
-        filename = 'out/paper_pre/' + data_type + '_time_alloc_long.pdf'    
-    print("Plotting " + filename + " ...")    
+    filename = f'out/paper_pre/{data_type}_time_alloc_long{"_kde" if kde else ""}.pdf'
+    print(f"Plotting {filename} ...")
+    
     rows = 1
-    cols = 1
-    fig, ax = plt.subplots(rows, cols, figsize=(6,6), sharex=True, sharey=True)
-    if "os" in data_type:
-        x_col = "Time (min)"
-    else:
-        x_col = "Time (min)"
-    i = 0
+    cols = 2
+    fig, axes = plt.subplots(rows, cols, figsize=(6, 3.2), sharex=True, sharey=True)
+    
+    x_col = "Time (min)"
+    
     palette_dict = {}
     legend_elements = []
-    markers = {"GCP" : 'o', "AWS" : 'D', "Daint" : 's', "Azure" : '^', "Alps" : "P", "DEEP-EST" : 'X', "Oracle" : 'p', "snellius-short-rome" : 'v', "snellius-long-rome" : 'h', "snellius-long-genoa" : 'h', "snellius-short-genoa" : 'H', "snellius-short-rome-hybrid" : 'd', "snellius-short-genoa-hybrid" : 'D', "snellius-short-rome-contained" : 'v', "snellius-short-genoa-contained" : 'h', "snellius-short-rome-cloud" : 'p'}
-    for provider in providers:
+    markers = {"GCP" : 'o', "AWS" : 'D', "Daint" : 's', "Azure" : '^', "Alps" : "P", "DEEP-EST" : 'X', "Oracle" : 'p', 
+               "snellius-short-rome" : 'v', "snellius-long-rome" : 'h', "snellius-long-genoa" : 'h', "snellius-short-genoa" : 'H', 
+               "snellius-short-rome-hybrid" : 'd', "snellius-short-genoa-hybrid" : 'D', "snellius-short-rome-contained" : 'v', 
+               "snellius-short-genoa-contained" : 'h', "snellius-short-rome-cloud" : 'p'}
+    
+    for i, provider in enumerate(providers):
         palette_dict[provider] = sns.color_palette()[i]    
-        legend_elements += [Line2D([0], [0], marker=markers[provider], lw=0, color=sns.color_palette()[i], label=fname(provider))]
-        i += 1
-    i = 0
-    for placement in ["Same Rack"]:
+        legend_elements.append(Line2D([0], [0], marker=markers[provider], lw=0, color=sns.color_palette()[i], label=fname(provider)))
+    
+    for i, placement in enumerate(["Same Rack", "Different Racks"]):
+        ax = axes[i]
         for time in ["Day"]:
             df = pd.DataFrame()
-            j = 0
-            for provider in providers:
+            for j, provider in enumerate(providers):
                 df_tmp = get_noise_single(provider, instance_type_t[provider], placement, time, data_type, ax, j, kde)
                 if df_tmp is not None:
                     df = pd.concat([df, df_tmp])
-                j += 1            
+            
             df.reset_index(inplace=True, drop=True)
-            df = df.reindex(np.random.permutation(df.index)) # To improve overlapping issues
+            df = df.reindex(np.random.permutation(df.index))  # To improve overlapping issues
+            
             if kde:
-                ax = sns.kdeplot(data=df, x=data_type_human, hue="Provider", palette=palette_dict, ax=ax)    
-            else:       
-                ax = sns.scatterplot(data=df, x=x_col, y=data_type_human, hue="Provider", style="Provider", \
-                                     palette=palette_dict, markers=markers, ax=ax, linewidth=0, s=50, )
+                sns.kdeplot(data=df, x=data_type_human, hue="Provider", palette=palette_dict, ax=ax)
+            else:
+                sns.scatterplot(data=df, x=x_col, y=data_type_human, hue="Provider", style="Provider", 
+                                palette=palette_dict, markers=markers, ax=ax, linewidth=0, s=50)
                 ax.grid(True, linestyle='--')
                 for provider_ in df['Provider'].unique():
                     sns.regplot(data=df[df['Provider'] == provider_], x=x_col, y=data_type_human, scatter=False, ax=ax, color=palette_dict[provider_], line_kws={'lw': 0.5})
                 
                 if "lat" in data_type:               
                     ax.set_yscale("log")     
-                    ys = [2,8,32,128,512,2048]
+                    ys = [2, 8, 32, 128, 512, 2048]
                     ax.set(yticks=ys, yticklabels=ys)
                     ax.set(ylim=(1, 512))
-            plt.xticks(fontsize=14)
-            plt.yticks(fontsize=14)
-            ax.set_xlabel(ax.get_xlabel(), fontsize=14)
-            ax.set_ylabel(ax.get_ylabel(), fontsize=14)
+            
+            # ax.set_title(placement, fontsize=16)
+            ax.set_xlabel("Time (min)", fontsize=12)
+            ax.set_ylabel(data_type_human, fontsize=12)
+            ax.tick_params(axis='x', labelsize=10)
+            ax.tick_params(axis='y', labelsize=10)
             ax.get_legend().remove()
-            i += 1
-    fig.legend(handles=legend_elements, ncols=3, title=None, loc='upper center', fontsize=12, columnspacing=0.4)
-    plt.tight_layout()
     
-    # plt.subplots_adjust(top=0.75)
+    fig.legend(handles=legend_elements, ncols=3, title=None, loc='upper center', fontsize=12,  columnspacing=0.1, bbox_to_anchor=(0.5, 1.0), borderaxespad=0.0)
+    # fig.legend(handles, [fname(label) for label in labels], ncol=3, fontsize=12, loc="upper center", columnspacing=0.1, bbox_to_anchor=(0.5, 1.0), borderaxespad=0.0)
+    plt.tight_layout(rect=[0, 0, 1, 0.93])
     fig.savefig(filename, format='pdf', dpi=300)
     plt.clf()
+
 
 def plot_logGP():
     filename = 'out/paper_pre/logGP.png'    
@@ -1579,16 +1584,16 @@ def main():
         # plot_paper_noise_long_time_alloc("os_noise", "Detour (us)") # OK but not shown in the paper
 
 
-        plot_paper_noise_long_instance_type("os_noise", "Detour (us)") # OK        
-        plot_paper_noise_long_time_alloc("noise_lat", "Normalized Latency") # OK                
-        plot_paper_noise_long_instance_type("noise_bw", "Normalized Bandwidth") # OK                
+        # plot_paper_noise_long_instance_type("os_noise", "Detour (us)") # OK        
+        # plot_paper_noise_long_time_alloc("noise_lat", "Normalized Latency") # OK                
+        # plot_paper_noise_long_instance_type("noise_bw", "Normalized Bandwidth") # OK                
         # plot_paper_striping("stripe") # OK        
         # plot_paper_striping("conc") # OK
         # plot_paper_lat_bw_instances("unidirectional_bw") # OK
         # plot_paper_uni_vs_bi() # OK
         # plot_paper_noise_long_time_alloc("noise_lat", "Normalized Latency") # OK 
         # plot_paper_noise_long_instance_type("noise_lat", "Normalized Latency") # OK        
-        plot_paper_lat_bw() # OK
+        # plot_paper_lat_bw() # OK
         # for time in times:
         #     for placement in placements:
         #         plot_lat_bw("unidirectional_lat", "RTT/2 (us)", time, placement)    
@@ -1599,7 +1604,7 @@ def main():
 
         # # plot_logGP()
         plot_paper_noise_long_time_alloc("noise_lat", "Latency (us)") 
-        plot_paper_noise_long_time_alloc("noise_bw", "Bandwidth (Gb/s)")
+        # plot_paper_noise_long_time_alloc("noise_bw", "Bandwidth (Gb/s)")
 
 
 if __name__ == "__main__":

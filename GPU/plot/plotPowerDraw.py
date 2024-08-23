@@ -13,20 +13,26 @@ import matplotlib.colors as mcolors
 combined_data = pd.DataFrame()
 
 # List of transfer sizes (1, 2, 4, ..., 536870912)
-transfer_sizes = [2**i for i in range(29,30)]
+transfer_sizes = [2**i for i in range(1,30)]
 
 # Calculate MiB from transfer_sizes
 transfer_sizes_mib = [size / (2**20) for size in transfer_sizes]
 # List of data folders
 # data_folders = ['pp_nvlink', 'pp_nccl', 'pp_baseline', 'pp_cudaaware']
 # data_folders = ['a2a_nccl', 'a2a_nvlink', 'a2a_baseline', 'a2a_cudaaware']
+sns.set_style("whitegrid")
 
 
-experiments = ['ar', 'a2a', 'pp']
+# experiments = ['ar', 'a2a', 'pp']
+experiments = ['pp']
 # experiment = 'pp'
 architecture = 'a100'
 # folders = ['sout/native_h100','sout/hybrid_h100', 'sout/contained/power_data']
-folders = ['sout/native/bu3_GOOD PREVIOUSLY','sout/hybrid', 'sout/contained/power_data']
+# folders = ['sout/native/bu3_GOOD PREVIOUSLY','sout/hybrid', 'sout/contained/power_data']
+folders = ['sout/hybrid', 'sout/contained/power_data']
+
+
+
 
 # Colors for each data folder
 colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
@@ -35,10 +41,23 @@ colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
 # Line styles for each source
 line_styles = {'Native': '-', 'Hybrid': '--'}
 
+LOAD_PARTIAL = True
+
 def lighten_color(color, factor=0.5):
     """Lighten a given color by a factor."""
     color = mcolors.to_rgb(color)
     return mcolors.to_hex([min(1, c + (1 - c) * factor) for c in color])
+
+def hr_size(size):
+    if size < 1024:
+        return str(int(size)) + "B"
+    elif size < 1024*1024:
+        return str(int(size / 1024)) + "KiB"
+    elif size < 1024*1024*1024:
+        return str(int(size / (1024*1024))) + "MiB"
+    elif size < 1024*1024*1024*1024:
+        return str(int(size / (1024*1024*1024))) + "GiB"
+
 
 # for i in [0, 3]:
 for experiment in experiments:
@@ -53,11 +72,15 @@ for experiment in experiments:
                             continue
                     # if experiment == 'pp' and i != 0 or i != 3:
                     #     continue
-                    data = pd.read_csv(file_path)
-                    data['transfer_size'] = size  # Add a column for transfer size
+                    if LOAD_PARTIAL:
+                        data = pd.read_csv(file_path, nrows=int(0.1 * len(pd.read_csv(file_path))))
+                    else:
+                        data = pd.read_csv(file_path)
+                    data['transfer_size'] = hr_size(size)  # Add a column for transfer size
                     data['data_folder'] = folder  # Add a column for data folder
                     data['source'] = 'Native'  # Add a column for source
                     combined_data = pd.concat([combined_data, data], axis=0)
+
                 else:
                     print(f'File not found: {file_path}')
 
@@ -70,7 +93,7 @@ for experiment in experiments:
                     if folder == 'a2a_baseline' and i == 3 and size == 536870912:
                             continue
                     data = pd.read_csv(file_path)
-                    data['transfer_size'] = size  # Add a column for transfer size
+                    data['transfer_size'] = hr_size(size)  # Add a column for transfer size
                     data['data_folder'] = folder  # Differentiate from main folder
                     data['source'] = 'Hybrid'  # Add a column for source
                     combined_data = pd.concat([combined_data, data], axis=0)
@@ -85,7 +108,6 @@ for experiment in experiments:
         f'{experiment}_cudaaware': 'CUDA-Aware MPI'
     }
     # Verify columns in the combined data
-    print("Column names in the combined data:", combined_data.columns)
 
     # Column names
     timestamp_col = 'timestamp'
@@ -111,8 +133,7 @@ for experiment in experiments:
     }
 
     cols_to_plot= [memory_used_mib, power_draw_col, mem_util_col]
-    # cols_to_plot= [power_draw_col]
-    # cols_to_plot= [mem_util_col]
+
 
 
 
@@ -132,20 +153,22 @@ for experiment in experiments:
     # Plot the power draw, GPU utilization, and memory utilization in one figure
 
     for j in cols_to_plot:
-        plt.figure(figsize=(4, 0.4))
+        plt.figure(figsize=(4.5, 2))
         plt.subplot(1, 1, 1)
         for folder_index, folder in enumerate(data_folders):
             for source in line_styles.keys():
                 transfer_sizes_filtered = []
                 max_values = []
                 for size, size_mib in zip(transfer_sizes, transfer_sizes_mib):
-                    subset = combined_data[(combined_data['transfer_size'] == size) & 
+                    subset = combined_data[(combined_data['transfer_size'] == hr_size(size)) & 
                                         (combined_data['data_folder'] == folder) & 
                                         (combined_data['source'] == source)]
+                   
+                    
                     if not subset.empty:
                         top_values = subset[j].nlargest(int(len(subset) * 0.09))
                         avg_top_values = top_values.mean()
-                        transfer_sizes_filtered.append(size)
+                        transfer_sizes_filtered.append(hr_size(size))
                         max_values.append(avg_top_values)
                 if max_values:
                     color = colors[folder_index] if source != 'Hybrid' else lighten_color(colors[folder_index], 0.3)
@@ -159,38 +182,44 @@ for experiment in experiments:
                             linewidth=2.2,
                             errorbar='ci')
                     # plt.xticks(transfer_sizes_filtered, [f'{x:.1f} MiB' for x in transfer_sizes_mib], fontsize=12, rotation=45)
-                    plt.yticks(fontsize=12)
-                    plt.xticks(fontsize=12)
-                    print(j, folder, experiment, source, max_values)
+                    plt.yticks(fontsize=9)
+                    plt.xticks(fontsize=9, ticks=transfer_sizes_filtered[::4])
+                    # print(j, folder, experiment, source, max_values)
 
                     # plt.xlim(1e6, 1e9)
                     # sns.lineplot(x=transfer_size, y=bandwidth, label=f"{type_name} {label_containers[container_name]} (up to {max_bandwidth} GB/s)",
                     #                          linestyle=linestyle, linewidth=4, color=color, marker='.', markersize=30)
-        plt.xlabel('Message Size (bytes)', fontsize=10)
+        plt.xlabel('Message Size', fontsize=10)
         plt.ylabel(col_labels[j], fontsize=10)
-        plt.xlim(1e6, 1e9)
+        # plt.xlim(1e6, 1e9)
         # plt.title(j + ' vs. Transfer Size', fontsize=10)
         #plt.legend(ncol=4, alpha=1) 
-        plt.gca().set_frame_on(False)
-        plt.gca().axes.xaxis.set_visible(False)
-        plt.gca().axes.yaxis.set_visible(False)
+        plt.legend().remove()
 
-        legend = plt.legend(ncol=4)
-        legend.get_frame().set_alpha(None)
-        legend.get_frame().set_facecolor((1, 1, 1, 1))
+        # SHOW ONLY LEGEND
+        ############################
+        # plt.gca().set_frame_on(False)
+        # plt.gca().axes.xaxis.set_visible(False)
+        # plt.gca().axes.yaxis.set_visible(False)
+
+        # legend = plt.legend(ncol=4)
+        # legend.get_frame().set_alpha(None)
+        # legend.get_frame().set_facecolor((1, 1, 1, 1))
+        ############################
+
         plt.grid(True, linestyle='--')
-        plt.minorticks_on() 
         # if j == cols_to_plot[0]:
             # plt.legend()
-        plt.xscale('log')
+        # plt.xscale('log')
             # plt.yscale('log')
 
-
+        plt.minorticks_off()
+        plt.tick_params(axis='both', which='both', bottom=False, top=False, left=False, right=False)
 
         plt.tight_layout()
-        filename = f'interconnect-benchmark-{experiment}-{j}-{architecture}.svg'
-        plt.savefig(filename, bbox_inches='tight')
-        print(filename)
+        filename = f'interconnect-benchmark-{experiment}-{j.strip()}-{architecture}.pdf'
+        plt.savefig(filename, bbox_inches='tight', format='pdf', dpi=300)
+        # print(filename)
 
 
 

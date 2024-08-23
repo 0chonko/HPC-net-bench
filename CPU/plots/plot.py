@@ -1409,27 +1409,36 @@ def plot_paper_noise_long_time_alloc(data_type, data_type_human):
     
     rows = 1
     cols = 2
-    fig, axes = plt.subplots(rows, cols, figsize=(6, 3.2), sharex=True, sharey=True)
+    fig, axes = plt.subplots(rows, cols, figsize=(6, 3.5), sharex=True, sharey=False)
     
     x_col = "Time (min)"
     
     palette_dict = {}
     legend_elements = []
     markers = {"GCP" : 'o', "AWS" : 'D', "Daint" : 's', "Azure" : '^', "Alps" : "P", "DEEP-EST" : 'X', "Oracle" : 'p', 
-               "snellius-short-rome" : 'v', "snellius-long-rome" : 'h', "snellius-long-genoa" : 'h', "snellius-short-genoa" : 'H', 
-               "snellius-short-rome-hybrid" : 'd', "snellius-short-genoa-hybrid" : 'D', "snellius-short-rome-contained" : 'v', 
-               "snellius-short-genoa-contained" : 'h', "snellius-short-rome-cloud" : 'p'}
+               "snellius-short-rome" : 'v', "snellius-short-rome-hybrid" : 'd', "snellius-short-rome-contained" : 'v', 
+               "snellius-short-genoa" : 'h', "snellius-short-genoa-hybrid" : 'D', "snellius-short-genoa-contained" : 'h'}
     
-    for i, provider in enumerate(providers):
-        palette_dict[provider] = sns.color_palette()[i]    
-        legend_elements.append(Line2D([0], [0], marker=markers[provider], lw=0, color=sns.color_palette()[i], label=fname(provider)))
+    # Separate the providers for Rome and Genoa
+    rome_providers = ["snellius-short-rome", "snellius-short-rome-hybrid", "snellius-short-rome-contained"]
+    genoa_providers = ["snellius-short-genoa", "snellius-short-genoa-hybrid", "snellius-short-genoa-contained"]
     
-    for i, placement in enumerate(["Same Rack", "Different Racks"]):
+    provider_groups = [rome_providers, genoa_providers]
+    titles = ["Rome", "Genoa"]
+    
+    # Assign the same color to corresponding Rome and Genoa providers
+    for i, (rome_provider, genoa_provider) in enumerate(zip(rome_providers, genoa_providers)):        
+        palette_dict[rome_provider] = sns.color_palette()[i]    
+        palette_dict[genoa_provider] = sns.color_palette()[i]  
+        legend_elements.append(Line2D([0], [0], marker=markers[rome_provider], lw=0, color=sns.color_palette()[i], label=fname(rome_provider)))
+        legend_elements.append(Line2D([0], [0], marker=markers[genoa_provider], lw=0, color=sns.color_palette()[i], label=fname(genoa_provider)))
+
+    for i, (providers, title) in enumerate(zip(provider_groups, titles)):
         ax = axes[i]
         for time in ["Day"]:
             df = pd.DataFrame()
             for j, provider in enumerate(providers):
-                df_tmp = get_noise_single(provider, instance_type_t[provider], placement, time, data_type, ax, j, kde)
+                df_tmp = get_noise_single(provider, instance_type_t[provider], "Same Rack", time, data_type, ax, j, kde)
                 if df_tmp is not None:
                     df = pd.concat([df, df_tmp])
             
@@ -1449,20 +1458,29 @@ def plot_paper_noise_long_time_alloc(data_type, data_type_human):
                     ax.set_yscale("log")     
                     ys = [2, 8, 32, 128, 512, 2048]
                     ax.set(yticks=ys, yticklabels=ys)
-                    ax.set(ylim=(1, 512))
+                    ax.set(ylim=(1, 256))
+
+                if "bw" in data_type:
+                    ax.set(ylim=(0, 1))
+                    # if "rome" in provider:
+                    #     ax.set(ylim=(0, 100))
+                    # else:
+                    #     ax.set(ylim=(0, 175))
+                    ax.tick_params(axis='y', labelsize=10)
             
-            # ax.set_title(placement, fontsize=16)
+            # ax.set_title(title, fontsize=12)
             ax.set_xlabel("Time (min)", fontsize=12)
-            ax.set_ylabel(data_type_human, fontsize=12)
+            if i == 0:
+                ax.set_ylabel(data_type_human, fontsize=12)
             ax.tick_params(axis='x', labelsize=10)
             ax.tick_params(axis='y', labelsize=10)
             ax.get_legend().remove()
     
-    fig.legend(handles=legend_elements, ncols=3, title=None, loc='upper center', fontsize=12,  columnspacing=0.1, bbox_to_anchor=(0.5, 1.0), borderaxespad=0.0)
-    # fig.legend(handles, [fname(label) for label in labels], ncol=3, fontsize=12, loc="upper center", columnspacing=0.1, bbox_to_anchor=(0.5, 1.0), borderaxespad=0.0)
-    plt.tight_layout(rect=[0, 0, 1, 0.93])
+    fig.legend(handles=legend_elements, ncols=3, title=None, loc='upper center', fontsize=12,  columnspacing=0.1, bbox_to_anchor=(0.55, 1.0), borderaxespad=0.0)
+    plt.tight_layout(rect=[0, 0, 1, 0.88])
     fig.savefig(filename, format='pdf', dpi=300)
     plt.clf()
+
 
 
 def plot_logGP():
@@ -1591,7 +1609,11 @@ def main():
         # plot_paper_striping("conc") # OK
         # plot_paper_lat_bw_instances("unidirectional_bw") # OK
         # plot_paper_uni_vs_bi() # OK
-        # plot_paper_noise_long_time_alloc("noise_lat", "Normalized Latency") # OK 
+
+
+        # plot_paper_noise_long_time_alloc("noise_bw", "Normalized Bandwidth") # OK 
+        plot_paper_noise_long_time_alloc("noise_lat", "Normalized Latency") # OK 
+
         # plot_paper_noise_long_instance_type("noise_lat", "Normalized Latency") # OK        
         # plot_paper_lat_bw() # OK
         # for time in times:
@@ -1603,7 +1625,7 @@ def main():
 
 
         # # plot_logGP()
-        plot_paper_noise_long_time_alloc("noise_lat", "Latency (us)") 
+        # plot_paper_noise_long_time_alloc("noise_lat", "Latency (us)") 
         # plot_paper_noise_long_time_alloc("noise_bw", "Bandwidth (Gb/s)")
 
 

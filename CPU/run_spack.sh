@@ -12,7 +12,7 @@
 # - ./run.sh -s
 
 source conf.sh
-IMAGE_FILE=/home/gsavchenko/bench_singularity_results/cloud_noise_original/singularity/cloud_noise_spack_ucx.sif
+IMAGE_FILE=images/contained_image.sif
 IMAGE_DIR=/opt/cloud_noise/benchmarks/
 RUN_NG_NOISE=true
 OS_NOISE_TEST_DURATION_SECS=120

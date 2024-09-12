@@ -28,7 +28,7 @@ A2ANAME=a2a
 HALONAME=hlo
 NBPPNAME=nbpp
 # --------------- Folders ----------------
-BINFOLDER=src/energy_binary
+BINFOLDER=bin/energy_binary
 OUTFOLDER=out
 SOUTFOLDER=sout
 MODULEFOLDER=moduleload

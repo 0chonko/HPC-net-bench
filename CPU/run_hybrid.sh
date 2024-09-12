@@ -12,7 +12,7 @@
 # - ./run.sh -s
 
 source conf.sh
-IMAGE_FILE=cloud_noise_3_ciq.sif
+IMAGE_FILE=images/hybrid_image.sif
 RUN_NG_NOISE=true
 OS_NOISE_TEST_DURATION_SECS=120
 OS_NOISE_MAX_TEST_DURATION_SECS=360

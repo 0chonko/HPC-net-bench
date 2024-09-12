@@ -3,7 +3,7 @@ From: spack/rockylinux8:v0.20.0
 Stage: build
 
 %files
-    /home/gsavchenko/bench_singularity_results/cloud_noise_original/cloud_noise /opt
+    ../CPU /opt
 
 %post
   # Create the manifest file for the installation in /opt/spack-environment

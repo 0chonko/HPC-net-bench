@@ -1,0 +1,231 @@
+# Bootstrap: docker
+# From: ubuntu:20.04
+
+# %files
+#     ./interconnect-benchmark/ /opt
+
+# %environment
+#     export OMPI_DIR=/opt/ompi
+#     export APPTAINER_OMPI_DIR=$OMPI_DIR
+#     export APPTAINERENV_APPEND_PATH=$OMPI_DIR/bin
+#     export APPTAINERENV_APPEND_LD_LIBRARY_PATH=$OMPI_DIR/lib
+    
+#     export CFLAGS="-I/usr/include/x86_64-linux-gnu -pthread"  # May need adjustment
+#     export LDFLAGS="-lpthread"
+#     export DEBIAN_FRONTEND=noninteractive
+
+# %post
+#     echo "Installing required packages..."
+#     ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
+#     apt-get update && apt-get install -y libpthread-stubs0-dev wget git bash gcc gfortran g++-12 bzip2 make file xz-utils \
+#     build-essential \
+#         software-properties-common \
+#         gfortran \
+#         openmpi-bin openmpi-common libopenmpi-dev \
+#         python3 \
+#         python3-pip \
+#         libssl-dev \
+#         rsync \
+#         vim \
+#         tar \
+#         unzip
+#     echo "DOne with packages \n\n\n\n"
+#     mkdir -p /opt
+#     echo "Done with OPT\n\n\n\n\n"
+
+#     echo "Installing Open MPI"
+#     export OMPI_DIR=/opt/ompi
+#     export OMPI_VERSION=4.1.5
+#     export OMPI_URL="https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-$OMPI_VERSION.tar.bz2"
+#     mkdir -p /tmp/ompi
+#     # Download
+#     cd /tmp/ompi && wget -O openmpi-$OMPI_VERSION.tar $OMPI_URL && tar -xjf openmpi-$OMPI_VERSION.tar
+#     # Compile and install
+#     cd /tmp/ompi/openmpi-$OMPI_VERSION && ./configure --prefix=$OMPI_DIR && make install
+#     # Set env variables so we can compile our application
+#     export PATH=$OMPI_DIR/bin:$PATH
+#     export LD_LIBRARY_PATH=$OMPI_DIR/lib:$LD_LIBRARY_PATH
+#     export MANPATH=$OMPI_DIR/share/man:$MANPATH
+#         echo "Installing NCCL"
+#     export NCCL_VERSION=2.18.3
+#     export NCCL_URL="https://github.com/NVIDIA/nccl/archive/v$NCCL_VERSION.tar.gz"
+#     mkdir -p /tmp/nccl
+#     cd /tmp/nccl && wget -O nccl-$NCCL_VERSION.tar.gz $NCCL_URL && tar -xzf nccl-$NCCL_VERSION.tar.gz
+#     cd /tmp/nccl/nccl-$NCCL_VERSION && make -j$(nproc) && make install
+#     export LD_LIBRARY_PATH=/usr/local/nccl-$NCCL_VERSION/lib:$LD_LIBRARY_PATH
+
+
+
+#     echo "Compiling the application..."
+#     # cd /opt/cloud_noise/benchmarks && ./compile.sh
+#     # cd /opt/interconnect-benchmark && make -f Makefile.SNELLIUS 
+	
+
+Bootstrap: docker
+From: rockylinux:8
+
+%files
+    ./interconnect-benchmark-clean /opt
+
+%environment
+    # Point to OMPI binaries, libraries, man pages
+    export OMPI_DIR=/opt/ompi
+    export PATH="$OMPI_DIR/bin:$PATH"
+    export LD_LIBRARY_PATH="$OMPI_DIR/lib:$LD_LIBRARY_PATH"
+    export MANPATH="$OMPI_DIR/share/man:$MANPATH"
+    # Work around a problem that UCX has with unprivileged user namespaces
+    # See https://github.com/apptainer/apptainer/issues/769
+    export UCX_POSIX_USE_PROC_LINK=n
+    export LD_LIBRARY_PATH=/opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib:/opt/ohpc/pub/mpi/libfabric/1.19.0/lib:/opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib:$LD_LIBRARY_PATH
+    export CUDA_PATH=/usr/local/cuda
+    export PATH=/usr/local/cuda/bin:$PATH
+    export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+
+%post
+    # docker pull nvidia/cuda:12.3.1-base-rockylinux8
+    dnf -y install epel-release
+    dnf -y update
+    dnf -y install wget git gcc gcc-c++ make file gcc-gfortran bzip2 \
+        dnf-plugins-core findutils librdmacm-devel dkms
+    dnf config-manager --set-enabled powertools
+
+#     # Install CUDA toolkit
+    #wget https://developer.download.nvidia.com/compute/cuda/12.4.0/local_installers/cuda-repo-rhel8-12-4-local-12.4.0_550.54.14-1.x86_64.rpm -O /root/cuda.rpm
+    wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda-repo-rhel8-12-1-local-12.1.0_530.30.02-1.x86_64.rpm -O /root/cuda.rpm
+    rpm -i /root/cuda.rpm
+    dnf -y install cuda --skip-broken
+
+    # ================================================================
+    export OMPI_DIR=/opt/ompi
+    export OMPI_VERSION=4.1.5
+    export OMPI_URL="https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-$OMPI_VERSION.tar.bz2"
+    mkdir -p /var/tmp/ompi
+    mkdir -p /opt
+
+    cd /var/tmp/ompi
+    wget https://github.com/openhpc/ohpc/releases/download/v2.4.GA/ohpc-release-2-1.el8.x86_64.rpm
+    dnf install -y ./ohpc-release-2-1.el8.x86_64.rpm
+    dnf -y update
+    dnf -y install libfabric-ohpc libpsm2-devel ucx-ib-ohpc ucx-ohpc slurm-ohpc \
+        slurm-devel-ohpc slurm-libpmi-ohpc \
+	    ucx-rdmacm-ohpc ucx-ib-ohpc
+
+    echo 1 
+    ls /opt/ohpc/pub/mpi/
+    echo 2 
+    ls /opt/ohpc/pub/mpi/ucx-ohpc/
+    export LD_LIBRARY_PATH=/opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib:/opt/ohpc/pub/mpi/libfabric/1.19.0/lib:/opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib:$LD_LIBRARY_PATH
+    
+
+    cd /var/tmp/ompi  
+    wget -O openmpi-$OMPI_VERSION.tar.bz2 $OMPI_URL && tar -xjf openmpi-$OMPI_VERSION.tar.bz2
+    cd /var/tmp/ompi/openmpi-$OMPI_VERSION 
+
+    ./configure --prefix=$OMPI_DIR --with-pmi --with-pmix=internal --with-ucx=/opt/ohpc/pub/mpi/ucx-ohpc/1.15.0 \
+        --without-verbs --with-libfabric=/opt/ohpc/pub/mpi/libfabric/1.19.0 \
+        --enable-mpirun-prefix-by-default --with-slurm \
+        --with-ofi=/opt/ohpc/pub/mpi/libfabric/1.19.0 \
+        --with-pmi-libdir=/usr/lib64 \
+        --with-cuda=/usr/local/cuda --enable-cuda-runtime-linking 
+
+
+
+    make -j8 install
+    cd / && rm -rf /var/tmp/ompi
+
+    export PATH=$OMPI_DIR/bin:$PATH
+    export LD_LIBRARY_PATH=$OMPI_DIR/lib:$LD_LIBRARY_PATH
+
+    echo "Installing NCCL"
+    dnf config-manager --add-repo http://developer.download.nvidia.com/compute/cuda/repos/rhel8/x86_64/cuda-rhel8.repo
+    yum install -y libnccl libnccl-devel libnccl-static
+
+    echo "Compiling the application..."
+    # cd /opt/interconnect-benchmark/ && make -f Makefile.SNELLIUS
+    echo "Compiling the MPI TESTS..."
+    # cd /opt/cloud_noise/benchmarks/mpi_tests && mpicc helloworld.c -o 	hello
+    # cd /opt/cloud_noise/benchmarks/mpi_tests && mpicc ring.c -o comm_test
+
+
+
+# FROM SLACK
+#===============================================================================
+#===============================================================================
+# BootStrap: yum
+# OSVersion: 8
+# MirrorURL: https://download.rockylinux.org/pub/rocky/%{OSVERSION}/BaseOS/$basearch/os/
+# Include: yum
+# %post
+#     # Prepare a temp directory
+#     export TEMP_LOC=`mktemp -d /tmp/rocky_singularity.XXXXX`
+#     yum -y groupinstall "Development Tools"
+#     yum -y install vim tmux emacs wget rsync python3-devel python39 pinentry hostname libtirpc libtirpc-devel redhat-lsb-core.x86_64 perl-IO-Compress perl-JSON perl-JSON-PP xterm python3-pyyaml python3-jinja2 libX11-devel libXt-devel
+#     # EPEL repository (additional yum install commands below this point should denote the epel-release dependency)
+#     dnf -y install epel-release
+#     dnf -y install glpk-devel apptainer
+#     # Allow a custom initialization routine if the following files exist at /
+#     touch ${SINGULARITY_ROOTFS}/none
+#     cat <<'EOF' >> ${SINGULARITY_ROOTFS}/.singularity.d/env/90-environment.sh
+# # If discovered, use these files as initialization routines
+# if [ -f /init_env ]; then
+#   file="/init_env"
+# else
+#   file="/none"
+# fi
+# action="${0##*/}"
+# case "${action}" in
+# shell)
+#     if [ "${SINGULARITY_SHELL:-}" = "/bin/bash" ]; then
+#         set -- --noprofile --rcfile $file
+#     elif test -z "${SINGULARITY_SHELL:-}"; then
+#         export SINGULARITY_SHELL=/bin/bash
+#         set -- --noprofile --rcfile $file
+#     fi
+#     ;;
+# exec)
+#     export BASH_ENV="$file"
+#     set -- /bin/bash --noprofile --rcfile $file -c "$*"
+#     ;;
+# run)
+#     set -- /bin/bash --noprofile --rcfile $file
+# esac
+# EOF
+#     # Create a pretty prompt (ensure last item sourced)
+#     cat <<'EOF' > ${SINGULARITY_ROOTFS}/.singularity.d/env/99-zzz_prompt.sh
+# PS1="\[\033[1;34m\][`basename ${APPTAINER_NAME:-$SINGULARITY_NAME} .sif`]\[\033[1;32m\][\w]\[\033[0m\]> "
+# EOF
+
+    
+#     # Install CUDA toolkit
+#     wget https://developer.download.nvidia.com/compute/cuda/12.4.0/local_installers/cuda-repo-rhel8-12-4-local-12.4.0_550.54.14-1.x86_64.rpm -O /root/cuda.rpm
+#     rpm -i /root/cuda.rpm
+#     dnf -y install cuda
+    
+#     # Install CMake
+#     dnf install -y cmake
+#     # Build UCX from source
+#     git clone -b v1.15.0 https://github.com/openucx/ucx.git /root/ucx
+#     cd /root/ucx
+#     ./autogen.sh
+#     ./autogen.sh # Don't erase, need to run twice to create ltmain.sh
+#     ./contrib/configure-release --prefix=/usr/local/ucx --with-cuda=/usr/local/cuda
+#     make -j32; make install -j32
+    
+#     # Build OpenMPI from source
+#     git clone -b v4.1.6 https://github.com/open-mpi/ompi.git /root/ompi
+#     cd /root/ompi
+#     ./autogen.pl
+#     ./configure --prefix=/usr/local/ompi --with-ucx=/usr/local/ucx --with-cuda=/usr/local/cuda --with-platform=optimized
+#     make -j32; make install -j32
+#     export MPIHOME=/usr/local/ompi
+    
+
+    
+# %environment
+#     export CUDA_PATH=/usr/local/cuda
+#     export PATH=/usr/local/ompi/bin:$PATH
+#     export PATH=/usr/local/cuda/bin:$PATH
+#     export LD_LIBRARY_PATH=/usr/local/ompi/lib:$LD_LIBRARY_PATH
+#     export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+#     export LIBMESH_DIR=/usr/local/moose/libmesh/installed
+        

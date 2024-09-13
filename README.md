@@ -22,7 +22,6 @@ https://github.com/HicrestLaboratory/interconnect-benchmark
 - Follow instructions from [de_sensi_noise_2022] to build the project
 
 - Build the container with apptainer locally (with sudo) or on the cbuild partition (with --fakeroot)
-
 ```
 apptainer build --fakeroot images/hybrid_image.sif definitions/definition_hybrid.def
 apptainer build --fakeroot images/contained_image.sif definitions/definition_contained.def
@@ -41,10 +40,10 @@ apptainer build --fakeroot images/contained_image.sif definitions/definition_con
     make -f Makefile.SNELLIUS-POWER
     ```
 - Build the container with apptainer locally (with sudo) or on the cbuild partition (with --fakeroot)
-```
-apptainer build --fakeroot containers/images/hybrid_image.sif containers/definitions/definition_hybrid.def
-apptainer build --fakeroot containers/images/contained_image.sif containers/definitions/definition_contained.def
-```
+    ```
+    apptainer build --fakeroot containers/images/hybrid_image.sif containers/definitions/definition_hybrid.def
+    apptainer build --fakeroot containers/images/contained_image.sif containers/definitions/definition_contained.def
+    ```
 
 - Run experiments from the `sbatch` directory:
     ```bash
@@ -52,7 +51,7 @@ apptainer build --fakeroot containers/images/contained_image.sif containers/defi
     ```
     Modify the `*all.sh` files to suit single-node or multi-node runs (halfnode.sh or wholenode.sh).
 
-- The profiler files are located in ```include``` directory under *nvmlClass* and *dcgmiLogger*. Here the profiled fields can be modified. The ```-p 1``` flag can be used to collect NVML metrics, while ```-p 2``` is used to run DCGM profiler metrics. If the flag is ommited, no profiler is initiated. NOTE: these need to be modified in the sbatch files accordingly  
+- The profiler files are located in ```include``` directory under *nvmlClass* and *dcgmiLogger*. Here the profiled fields can be modified and re-compiled. The ```-p 1``` flag can be used to collect NVML metrics, while ```-p 2``` is used to run DCGM profiler metrics. If the flag is ommited, no profiler is initiated. NOTE: these need to be modified in the sbatch files accordingly  
 
 
 ---
@@ -63,8 +62,10 @@ apptainer build --fakeroot containers/images/contained_image.sif containers/defi
 - Use `plot.py` to generate latency and bandwidth plots by enabling/disabling specific methods at the bottom of the file.
 
 #### GPU:
-- Use `plotPowerDraw.py` for power metrics, and `plotBandwidthMultiPath.py` for bandwidth comparisons between native and hybrid runs. For example:
+- Use `plotPowerDraw` for NVML power metrics, `plotPowerDrawDcgm` for DCGM power metrics, `plotPowerDrawDifferences` for native-hybrid percentile comparisons, and `plotBandwidthMultiPath.py` for bandwidth comparisons between native and hybrid runs.
+- All of the plots take different directories to compare native and container data. Every file has a field with the two directories to consider. For instance, if we want to plot native vs hybrid on H100, go to the respective file and add the paths:
     ```python
     filename1 = "sout/native-h100"
     filename2 = "sout/hybrid-h100"
     ```
+

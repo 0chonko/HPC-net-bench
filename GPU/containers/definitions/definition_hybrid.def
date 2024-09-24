@@ -2,7 +2,7 @@
 # From: ubuntu:20.04
 
 # %files
-#     ./interconnect-benchmark/ /opt
+#     ../GPU /opt
 
 # %environment
 #     export OMPI_DIR=/opt/ompi

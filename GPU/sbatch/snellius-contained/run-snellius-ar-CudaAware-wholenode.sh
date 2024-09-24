@@ -75,7 +75,9 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 
 
 mkdir -p sout/hybrid
-cd $HOME && export UCX_IB_SL=1 && srun apptainer exec --nv final_hybrid.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./ar_CudaAware -p 1"
+cd $HOME && export UCX_IB_SL=1 && srun apptainer exec --nv containers/images/final_hybrid.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n bash -c "cd /opt/GPU/bin/energy_binary/ && ./ar_CudaAware -p $PROFILER_CHOICE"

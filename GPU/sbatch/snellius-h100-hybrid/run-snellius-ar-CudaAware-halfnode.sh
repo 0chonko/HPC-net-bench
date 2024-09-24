@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=ar_CudaAware_halfnode
-#SBATCH --output=sout/hybrid/snellius_ar_CudaAware_halfnode_hybrid_%j.out
-#SBATCH --error=sout/hybrid/snellius_ar_CudaAware_halfnode_hybrid_%j.err
+#SBATCH --output=sout/hybrid_h100/snellius_ar_CudaAware_halfnode_hybrid_%j.out
+#SBATCH --error=sout/hybrid_h100/snellius_ar_CudaAware_halfnode_hybrid_%j.err
 
 #SBATCH --partition=gpu_h100
 #SBATCH --account=vusei7310
@@ -75,7 +75,9 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 
 
 mkdir -p sout/hybrid
-cd $HOME && srun apptainer exec --nv final_hybrid.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./ar_CudaAware -p 2"
+cd $HOME && srun apptainer exec --nv containers/images/hybrid_image.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n bash -c "cd /opt/GPU/bin/energy_binary/ && ./ar_CudaAware -p $PROFILER_CHOICE"

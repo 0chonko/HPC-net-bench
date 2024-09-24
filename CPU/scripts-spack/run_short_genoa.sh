@@ -18,5 +18,5 @@ export UCX_POSIX_USE_PROC_LINK=n
 # export LD_LIBRARY_PATH=/opt/ohpc/pub/mpi/ucx-ohpc/1.11.2/lib:/opt/ohpc/pub/mpi/libfabric/1.13.0/lib:/opt/ohpc/pub/mpi/ucx-ohpc/1.11.2/lib:$LD_LIBRARY_PATH
 
 export OMPI_MCA_btl_tcp_if_include=eno2np0,ib0
-cd ../ && ./run_spack.sh -k "snellius-short-genoa-contained,HPC,Same Rack,Day" 
+./benchmarks/run_spack.sh -k "snellius-short-genoa-contained,HPC,Same Rack,Day" 
 

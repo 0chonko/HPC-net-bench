@@ -18,5 +18,5 @@ export OMPI_MCA_btl_openib_allow_ib=true
 export OMPI_MCA_btl_vader_single_copy_mechanism=none
 OMPI_MCA_plm=^slurm
 
-cd ../ && ./run_hybrid.sh -k "snellius-short-rome-hybrid,HPC,Different Racks,Day" 
+./benchmarks/run_hybrid.sh -k "snellius-short-rome-hybrid,HPC,Different Racks,Day" 
 

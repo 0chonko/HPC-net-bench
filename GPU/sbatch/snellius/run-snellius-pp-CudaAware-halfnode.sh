@@ -75,6 +75,8 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 
 
 MODULE_PATH="moduleload/load_CudaAware_modules.sh"

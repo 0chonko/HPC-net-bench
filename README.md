@@ -63,7 +63,7 @@ https://github.com/HicrestLaboratory/interconnect-benchmark
     ```
     Modify the `*all.sh` files to suit single-node or multi-node runs (halfnode.sh or wholenode.sh).
 
-- The profiler files are located in ```include``` directory under *nvmlClass* and *dcgmiLogger*. Here the profiled fields can be modified and re-compiled. The ```-p 1``` flag can be used to collect NVML metrics, while ```-p 2``` is used to run DCGM profiler metrics. If the flag is ommited, no profiler is initiated. NOTE: these need to be modified in the sbatch files accordingly  
+- The profiler files are located in ```include``` directory under *nvmlClass* and *dcgmiLogger*. Here the profiled fields can be modified and re-compiled. The ```-p 1``` flag can be used to collect NVML metrics, while ```-p 2``` is used to run DCGM profiler metrics. If the flag is ommited, no profiler is initiated. NOTE: the global $PROFILER_CHOICE value can be modified in `exports/vars.sh`. 
 
 
 ---

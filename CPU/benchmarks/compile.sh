@@ -70,20 +70,6 @@ pushd netgauge
     fi
 popd
 
-# Compile GEMM benchmark
-pushd gemm
-    GEMM_TYPE=""  
-    IS_INTEL=$(grep -c GenuineIntel /proc/cpuinfo)    
-    if [ $IS_INTEL -gt 0 ] ; then   
-        GEMM_TYPE=mkl
-    else
-        GEMM_TYPE=blis
-    fi
-    make ${GEMM_TYPE}
-    if [ ! -f "dgemmbench.${GEMM_TYPE}" ]; then
-        echo "${RED}[Error] gemmbench compilation failed, please check error messages above.${NC}"
-        exit 1
-    fi        
-popd
+
 
 echo "${GREEN}Everything compiled successfully.${NC}"

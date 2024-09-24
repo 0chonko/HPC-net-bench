@@ -1,5 +1,5 @@
 #!/bin/bash
-SYSTEM="oracle-hpc"
+SYSTEM="snellius"
 
 case $SYSTEM in
   aws-normal)
@@ -37,6 +37,31 @@ case $SYSTEM in
   deep-est)
     source conf/deep-est.sh
     ;;
+
+  snellius)
+    source conf/snellius.sh
+    ;;
+
+  snellius_spack)
+    source conf/snellius_spack.sh
+    ;;
+  
+  snellius-short-rome)
+    source conf/snellius.sh
+    ;;
+
+  snellius-long-rome)
+    source conf/snellius.sh
+    ;;
+  
+  snellius-short-genoa)
+    source conf/snellius.sh
+    ;;
+
+  snellius-long-genoa)
+    source conf/snellius.sh
+    ;;
+
 
   *)
     echo -n "Unknown SYSTEM "$SYSTEM

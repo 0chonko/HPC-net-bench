@@ -20,5 +20,5 @@ OMPI_MCA_plm=^slurm
 export FI_LOG_LEVEL=info
 
 
-cd ../ && ./run_hybrid.sh -k "snellius-short-genoa-hybrid,HPC,Different Racks,Day"
+./benchmarks/run_hybrid.sh -k "snellius-short-genoa-hybrid,HPC,Different Racks,Day"
 

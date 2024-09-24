@@ -77,7 +77,9 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 
 
 mkdir -p sout/hybrid
-cd $HOME  && export UCX_IB_SL=1 && srun apptainer exec --nv final_hybrid.sif bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./pp_Baseline -p 1"
+cd $HOME  && export UCX_IB_SL=1 && srun apptainer exec --nv containers/images/final_hybrid.sif bash -c "cd /opt/GPU/bin/energy_binary/ && ./pp_Baseline -p $PROFILER_CHOICE"

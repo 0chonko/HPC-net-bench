@@ -76,11 +76,12 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 
 
 MODULE_PATH="moduleload/load_Nvlink_modules.sh"
 EXPORT_PATH="exportload/load_Nvlink_halfnode_exports.sh"
 
 mkdir -p sout/hybrid
-cd $HOME && srun apptainer exec --nv final_hybrid.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./ar_Nvlink -p 1"
-cd $HOME && srun apptainer exec --nv final_hybrid.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./ar_Nvlink -p 2"
+cd $HOME && srun apptainer exec --nv containers/images/final_hybrid.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n bash -c "cd /opt/GPU/bin/energy_binary/ && ./ar_Nvlink -p $PROFILER_CHOICE"

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=pp_Nccl_wholenode
-#SBATCH --output=sout/hybrid/snellius_pp_Nccl_wholenode_hybrid_%j.out
-#SBATCH --error=sout/hybrid/snellius_pp_Nccl_wholenode_hybrid_%j.err
+#SBATCH --output=sout/hybrid_h100/snellius_pp_Nccl_wholenode_hybrid_%j.out
+#SBATCH --error=sout/hybrid_h100/snellius_pp_Nccl_wholenode_hybrid_%j.err
 
 #SBATCH --partition=gpu_h100
 #SBATCH --account=vusei7310
@@ -75,6 +75,8 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 
 mkdir -p sout/hybrid
-cd $HOME  && export UCX_IB_SL=1 && srun apptainer exec --nv final_hybrid.sif  bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./pp_Nccl -p 1"
+cd $HOME  && export UCX_IB_SL=1 && srun apptainer exec --nv containers/images/hybrid_image.sif  bash -c "cd /opt/GPU/bin/energy_binary/ && ./pp_Nccl -p $PROFILER_CHOICE"

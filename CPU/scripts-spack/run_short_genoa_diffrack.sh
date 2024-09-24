@@ -20,4 +20,4 @@ export UCX_POSIX_USE_PROC_LINK=n
 
 export OMPI_MCA_btl_tcp_if_include=eno2np0,ib0
 
-cd ../ && ./run_spack.sh -k "snellius-short-genoa-spack,HPC,Different Racks,Day" 
+./benchmarks/run_spack.sh -k "snellius-short-genoa-spack,HPC,Different Racks,Day" 

@@ -18,4 +18,4 @@ export OMPI_MCA_btl_vader_single_copy_mechanism=none
 OMPI_MCA_plm=^slurm
 export FI_LOG_LEVEL=info
 
-cd ../../bench_2/cloud_noise/benchmarks/ && ./run.sh -k "snellius-short-genoa-hybrid,HPC,Same Rack,Day"
+./benchmarks/run.sh -k "snellius-short-genoa-hybrid,HPC,Same Rack,Day"

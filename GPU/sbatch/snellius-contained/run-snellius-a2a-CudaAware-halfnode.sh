@@ -75,6 +75,8 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 
 # Add OpenMPI paths to environment variables
 export PATH=/opt/software/linux-rocky8-zen/gcc-8.5.0/openmpi-4.1.5-ezcg3cwfrw2f6vrked6v7wz56vfupqs6/bin:$PATH
@@ -94,5 +96,5 @@ export CPATH=/opt/software/linux-rocky8-zen/gcc-8.5.0/cuda-12.1.0-v6au6f6vdo7vhu
 
 
 mkdir -p sout/contained
-# cd $HOME/apptainer_interconnect/images && srun apptainer exec --nv spack.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n PATH="$PATH" LD_LIBRARY_PATH="$LD_LIBRARY_PATH" CPATH="$CPATH" bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./a2a_CudaAware -p 1"
-cd $HOME/apptainer_interconnect/images && apptainer exec --nv spack_maybe.sif /opt/interconnect-benchmark-clean/src/energy_binary/a2a_CudaAware -p 1
+# cd $HOME/apptainer_interconnect/images && srun apptainer exec --nv spack.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n PATH="$PATH" LD_LIBRARY_PATH="$LD_LIBRARY_PATH" CPATH="$CPATH" bash -c "cd /opt/GPU/bin/energy_binary/ && ./a2a_CudaAware -p $PROFILER_CHOICE"
+cd $HOME/apptainer_interconnect/images && apptainer exec --nv spack_maybe.sif /opt/interconnect-benchmark-clean/bin/energy_binary/a2a_CudaAware -p $PROFILER_CHOICE

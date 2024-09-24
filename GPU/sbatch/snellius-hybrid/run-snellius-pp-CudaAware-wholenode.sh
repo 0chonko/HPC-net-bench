@@ -77,6 +77,8 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 export OMPI_MCA_btl_openib_allow_ib=true
 export OMPI_MCA_btl_vader_single_copy_mechanism=none
 export OMPI_MCA_plm=^slurm
@@ -85,4 +87,4 @@ export OMPI_MCA_btl=self,vader,tcp
 export OMPI_MCA_plm_rsh_no_tree_spawn=1
 
 mkdir -p sout/hybrid
-cd $HOME  && export UCX_IB_SL=1 && mpirun apptainer exec --nv final_hybrid.sif bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./pp_CudaAware -p 1"
+cd $HOME  && export UCX_IB_SL=1 && mpirun apptainer exec --nv containers/images/final_hybrid.sif bash -c "cd /opt/GPU/bin/energy_binary/ && ./pp_CudaAware -p $PROFILER_CHOICE"

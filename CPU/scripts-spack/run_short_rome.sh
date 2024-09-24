@@ -48,7 +48,7 @@ export UCX_POSIX_USE_PROC_LINK=n
 
 
 export OMPI_MCA_btl_tcp_if_include=ens4f0np0,ib0
-cd .. && ./run_spack.sh -k 'snellius-short-rome-spack,HPC,Same Rack,Day'
+./benchmarks/run_spack.sh -k 'snellius-short-rome-spack,HPC,Same Rack,Day'
 
 # cd .. && srun --mpi=pmi2 --output=slurm.out --error=slurm.out apptainer exec cloud_noise_spack2.sif /opt/benchmarks/mpi_tests/comm_test 32
 

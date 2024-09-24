@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=a2a_Nccl_halfnode
-#SBATCH --output=sout/hybrid/snellius_a2a_Nccl_halfnode_hybrid_%j.out
-#SBATCH --error=sout/hybrid/snellius_a2a_Nccl_halfnode_hybrid_%j.err
+#SBATCH --output=sout/contained_h100/snellius_a2a_Nccl_halfnode_hybrid_%j.out
+#SBATCH --error=sout/contained_h100/snellius_a2a_Nccl_halfnode_hybrid_%j.err
 
 #SBATCH --partition=gpu_h100
 #SBATCH --account=vusei7310
@@ -75,6 +75,8 @@ echo "-------------------------------"
 echo ""
 echo "-------------------------------"
 
+source exports/vars.sh
+
 
 
 mkdir -p sout/hybrid
@@ -97,4 +99,4 @@ export CPATH=/opt/software/linux-rocky8-zen/gcc-8.5.0/cuda-12.1.0-v6au6f6vdo7vhu
 
 
 mkdir -p sout/hybrid
-cd $HOME/apptainer_interconnect/images && export UCX_IB_SL=1 && mpirun apptainer exec --nv --nvccli spack_2.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n PATH="$PATH" LD_LIBRARY_PATH="$LD_LIBRARY_PATH" CPATH="$CPATH" bash -c "cd /opt/interconnect-benchmark-clean/src/energy_binary/ && ./a2a_Nccl -p 1"
+cd $HOME/apptainer_interconnect/images && export UCX_IB_SL=1 && mpirun apptainer exec --nv --nvccli spack_2.sif env UCX_TLS=sm,self UCX_MEMTYPE_CACHE=n PATH="$PATH" LD_LIBRARY_PATH="$LD_LIBRARY_PATH" CPATH="$CPATH" bash -c "cd /opt/GPU/bin/energy_binary/ && ./a2a_Nccl -p $PROFILER_CHOICE"

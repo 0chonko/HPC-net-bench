@@ -3,7 +3,7 @@ From: spack/rockylinux8:v0.20.0
 Stage: build
 
 %files
-    /home/gsavchenko/interconnect-benchmark-clean /opt
+    ../GPU /opt
 
 %post
   # Create the manifest file for the installation in /opt/spack-environment

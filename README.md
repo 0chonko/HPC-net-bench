@@ -21,28 +21,40 @@ https://github.com/HicrestLaboratory/interconnect-benchmark
 
 - Follow instructions from [de_sensi_noise_2022] to build the project
 
-- Build the container with apptainer locally (with sudo) or on the cbuild partition (with --fakeroot)
-```
-apptainer build --fakeroot images/hybrid_image.sif definitions/definition_hybrid.def
-apptainer build --fakeroot images/contained_image.sif definitions/definition_contained.def
-```
+- Build the container with apptainer locally (with sudo) or on the cbuild partition (with --fakeroot). Transfer the completed images into the `images` directory if built locally.
+    ```
+    cd HPC-net-bench/CPU
+    mkdir images
+    apptainer build --fakeroot ~/hybrid_image.sif definitions/definition_hybrid.def
+    apptainer build --fakeroot ~/contained_image.sif definitions/definition_contained.def
+    mv ~/hybrid_image.sif images
+    mv ~/contained_image.sif images
+    ```
+    For local build make sure to have the copies of definition files and run the following:
+    ```
+    sudo apptainer build hybrid_image.sif definition_hybrid.def
+    sudo apptainer build contained_image.sif definition_contained.def
+    ```
 
-- Run scripts from `scripts-native`, `scripts-hybrid`, and `scripts-spack` to gather data
+- Run scripts from `scripts-native`, `scripts-hybrid`, and `scripts-spack` to gather data with sbatch
 
 
 
 ---
 ## GPU Benchmarking
 
-- Follow instructions from [interconnect-benchmark].
 - Build GPU benchmarks using the following:
     ```bash
     make -f Makefile.SNELLIUS-POWER
     ```
-- Build the container with apptainer locally (with sudo) or on the cbuild partition (with --fakeroot)
+- Build the container with apptainer locally (with sudo) or on the cbuild partition (with --fakeroot). Transfer the image to the repository on the cluster if built locally.
     ```
-    apptainer build --fakeroot containers/images/hybrid_image.sif containers/definitions/definition_hybrid.def
-    apptainer build --fakeroot containers/images/contained_image.sif containers/definitions/definition_contained.def
+    cd HPC-net-bench/GPU
+    mkdir containers/images
+    apptainer build --fakeroot ~/hybrid_image.sif containers/definitions/definition_hybrid.def
+    apptainer build --fakeroot ~/contained_image.sif containers/definitions/definition_contained.def
+    mv ~/hybrid_image.sif containers/images
+    mv ~/contained_image.sif containers/images
     ```
 
 - Run experiments from the `sbatch` directory:

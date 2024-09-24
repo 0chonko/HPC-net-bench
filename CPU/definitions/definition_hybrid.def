@@ -2,7 +2,7 @@ Bootstrap: docker
 From: ubuntu:20.04
 
 %files
-    ~/bench_singularity_results/cloud_noise_original/cloud_noise /opt
+    ~/cloud_noise_repository/ /opt
 
 %environment
     export OMPI_DIR=/opt/ompi
